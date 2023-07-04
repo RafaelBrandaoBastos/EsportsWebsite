@@ -4,7 +4,7 @@ import {TextComponent} from "./style";
 const Text = (props) => {
     return (
         <>
-            <TextComponent>{props.text}</TextComponent>
+            <TextComponent>{props.ctext}</TextComponent>
         </>
     );
 };

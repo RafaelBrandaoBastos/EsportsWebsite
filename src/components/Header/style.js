@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const HeaderComponent = styled.div`
-    width: 100%;
+    width: 95%;
     height: 100px;
     background-color: black;
     margin: 0;
@@ -26,7 +26,7 @@ export const HeaderOption = styled.a`
     color: white;
     height: 100%;
     margin-left: 60px;
-    font-size: 15px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
