@@ -6,7 +6,7 @@ export const Container = styled.div`
     background-color: #000000;
     z-index: 1;
     position: absolute;
-    animation: fade-in 1200ms;
+    animation: fade-in 800ms;
     @keyframes fade-in {
         0% {
           opacity: 0;

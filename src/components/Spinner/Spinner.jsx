@@ -4,7 +4,7 @@ import {SpinnerComponent} from "./style";
 const Spinner = () => {
     return (
         <>
-            <SpinnerComponent></SpinnerComponent>
+            <SpinnerComponent/>
         </>
     );
 };

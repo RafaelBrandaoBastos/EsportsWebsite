@@ -1,5 +1,5 @@
 import "./style.js"
-import {TextComponent} from "./style";
+import { TextComponent } from "./style";
 
 const Text = (props) => {
     return (
