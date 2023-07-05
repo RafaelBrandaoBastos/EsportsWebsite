@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 
 export const HeaderComponent = styled.div`
-    width: 95%;
-    height: 100px;
-    background-color: black;
+    width: 100%;
+    height: 90px;
     margin: 0;
+    background-color: rgba(0, 0, 0, 0.8);
     border: 0;
     padding: 0px;
     display: flex;

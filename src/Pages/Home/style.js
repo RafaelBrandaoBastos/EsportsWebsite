@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    background-color: #000000;
+    background-color: #141414;
     z-index: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
     position: absolute;
     animation: fade-in 1200ms;
     @keyframes fade-in {
@@ -19,13 +19,26 @@ export const Container = styled.div`
         100% {
             opacity: 1;
         }
-      }
+    }
 `;
-
+export const SubContainer = styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+`;
+export const Text = styled.p`
+    font-size: 23px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+`;
 export const ContainerLoad = styled.div`
     width: 100%;
     height: 100%;
-    background-color: #000000;
+    background-color: #141414;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,11 +61,24 @@ export const ContainerLoad = styled.div`
 
 export const Card = styled.div`
     width: 95%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 110px;
+    margin: 20px;
+    @media (max-width: 600px){
+    }
+`;
+
+export const Card2 = styled.div`
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
     @media (max-width: 600px){
     }
 `;
@@ -61,6 +87,17 @@ export const TextCard = styled.div`
     max-width: 70%;
 `;
 
+export const TextCard2 = styled.div`
+    max-width: 50%;
+    outline-style: solid;
+    outline-color: blue;
+`;
+
+
 export const BannerComponent = styled.img`
+   width: 70%;
+`;
+
+export const ImgComponent = styled.img`
    width: 70%;
 `;
