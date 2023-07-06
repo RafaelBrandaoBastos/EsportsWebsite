@@ -50,11 +50,6 @@ const Home = () => {
                 <Text>A Grupo Esports é uma organização de jogos eletronicos que se destaca pela sua habilidade e paixão pela competição virtual. Atualmente com representantes no cenario brasileiro de Guilty Gear Strive, Counter-Strike: Global Offensive e jogos de luta variados. Unidos, os membros do Grupo eSports dedicam-se incansavelmente a aprimorar suas habilidades e alcançar o sucesso nas competições virtuais.</Text>
               </TextCard>
           </Card>
-
-          <Card2>
-            <ImgComponent src={gp} alt="gp" />
-          </Card2>
-
         </SubContainer>
         <Footer />
         <Arrow scroll={y} height={height}/>

@@ -61,7 +61,7 @@ export const ContainerLoad = styled.div`
 
 export const Card = styled.div`
     width: 95%;
-    height: 100%;
+    min-height: 70vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -71,20 +71,13 @@ export const Card = styled.div`
     }
 `;
 
-export const Card2 = styled.div`
-    width: 95%;
-    height: 100%;
-    display: flex;
-    flex-wrap: no-wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
-    @media (max-width: 600px){
-    }
-`;
 
 export const TextCard = styled.div`
     max-width: 70%;
+    text-align:justify;
+    @media (max-width: 815px){
+        max-width: 90%;
+    }
 `;
 
 export const TextCard2 = styled.div`

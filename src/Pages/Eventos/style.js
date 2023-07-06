@@ -72,11 +72,9 @@ export const Card = styled.div`
     background-color: rgba(0, 0, 0, 0.0);
     outline-color: green;
     margin-top: 50px;
-    margin-bottom: 50px;
     @media (max-width: 1070px){
         max-height: 50000px;
-        min-height: 100vh;
-        margin-top: 10px;
+        min-height: 70vh;
     }
 
 `;
@@ -97,7 +95,9 @@ export const CardContent = styled.div`
 export const TitleCard = styled.div`
     width: 100%;
     height: 50px;
-    outline-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     @media (max-width: 1070px){
         max-width: 500px;
         height: 10%;
@@ -183,7 +183,6 @@ export const Title = styled.p`
     font-size: 23px;
     font-family: 'Ethnocentric Rg';
     color: #ff255f;
-    position: absolute;
 `;
 
 export const MarkText = styled.p`
