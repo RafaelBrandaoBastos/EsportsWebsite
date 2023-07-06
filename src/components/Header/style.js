@@ -78,7 +78,7 @@ export const HeaderListMobile = styled.div`
 export const HeaderOptionMobile = styled.a`
     color: white;
     height: 100%;
-    margin-left: 60px;
+    margin-left: 10px;
     font-size: 18px;
     display: flex;
     justify-content: center;
