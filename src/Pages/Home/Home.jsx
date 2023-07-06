@@ -47,7 +47,7 @@ const Home = () => {
           <Card>
               <BannerComponent src={banner} alt="Banner" />
               <TextCard>
-                <Text ctext="A Grupo Esports é uma organização de jogos eletronicos que se destaca pela sua habilidade e paixão pela competição virtual. Atualmente com representantes no cenario brasileiro de Guilty Gear Strive, Counter-Strike: Global Offensive e jogos de luta variados. Unidos, os membros do Grupo eSports dedicam-se incansavelmente a aprimorar suas habilidades e alcançar o sucesso nas competições virtuais." />
+                <Text>A Grupo Esports é uma organização de jogos eletronicos que se destaca pela sua habilidade e paixão pela competição virtual. Atualmente com representantes no cenario brasileiro de Guilty Gear Strive, Counter-Strike: Global Offensive e jogos de luta variados. Unidos, os membros do Grupo eSports dedicam-se incansavelmente a aprimorar suas habilidades e alcançar o sucesso nas competições virtuais.</Text>
               </TextCard>
           </Card>
 

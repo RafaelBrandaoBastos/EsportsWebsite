@@ -12,6 +12,10 @@ export const HeaderComponent = styled.div`
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 2;
+    @media (max-width: 815px){
+        height: 10%;
+    }
 `;
 
 export const HeaderList = styled.div`
@@ -20,8 +24,10 @@ export const HeaderList = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @media (max-width: 815px){
+        display: none;
+    }
 `;
-
 export const HeaderOption = styled.a`
     color: white;
     height: 100%;
@@ -44,7 +50,6 @@ export const HeaderOption = styled.a`
         }
     }
 `;
-
 export const LogoComponent = styled.img`
     height: 50px;
     margin-left: 30px;

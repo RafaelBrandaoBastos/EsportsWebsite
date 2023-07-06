@@ -2,13 +2,13 @@ import styled from "styled-components";
 import { useSnapCarousel } from 'react-snap-carousel';
 
 export const Container = styled.div`
-    width: 100%;
-    min-height: 100%;
+    width: 100vw;
+    min-height: 100vh;
     background-color: #141414;
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: space-between;
     position: absolute;
     animation: fade-in 1200ms;
     @keyframes fade-in {
@@ -24,14 +24,20 @@ export const Container = styled.div`
     }
 `;
 export const SubContainer = styled.div`
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 100px;
+    background-color: #141414;
+    flex-direction: column;
+    padding-top: 90px;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 815px){
+
+    }
 `;
+
 export const ContainerLoad = styled.div`
     width: 100%;
     height: 100%;
@@ -57,53 +63,88 @@ export const ContainerLoad = styled.div`
 
 
 export const Card = styled.div`
-    width: 95%;
-    height: 100%;
+    width: 85%;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
-    @media (max-width: 600px){
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    outline-color: green;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @media (max-width: 1070px){
+        max-height: 50000px;
+        min-height: 100vh;
+        margin-top: 10px;
+    }
+
+`;
+
+export const CardContent = styled.div`
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    outline-color: white;
+    justify-content: center;
+    align-items: flex-start;
+    @media (max-width: 1070px){
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+`;
+
+export const TitleCard = styled.div`
+    width: 100%;
+    height: 50px;
+    outline-color: white;
+    @media (max-width: 1070px){
+        max-width: 500px;
+        height: 10%;
+    }
+`;
+
+
+export const TextCard = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    outline-color: yellow;
+    width: 60%;
+    @media (max-width: 1070px){
+        width: 100%;
+        max-width: 500px;
+    }
+    @media (max-width: 576px){
+
     }
 `;
 
 export const Colocacoes = styled.div`
     display: flex;
+    width: 100%;
     flex-wrap: no-wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    outline-color: orange;
     @media (max-width: 600px){
+        height: 50%;
+    }
+    @media (max-width: 430px){
+        flex-wrap: wrap;
     }
 `;
-export const ColocSub = styled.div`
+export const SubColoc = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    outline-style: solid;
+    margin-right: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
     outline-color: blue;
-    align-items: center;
-    @media (max-width: 600px){
+    @media (max-width: 430px){
+        width: 100%;
     }
-`;
-export const Card2 = styled.div`
-    width: 95%;
-    height: 100%;
-    display: flex;
-    flex-wrap: no-wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
-    @media (max-width: 600px){
-    }
-`;
-
-export const TextCard = styled.div`
-    max-width: 70%;
-`;
-
-export const TextCard2 = styled.div`
-    max-width: 50%;
 `;
 
 export const BannerComponent = styled.img`
@@ -113,41 +154,65 @@ export const BannerComponent = styled.img`
 
 
 export const Carousel = styled.div`
-    width: 50%;
-    height: 60%;
+    width: 500px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    outline-style: solid;
-    outline-color: white;
+    outline-color: red;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    @media (max-width: 1070px){
+        max-width: 100%;
+        height: auto;
+    }
 `;
 
 export const ImgComponent = styled.img`
-    width: 100%;
+    width: 90%;
+    max-height: 90%;
+    position: absolute;
 `;
 export const Text = styled.p`
     font-size: 23px;
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
 `;
-
-export const CarouselUl = styled.ul`
-    display: flex;
-    align-items: center;
-    background-color: red;
-    overflow: auto;
-    width: 100%;
-    height: 80%;
-    scrollSnapType: x mandatory;
+export const Title = styled.p`
+    font-size: 23px;
+    font-family: 'Ethnocentric Rg';
+    color: #ff255f;
+    position: absolute;
 `;
 
-export const CarouselLi = styled.li`
-    background-color: blue;
-    width: 100%;
-    height: 90%;
-    display: flex;
-    align-items: center;
-    alignItems: center;
-    padding: 5%;
+export const MarkText = styled.p`
+    font-size: 23px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 75%;
 `;
+
+export const CaroulselPrev = styled.button`
+    position: absolute;
+    top: 50%;
+    right: 90%;
+`;
+export const CaroulselNext = styled.button`
+    position: absolute;
+    top: 50%;
+    left: 90%;
+`;
+
+
+
+export const ImageLoader = styled.div`
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+

@@ -6,18 +6,23 @@ import {
   Container,
   ContainerLoad,
   Card,
-  Card2,
   BannerComponent,
   TextCard,
-  TextCard2,
   SubContainer,
   ImgComponent,
   Colocacoes,
-  ColocSub,
   Text,
   Carousel,
   CarouselUl,
-  CarouselLi
+  CarouselLi,
+  MarkText,
+  CaroulselPrev,
+  CaroulselNext,
+  SubColoc,
+  TitleCard,
+  Title,
+  CardContent,
+  ImageLoader,
 } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
@@ -26,13 +31,27 @@ import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 import banner from "../../assets/banner.png";
 import gp from "../../assets/gp.png";
-import i1  from "../../assets/1.png";
-import i2  from "../../assets/2.png";
-import i3  from "../../assets/3.png";
+import i1 from "../../assets/1.png";
+import i2 from "../../assets/2.png";
+import i3 from "../../assets/3.png";
+import i4 from "../../assets/4.png";
+import i5 from "../../assets/5.png";
+import i6 from "../../assets/6.png";
 
 const Eventos = () => {
-  const { scrollRef, pages, activePageIndex, next, prev, goTo } =
-    useSnapCarousel();
+  const [carousel1, setcarousel1] = useState(0);
+  const [carousel2, setcarousel2] = useState(0);
+
+  function setcarousel1setter(x) {
+    if (x < 4 && x > -1) {
+      setcarousel1(x);
+    }
+  }
+  function setcarousel2setter(x) {
+    if (x < 4 && x > -1) {
+      setcarousel2(x);
+    }
+  }
 
   const { x, y } = useWindowScroll();
   const [scrolled, setScrolled] = useState(0);
@@ -58,50 +77,106 @@ const Eventos = () => {
         />
         <SubContainer>
           <Card>
-            <TextCard>
-              <Text>
-                A Rinha de Prata Oficial do Grupo é um evento trimestral aberto
-                para membros da Grupo Esports que não estão familiarizados com o
-                jogo escolhido.
-              </Text>
-              <Colocacoes>
+            <TitleCard>
+              <Title>Rinha de Prata 1</Title>
+            </TitleCard>
+            <CardContent>
+              <TextCard>
                 <Text>
-                  Top 3 da Rinha de Prata 1 <br></br>1º - Sushi<br></br>2º -
-                  Ferislaw<br></br>2º - Ferislaw
+                  A Rinha de Prata Oficial do Grupo é um evento trimestral
+                  aberto para membros da Grupo Esports que não estão
+                  familiarizados com o jogo escolhido.
                 </Text>
-                <Text>
-                  Premiação da Rinha de Prata 1 <br></br>1º - Coquinha<br></br>
-                  2º - Escova de dentes<br></br>3º - Duas paçocas
-                </Text>
-                <>
-                  <Carousel>
-                    <CarouselUl
-                      ref={scrollRef}
-                    >
-                      {Array.from({ length: 3 }).map((_, i) => (
-                        <CarouselLi
-                          style={{flexShrink: 0}}
-                        >
-                          {i === 0 && <ImgComponent src={i1}/>}
-                          {i === 1 && <ImgComponent src={i2}/>}
-                          {i === 2 && <ImgComponent src={i3}/>}
-                        </CarouselLi>
-                      ))}
-                    </CarouselUl>
+                <Colocacoes>
+                  <SubColoc>
                     <Text>
-                      {activePageIndex + 1} / {pages.length}
+                      Top 3<br></br>1º - Sushi<br></br>2º - Ferislaw<br></br>3º
+                      - Mingas
                     </Text>
-                    {activePageIndex > 0 && <button onClick={() => prev()}>Prev</button>}
-                    {activePageIndex < 2 && <button onClick={() => next()}>Next</button>}
-                  </Carousel>
-                </>
-              </Colocacoes>
-            </TextCard>
+                  </SubColoc>
+                  <SubColoc>
+                    <Text>
+                      Premiação<br></br>1º - Coquinha
+                      <br></br>
+                      2º - Escova de dentes<br></br>3º - Duas paçocas
+                    </Text>
+                  </SubColoc>
+                </Colocacoes>
+              </TextCard>
+              <Carousel>
+                <ImageLoader>
+                  <Spinner />
+                </ImageLoader>
+                {carousel1 === 0 && <ImgComponent src={i1} />}
+                {carousel1 === 1 && <ImgComponent src={i2} />}
+                {carousel1 === 2 && <ImgComponent src={i3} />}
+
+                <MarkText>{carousel1 + 1}/3</MarkText>
+                {carousel1 > 0 && (
+                  <CaroulselPrev
+                    onClick={() => setcarousel1setter(carousel1 - 1)}
+                  >
+                    Prev
+                  </CaroulselPrev>
+                )}
+                {carousel1 < 2 && (
+                  <CaroulselNext
+                    onClick={() => setcarousel1setter(carousel1 + 1)}
+                  >
+                    Next
+                  </CaroulselNext>
+                )}
+              </Carousel>
+            </CardContent>
           </Card>
 
-          <Card2></Card2>
+          <Card>
+            <TitleCard>
+              <Title>Rinha de Prata 2</Title>
+            </TitleCard>
+            <CardContent>
+              <TextCard>
+                <Text>
+                  A segunda Rinha teve como jogo Granblue Fantasy Versus. Essa
+                  foi a maior rinha até o momento.
+                </Text>
+                <Colocacoes>
+                  <SubColoc>
+                    <Text>
+                      Top 3<br></br>1º - Lima<br></br>2º - Leo<br></br>3º - Fefe
+                    </Text>
+                  </SubColoc>
+                </Colocacoes>
+              </TextCard>
+              <Carousel>
+                <ImageLoader>
+                  <Spinner />
+                </ImageLoader>
+                {carousel2 === 0 && <ImgComponent src={i4} />}
+                {carousel2 === 1 && <ImgComponent src={i5} />}
+                {carousel2 === 2 && <ImgComponent src={i6} />}
+
+                <MarkText>{carousel2 + 1}/3</MarkText>
+                {carousel2 > 0 && (
+                  <CaroulselPrev
+                    onClick={() => setcarousel2setter(carousel2 - 1)}
+                  >
+                    Prev
+                  </CaroulselPrev>
+                )}
+                {carousel2 < 2 && (
+                  <CaroulselNext
+                    onClick={() => setcarousel2setter(carousel2 + 1)}
+                  >
+                    Next
+                  </CaroulselNext>
+                )}
+              </Carousel>
+            </CardContent>
+          </Card>
+
+          <Footer />
         </SubContainer>
-        <Footer />
         <Arrow scroll={y} height={height} />
       </Container>
       <ContainerLoad>
