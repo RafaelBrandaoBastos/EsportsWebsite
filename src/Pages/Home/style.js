@@ -89,6 +89,9 @@ export const TextCard2 = styled.div`
 
 export const BannerComponent = styled.img`
    width: 70%;
+   @media (max-width: 815px){
+    width: 90%;
+    }
 `;
 
 export const ImgComponent = styled.img`

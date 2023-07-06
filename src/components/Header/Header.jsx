@@ -1,4 +1,4 @@
-import { HeaderComponent, HeaderList, HeaderOption, LogoComponent} from "./style";
+import { HeaderComponent, HeaderList, HeaderOption, LogoComponent, HeaderListMobile, LogoComponentMobile, HeaderOptionMobile} from "./style";
 import "./style.js";
 import logo from '../../assets/grupo.png';
 
@@ -12,6 +12,11 @@ const Header = (props) => {
             <HeaderOption href="/eventos"><p className={props.eventosStyle}>Eventos</p></HeaderOption>
             <HeaderOption href="/streamers"><p className={props.streamersStyle}>Streamers</p></HeaderOption>
         </HeaderList>
+        <HeaderListMobile>
+            <LogoComponentMobile src={logo} alt ="Logo"/>
+            <HeaderOptionMobile href="/"> <p className={props.homeStyle}>Home</p> </HeaderOptionMobile>
+            <HeaderOptionMobile href="/eventos"><p className={props.eventosStyle}>Eventos</p></HeaderOptionMobile>
+        </HeaderListMobile>
     </HeaderComponent>
   );
 };
