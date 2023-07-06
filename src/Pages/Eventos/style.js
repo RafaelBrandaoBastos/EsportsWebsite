@@ -96,6 +96,7 @@ export const TitleCard = styled.div`
     width: 100%;
     height: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     @media (max-width: 1070px){
@@ -180,6 +181,7 @@ export const Text = styled.p`
     color: white;
 `;
 export const Title = styled.p`
+    width: 100%;
     font-size: 23px;
     font-family: 'Ethnocentric Rg';
     color: #ff255f;
