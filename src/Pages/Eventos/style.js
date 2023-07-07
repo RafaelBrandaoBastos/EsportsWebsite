@@ -69,8 +69,11 @@ export const Card = styled.div`
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.0);
-    outline-color: green;
+    outline-style: solid;
+    outline-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 20px;
     margin-top: 30px;
     margin-bottom: 50px;
     @media (max-width: 1070px){

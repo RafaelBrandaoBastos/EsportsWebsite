@@ -12,3 +12,7 @@ export const SpinnerComponent = styled.div`
     100% { transform: rotate(360deg); }
     }
 `;
+export const SpinnerContainer = styled.div`
+    width: 60px;
+    height: 60px;
+`;

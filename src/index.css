@@ -15,16 +15,16 @@ code {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
   display: none;
   background-color: #141414;
 }
 
 ::-webkit-scrollbar-track {
   background-color: #141414;
+  display: none;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #141414;
-  border-radius: 20px;
+  display: none;
 }

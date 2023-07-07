@@ -29,8 +29,6 @@ import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer";
 import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
-import banner from "../../assets/banner.png";
-import gp from "../../assets/gp.png";
 import i1 from "../../assets/1.png";
 import i2 from "../../assets/2.png";
 import i3 from "../../assets/3.png";
@@ -82,7 +80,7 @@ const Eventos = () => {
           homeStyle="none"
           eventosStyle="selected"
           lineupsStyle="none"
-          streamersStyle="none"
+          parceirosStyle="none"
         />
         <SubContainer>
 

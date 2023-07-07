@@ -24,6 +24,7 @@ export const Container = styled.div`
 export const SubContainer = styled.div`
     width: 100%;
     height: 100%;
+    min-height: 68vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,6 +35,8 @@ export const Text = styled.p`
     font-size: 23px;
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
+    padding: 0px;
+    padding: 0px;
 `;
 export const ContainerLoad = styled.div`
     width: 100%;
@@ -42,8 +45,6 @@ export const ContainerLoad = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    @media (max-width: 600px){
-    }
     animation: fade-out 1000ms;
     @keyframes fade-out {
         0% {
@@ -61,34 +62,32 @@ export const ContainerLoad = styled.div`
 
 export const Card = styled.div`
     width: 95%;
-    min-height: 70vh;
+    height: 68vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    outline-color: white;
+    justify-content: center;
     align-items: center;
     margin: 20px;
-    @media (max-width: 600px){
-    }
 `;
 
 
 export const TextCard = styled.div`
-    max-width: 70%;
+    width: 90%;
+    max-width: 1200px;
     text-align:justify;
-    @media (max-width: 815px){
-        max-width: 90%;
-    }
-`;
-
-export const TextCard2 = styled.div`
-    max-width: 50%;
-    outline-style: solid;
-    outline-color: blue;
+    outline-color: white;
+    margin: 0px;
+    padding: 0px;
 `;
 
 
 export const BannerComponent = styled.img`
-   width: 70%;
+    max-width: 1200px;
+   width: 100%;
+   margin: 0px;
+    padding: 0px;
+    outline-color: white;
    @media (max-width: 815px){
     width: 90%;
     }

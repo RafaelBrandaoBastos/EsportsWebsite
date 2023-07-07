@@ -1,11 +1,11 @@
 import "./style.js"
-import {SpinnerComponent} from "./style";
+import {SpinnerComponent, SpinnerContainer} from "./style";
 
 const Spinner = () => {
     return (
-        <>
+        <SpinnerContainer>
             <SpinnerComponent/>
-        </>
+        </SpinnerContainer>
     );
 };
 

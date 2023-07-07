@@ -5,10 +5,8 @@ import {
   Container,
   ContainerLoad,
   Card,
-  Card2,
   BannerComponent,
   TextCard,
-  TextCard2,
   SubContainer,
   ImgComponent,
   Text
@@ -19,7 +17,6 @@ import Footer from "../../components/Footer/Footer";
 import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 import banner from "../../assets/banner.png";
-import gp  from "../../assets/gp.png";
 
 const Home = () => {
 
@@ -41,7 +38,7 @@ const Home = () => {
           homeStyle="selected"
           eventosStyle="none"
           lineupsStyle="none"
-          streamersStyle="none"
+          parceirosStyle="none"
         />
         <SubContainer>
           <Card>

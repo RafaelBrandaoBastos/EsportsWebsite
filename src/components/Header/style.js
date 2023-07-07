@@ -14,7 +14,11 @@ export const HeaderComponent = styled.div`
     position: fixed;
     z-index: 2;
     @media (max-width: 815px){
-        height: 10%;
+        height: auto;
+    }
+    @media (max-width: 710px){
+        justify-content: space-around;
+        align-items: center;
     }
 `;
 
@@ -52,11 +56,9 @@ export const HeaderOption = styled.a`
 `;
 export const LogoComponent = styled.img`
     height: 50px;
-    margin-left: 30px;
-    margin-left: 30px;
     width: auto;
-    &:hover {
-        border: white;
+    @media (min-width: 815px){
+        margin: 30px;
     }
 `;
 
@@ -65,24 +67,25 @@ export const LogoComponent = styled.img`
 
 
 export const HeaderListMobile = styled.div`
-    height: 100%;
-    width: 100%;
+    width: 75%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
+    outline-style: solid;
+    outline-color: white;
+    background-color: rgba(0, 0, 0, 0.8);
     @media (min-width: 815px){
         display: none;
     }
 `;
 export const HeaderOptionMobile = styled.a`
     color: white;
-    height: 100%;
-    margin-left: 20px;
+    margin: 10px;
+    outline-style: solid;
+    outline-color: white;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-family: 'Ethnocentric Rg';
     text-decoration: none;
     .none {
@@ -98,14 +101,19 @@ export const HeaderOptionMobile = styled.a`
     }
     @media (min-width: 815px){
         display: none;
+        ext-align: center;
     }
-`;
-export const LogoComponentMobile = styled.img`
-    height: 50px;
-    margin-left: 30px;
-    margin-left: 30px;
-    width: auto;
-    &:hover {
-        border: white;
+    @media (max-width: 710px){
+        width: 30%;
+        height: 25%;
+        margin: 0px;
+        ext-align: center;
+    }
+    @media (max-width: 500px){
+        width: 50%;
+        text-align: left;
+    }
+    @media (max-width: 370px){
+        font-size: 10px;
     }
 `;

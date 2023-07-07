@@ -10,7 +10,7 @@ const Arrow = (props) => {
         console.log(props.height);
     }, [props.scroll]);
 
-    if(document.body.clientHeight < window.innerHeight || props.scroll < (props.height - 40)) {
+    if((document.body.clientHeight == 0) || props.scroll < (props.height - 120)) {
         return (
             <Container>
                 <ArrowComponent href="#" src={arrow} className="arrow"/>
