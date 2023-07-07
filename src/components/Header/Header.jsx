@@ -7,16 +7,16 @@ const Header = (props) => {
     <HeaderComponent>
         <LogoComponent src={logo} alt ="Logo"/>
         <HeaderList>
-            <HeaderOption href="/" target="_blank"> <p className={props.homeStyle}>Home</p> </HeaderOption>
-            <HeaderOption href="/lineups" target="_blank"><p className={props.lineupsStyle}>LineUps</p></HeaderOption>
-            <HeaderOption href="/eventos" target="_blank"><p className={props.eventosStyle}>Eventos</p></HeaderOption>
-            <HeaderOption href="/Parceiros" target="_blank"><p className={props.parceirosStyle}>Parceiros</p></HeaderOption>
+            <HeaderOption href="/"> <p className={props.homeStyle}>Home</p> </HeaderOption>
+            <HeaderOption href="/lineups"><p className={props.lineupsStyle}>LineUps</p></HeaderOption>
+            <HeaderOption href="/eventos"><p className={props.eventosStyle}>Eventos</p></HeaderOption>
+            <HeaderOption href="/Parceiros"><p className={props.parceirosStyle}>Parceiros</p></HeaderOption>
         </HeaderList>
         <HeaderListMobile>
-            <HeaderOptionMobile href="/" target="_blank"> <p className={props.homeStyle}>Home</p> </HeaderOptionMobile>
-            <HeaderOptionMobile href="/lineups" target="_blank"><p className={props.lineupsStyle}>LineUps</p></HeaderOptionMobile>
-            <HeaderOptionMobile href="/eventos" target="_blank"><p className={props.eventosStyle}>Eventos</p></HeaderOptionMobile>
-            <HeaderOptionMobile href="/Parceiros" target="_blank"><p className={props.parceirosStyle}>Parceiros</p></HeaderOptionMobile>
+            <HeaderOptionMobile href="/"> <p className={props.homeStyle}>Home</p> </HeaderOptionMobile>
+            <HeaderOptionMobile href="/lineups"><p className={props.lineupsStyle}>LineUps</p></HeaderOptionMobile>
+            <HeaderOptionMobile href="/eventos"><p className={props.eventosStyle}>Eventos</p></HeaderOptionMobile>
+            <HeaderOptionMobile href="/Parceiros"><p className={props.parceirosStyle}>Parceiros</p></HeaderOptionMobile>
         </HeaderListMobile>
     </HeaderComponent>
   );

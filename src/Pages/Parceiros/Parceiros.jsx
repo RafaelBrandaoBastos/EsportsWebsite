@@ -58,7 +58,7 @@ const Parceiros = () => {
                 <Text>☕ Para os que buscam o verdadeiro sabor do café!
                 <br></br>Rua Sergipe, 623, Savassi, Belo Horizonte.
                 <br></br>Segunda a Sexta de 7h00 às 17h30
-                <br></br><SrcLink size={"23px"} href="https://www.instagram.com/lacoffeecafeteria/">instagram.com/lacoffeecafeteria</SrcLink></Text>
+                <br></br><SrcLink size={"23px"} href="https://www.instagram.com/lacoffeecafeteria/" target="_blank">instagram.com/lacoffeecafeteria</SrcLink></Text>
               </TextCard>
             </PartnerCard>   
 
@@ -68,7 +68,7 @@ const Parceiros = () => {
                 <PartnerTitle size={"35px"}>Ultra Arcade</PartnerTitle>
                 <Text>Um fliperama modernizado para amantes de jogos de luta, retrô e E-sports.
                 <br></br>Controles artesanais e fabricados do zero.
-                <br></br><SrcLink size={"23px"} href="https://shop.ultraarcadebh.com.br/">shop.ultraarcadebh.com.br</SrcLink></Text>
+                <br></br><SrcLink size={"23px"} href="https://shop.ultraarcadebh.com.br/" target="_blank">shop.ultraarcadebh.com.br</SrcLink></Text>
               </TextCard>
             </PartnerCard>
 
@@ -79,7 +79,7 @@ const Parceiros = () => {
                 <Text>Prazer, esse estranho ai na tela sou eu, jogo de tudo um pouco, 
                 e faço live de um tanto de coisa diferente, live livre para vc falar e zoar da 
                 forma que quiser desde que não desrespeite ninguem. Da uma chance que tu vai viciar no pai xD
-                <br></br><SrcLink size={"23px"} href="https://www.twitch.tv/tulapas">twitch.tv/tulapas</SrcLink></Text>
+                <br></br><SrcLink size={"23px"} href="https://www.twitch.tv/tulapas" target="_blank">twitch.tv/tulapas</SrcLink></Text>
               </TextCard>
             </PartnerCard>  
 
@@ -89,7 +89,7 @@ const Parceiros = () => {
                 <PartnerTitle size={"35px"}>Zatefgc</PartnerTitle>
                 <Text>FGC Streamer/Commentator (TO for Anime Fighters)
                 <br></br>Psychologist experienced in Sports Psychology
-                <br></br><SrcLink size={"23px"} href="https://www.twitch.tv/zatefgc">twitch.tv/zatefgc</SrcLink></Text>
+                <br></br><SrcLink size={"23px"} href="https://www.twitch.tv/zatefgc" target="_blank">twitch.tv/zatefgc</SrcLink></Text>
               </TextCard>
             </PartnerCard>
 
@@ -98,7 +98,7 @@ const Parceiros = () => {
               <TextCard>
                 <PartnerTitle size={"35px"}>Mark I-No TV</PartnerTitle>
                 <Text>Partner TO and Streamer for ArcadianSlz. <br></br>Player AKA lau táier Magician of Kiseki no Sedai.<br></br>CEO for Mark I-no TV.<br></br> Mark I-no#9117
-                <br></br><SrcLink size={"23px"} href="https://www.twitch.tv/mark_inotv">twitch.tv/mark_inotv</SrcLink></Text>
+                <br></br><SrcLink size={"23px"} href="https://www.twitch.tv/mark_inotv" target="_blank">twitch.tv/mark_inotv</SrcLink></Text>
               </TextCard>
             </PartnerCard>
 
