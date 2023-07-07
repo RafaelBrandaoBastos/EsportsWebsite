@@ -72,8 +72,6 @@ export const HeaderListMobile = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    outline-style: solid;
-    outline-color: white;
     background-color: rgba(0, 0, 0, 0.8);
     @media (min-width: 815px){
         display: none;
@@ -82,7 +80,6 @@ export const HeaderListMobile = styled.div`
 export const HeaderOptionMobile = styled.a`
     color: white;
     margin: 10px;
-    outline-style: solid;
     outline-color: white;
     font-size: 18px;
     text-align: center;
