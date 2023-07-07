@@ -24,7 +24,7 @@ export const Container = styled.div`
 export const SubContainer = styled.div`
     width: 100%;
     height: 100%;
-    min-height: 68vh;
+    min-height: 75vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -69,6 +69,7 @@ export const Card = styled.div`
     justify-content: center;
     align-items: center;
     margin: 20px;
+    margin-top: 50px;
 `;
 
 
