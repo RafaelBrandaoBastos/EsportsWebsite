@@ -61,7 +61,7 @@ export const ContainerLoad = styled.div`
 
 
 export const Card = styled.div`
-    width: 95%;
+    width: 80%;
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
@@ -74,10 +74,6 @@ export const Card = styled.div`
     align-items: center;
     margin-top: 60px;
     margin-bottom: 50px;
-    @media (max-width: 815px){
-        width: 80%;
-    }
-    
 `;
 
 
@@ -134,14 +130,14 @@ export const PlayersContainer = styled.div`
     justify-content: center;
     align-items: center;
     outline-color: white;
-    @media (max-width: 1070px){
+    @media (max-width: 1410px){
         flex-wrap: wrap;
     }
 `;
 export const PlayerCard = styled.div`
     width: 200px;
     height: 300px;
-    margin: 20px;
+    margin: 15px;
     background-image: url(${props => props.url});
     background-size: auto 100%;
     background-position: center;

@@ -63,7 +63,7 @@ export const ContainerLoad = styled.div`
 
 
 export const Card = styled.div`
-    width: 85%;
+    width: 80%;
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;

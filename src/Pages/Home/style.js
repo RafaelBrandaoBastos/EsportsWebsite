@@ -73,18 +73,21 @@ export const Card = styled.div`
 
 
 export const TextCard = styled.div`
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     text-align:justify;
     outline-color: white;
     margin: 0px;
     padding: 0px;
+    @media (max-width: 815px){
+        width: 90%;
+    }
 `;
 
 
 export const BannerComponent = styled.img`
     max-width: 1200px;
-   width: 100%;
+   width: 80%;
    margin: 0px;
     padding: 0px;
     outline-color: white;

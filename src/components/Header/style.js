@@ -57,8 +57,12 @@ export const HeaderOption = styled.a`
 export const LogoComponent = styled.img`
     height: 50px;
     width: auto;
-    @media (min-width: 815px){
-        margin: 30px;
+    margin-left: 50px;
+    position: relative;
+    @media (max-width: 815px){
+        left: 2%;
+        margin-left: 0px;
+        position: absolute;
     }
 `;
 
@@ -67,8 +71,9 @@ export const LogoComponent = styled.img`
 
 
 export const HeaderListMobile = styled.div`
-    width: 75%;
+    width: 80%;
     display: flex;
+    margin-left: 0px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -76,11 +81,22 @@ export const HeaderListMobile = styled.div`
     @media (min-width: 815px){
         display: none;
     }
+    @media (max-width: 500px){
+        width: 70%;
+        margin-left: 40px;
+    }
+    @media (max-width: 370px){
+        width: 50%;
+        margin-left: 30px;
+    }
+    @media (max-width: 370px){
+        width: 70%;
+        margin-left: 60px;
+    }
 `;
 export const HeaderOptionMobile = styled.a`
     color: white;
     margin: 10px;
-    outline-color: white;
     font-size: 18px;
     text-align: center;
     font-family: 'Ethnocentric Rg';
@@ -98,19 +114,20 @@ export const HeaderOptionMobile = styled.a`
     }
     @media (min-width: 815px){
         display: none;
-        ext-align: center;
+        text-align: center;
     }
     @media (max-width: 710px){
-        width: 30%;
+        width: 32%;
         height: 25%;
         margin: 0px;
-        ext-align: center;
+        text-align: center;
     }
     @media (max-width: 500px){
         width: 50%;
         text-align: left;
     }
     @media (max-width: 370px){
-        font-size: 10px;
+        width: 50%;
+        font-size: 12px;
     }
 `;
