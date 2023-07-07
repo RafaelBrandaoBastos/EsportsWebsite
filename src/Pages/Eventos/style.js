@@ -71,7 +71,8 @@ export const Card = styled.div`
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.0);
     outline-color: green;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     @media (max-width: 1070px){
         max-height: 50000px;
         min-height: 70vh;
@@ -94,14 +95,18 @@ export const CardContent = styled.div`
 
 export const TitleCard = styled.div`
     width: 100%;
-    height: 50px;
+    margin-bottom: 40px;
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    outline-color: yellow;
     @media (max-width: 1070px){
         max-width: 500px;
-        height: 10%;
+        margin-bottom: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 `;
 
@@ -126,6 +131,7 @@ export const Colocacoes = styled.div`
     display: flex;
     width: 100%;
     flex-wrap: no-wrap;
+    margin-top: 20px;
     justify-content: flex-start;
     align-items: flex-start;
     outline-color: orange;
@@ -179,12 +185,22 @@ export const Text = styled.p`
     font-size: 23px;
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
+    outline-color: white;
+    margin: 0px;
+    padding: 0px;
 `;
 export const Title = styled.p`
-    width: 100%;
     font-size: 23px;
     font-family: 'Ethnocentric Rg';
     color: #ff255f;
+    margin: 0px;
+    padding: 0px;
+    outline-color: white;
+    margin-bottom: 0px;
+    @media (max-width: 1070px){
+        width: 100%;
+        margin-bottom: 10px;
+    }
 `;
 
 export const MarkText = styled.p`
