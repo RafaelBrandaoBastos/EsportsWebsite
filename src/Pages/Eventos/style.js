@@ -117,9 +117,8 @@ export const TitleCard = styled.div`
 export const TextCard = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    outline-color: yellow;
     width: 60%;
     @media (max-width: 1070px){
         width: 100%;
@@ -181,7 +180,8 @@ export const Carousel = styled.div`
 
 export const ImgComponent = styled.img`
     width: 90%;
-    max-height: 90%;
+    height: auto;
+    max-height: 250px;
     position: absolute;
 `;
 export const Text = styled.p`
@@ -191,6 +191,7 @@ export const Text = styled.p`
     outline-color: white;
     margin: 0px;
     padding: 0px;
+    outline-color: yellow;
 `;
 export const Title = styled.p`
     font-size: 23px;

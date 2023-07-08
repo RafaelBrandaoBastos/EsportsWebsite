@@ -75,7 +75,7 @@ export const Card = styled.div`
 
 export const TextCard = styled.div`
     width: 80%;
-    max-width: 1200px;
+    max-width: 1500px;
     text-align:justify;
     outline-color: white;
     margin: 0px;
@@ -87,7 +87,7 @@ export const TextCard = styled.div`
 
 
 export const BannerComponent = styled.img`
-    max-width: 1200px;
+    max-width: 1500px;
    width: 80%;
    margin: 0px;
     padding: 0px;

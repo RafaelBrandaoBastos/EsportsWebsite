@@ -38,11 +38,15 @@ import i6 from "../../assets/6.png";
 import i7 from "../../assets/7.png";
 import i8 from "../../assets/8.png";
 import i9 from "../../assets/9.png";
+import i10 from "../../assets/10.png";
+import i11 from "../../assets/11.png";
+import i12 from "../../assets/12.png";
 
 const Eventos = () => {
   const [carousel1, setcarousel1] = useState(0);
   const [carousel2, setcarousel2] = useState(0);
   const [carousel3, setcarousel3] = useState(0);
+  const [carousel4, setcarousel4] = useState(0);
 
   function setcarousel1setter(x) {
     if (x < 4 && x > -1) {
@@ -50,13 +54,18 @@ const Eventos = () => {
     }
   }
   function setcarousel2setter(x) {
-    if (x < 4 && x > -1) {
+    if (x < 5 && x > -1) {
       setcarousel2(x);
     }
   }
   function setcarousel3setter(x) {
     if (x < 4 && x > -1) {
       setcarousel3(x);
+    }
+  }
+  function setcarousel4setter(x) {
+    if (x < 2 && x > -1) {
+      setcarousel4(x);
     }
   }
 
@@ -83,6 +92,63 @@ const Eventos = () => {
           parceirosStyle="none"
         />
         <SubContainer>
+
+
+        <Card>
+            <TitleCard>
+              <Title>Molaço Guilty Gear</Title>
+              <Text>25/06/2023</Text>
+            </TitleCard>
+            <CardContent>
+              <TextCard>
+                <Text>
+                  O evento aconteceu no Goat Gaming Center, onde nossos guerreiros alcançaram o pódio e trouxeram resultados sólidos. 
+                </Text>
+                <Colocacoes>
+                  <SubColoc>
+                    <Text>
+                      Top 3 Semanal:<br></br>1º - Zatefgc (Giovanna)
+                      <br></br>2º - NabutiJinja (May)<br></br>3º
+                      - Pocket (Baiken)
+                    </Text>
+                    
+                  </SubColoc>
+                  <SubColoc>
+                    <Text>
+                      Colocações GrupoEsports:<br></br>3º Strive Moddado - Bydo
+                      <br></br>
+                      5º Granblue - Nabutijinja<br></br>4º Mystery Tournament - Nabutijinja
+                    </Text>
+                  </SubColoc>
+                </Colocacoes>
+              </TextCard>
+              <Carousel>
+                <ImageLoader>
+                  <Spinner />
+                </ImageLoader>
+                {carousel4 === 0 && <ImgComponent src={i12} />}
+                {carousel4 === 1 && <ImgComponent src={i11} />}
+
+                <MarkText>{carousel4 + 4}/2</MarkText>
+                {carousel4 > 0 && (
+                  <CaroulselPrev
+                    onClick={() => setcarousel4setter(carousel4 - 1)}
+                  >
+                    Prev
+                  </CaroulselPrev>
+                )}
+                {carousel4 < 4 && (
+                  <CaroulselNext
+                    onClick={() => setcarousel4setter(carousel4 + 1)}
+                  >
+                    Next
+                  </CaroulselNext>
+                )}
+              </Carousel>
+            </CardContent>
+          </Card>
+
+
 
         <Card>
             <TitleCard>
@@ -156,8 +222,9 @@ const Eventos = () => {
                   <Spinner />
                 </ImageLoader>
                 {carousel2 === 0 && <ImgComponent src={i4} />}
-                {carousel2 === 1 && <ImgComponent src={i5} />}
-                {carousel2 === 2 && <ImgComponent src={i6} />}
+                {carousel2 === 1 && <ImgComponent src={i10} />}
+                {carousel2 === 2 && <ImgComponent src={i5} />}
+                {carousel2 === 3 && <ImgComponent src={i6} />}
 
                 <MarkText>{carousel2 + 1}/3</MarkText>
                 {carousel2 > 0 && (
@@ -167,7 +234,7 @@ const Eventos = () => {
                     Prev
                   </CaroulselPrev>
                 )}
-                {carousel2 < 2 && (
+                {carousel2 < 3 && (
                   <CaroulselNext
                     onClick={() => setcarousel2setter(carousel2 + 1)}
                   >
