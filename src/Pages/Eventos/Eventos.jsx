@@ -41,12 +41,16 @@ import i9 from "../../assets/9.png";
 import i10 from "../../assets/10.png";
 import i11 from "../../assets/11.png";
 import i12 from "../../assets/12.png";
+import i13 from "../../assets/13.png";
+import i14 from "../../assets/14.png";
+import i15 from "../../assets/15.png";
 
 const Eventos = () => {
   const [carousel1, setcarousel1] = useState(0);
   const [carousel2, setcarousel2] = useState(0);
   const [carousel3, setcarousel3] = useState(0);
   const [carousel4, setcarousel4] = useState(0);
+  const [carousel5, setcarousel5] = useState(0);
 
   function setcarousel1setter(x) {
     if (x < 4 && x > -1) {
@@ -66,6 +70,11 @@ const Eventos = () => {
   function setcarousel4setter(x) {
     if (x < 2 && x > -1) {
       setcarousel4(x);
+    }
+  }
+  function setcarousel5setter(x) {
+    if (x < 3 && x > -1) {
+      setcarousel5(x);
     }
   }
 
@@ -92,6 +101,53 @@ const Eventos = () => {
           parceirosStyle="none"
         />
         <SubContainer>
+
+
+        <Card>
+            <TitleCard>
+              <Title>Rinha de Prata 3</Title>
+              <Text>10/07/2023</Text>
+            </TitleCard>
+            <CardContent>
+              <TextCard>
+                <Text>
+                  A terceira rinha de prata teve como jogo DNF Duel.
+                </Text>
+                <Colocacoes>
+                  <SubColoc>
+                    <Text>
+                      Top 3<br></br>1º - Fernando<br></br>2º - Migas<br></br>3º
+                      - Henriques
+                    </Text>
+                  </SubColoc>
+                </Colocacoes>
+              </TextCard>
+              <Carousel>
+                <ImageLoader>
+                  <Spinner />
+                </ImageLoader>
+                {carousel5 === 0 && <ImgComponent src={i13} />}
+                {carousel5 === 1 && <ImgComponent src={i14} />}
+                {carousel5 === 2 && <ImgComponent src={i15} />}
+
+                <MarkText>{carousel5 + 1}/3</MarkText>
+                {carousel5 > 0 && (
+                  <CaroulselPrev
+                    onClick={() => setcarousel5setter(carousel5 - 1)}
+                  >
+                    Prev
+                  </CaroulselPrev>
+                )}
+                {carousel5 < 3 && (
+                  <CaroulselNext
+                    onClick={() => setcarousel5setter(carousel5 + 1)}
+                  >
+                    Next
+                  </CaroulselNext>
+                )}
+              </Carousel>
+            </CardContent>
+          </Card>
 
 
         <Card>

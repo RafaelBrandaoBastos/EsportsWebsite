@@ -120,6 +120,7 @@ export const TextCard = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     width: 60%;
+    outline-color: white;
     @media (max-width: 1070px){
         width: 100%;
         max-width: 500px;
