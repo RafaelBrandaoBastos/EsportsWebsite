@@ -152,26 +152,20 @@ const Eventos = () => {
 
         <Card>
             <TitleCard>
-              <Title>Molaço Guilty Gear</Title>
+              <Title>Molaço - Aniversário & Despedida</Title>
               <Text>25/06/2023</Text>
             </TitleCard>
             <CardContent>
               <TextCard>
                 <Text>
-                  O evento aconteceu no Goat Gaming Center, onde nossos guerreiros alcançaram o pódio e trouxeram resultados sólidos. 
+                  O evento aconteceu no Goat Gaming Center, onde nossos guerreiros alcançaram o pódio e trouxeram resultados sólidos.
                 </Text>
                 <Colocacoes>
                   <SubColoc>
-                    <Text>
-                      Top 3 Semanal:<br></br>1º - Zatefgc (Giovanna)
-                      <br></br>2º - NabutiJinja (May)<br></br>3º
-                      - Pocket (Baiken)
-                    </Text>
-                    
                   </SubColoc>
                   <SubColoc>
                     <Text>
-                      Colocações GrupoEsports:<br></br>3º Strive Moddado - Bydo
+                      Colocações Notáveis: <br></br>3º Strive Moddado - Bydo
                       <br></br>
                       5º Granblue - Nabutijinja<br></br>4º Mystery Tournament - Nabutijinja
                     </Text>
@@ -214,7 +208,7 @@ const Eventos = () => {
             <CardContent>
               <TextCard>
                 <Text>
-                  A Grupo Esports participou do campeonato de Counter Strike Global Ofensive chamado Front to Front, no Minas Shopping. Nossos guerreiros 
+                  A Grupo Esports participou do campeonato de Counter Strike Global Ofensive chamado Front to Front, no Minas Shopping. Nossos guerreiros
                   jogaram bravamente porém não conseguiram avançar da primeira fase contra TopPalau.
                 </Text>
                 <Colocacoes>
@@ -262,7 +256,7 @@ const Eventos = () => {
               <TextCard>
                 <Text>
                   A segunda Rinha teve como jogo Granblue Fantasy Versus. Essa
-                  foi a maior rinha até o momento contando com convidados especiais 
+                  foi a maior rinha até o momento contando com convidados especiais
                   e uma resenha completa.
                 </Text>
                 <Colocacoes>
