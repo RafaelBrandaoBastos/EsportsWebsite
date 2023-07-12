@@ -180,9 +180,9 @@ export const Carousel = styled.div`
 `;
 
 export const ImgComponent = styled.img`
-    width: 90%;
-    height: auto;
-    max-height: 250px;
+    width: auto;
+    height: 90%;
+    max-width: 400px;
     position: absolute;
 `;
 export const Text = styled.p`

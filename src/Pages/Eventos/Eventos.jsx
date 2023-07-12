@@ -44,6 +44,8 @@ import i12 from "../../assets/12.png";
 import i13 from "../../assets/13.png";
 import i14 from "../../assets/14.png";
 import i15 from "../../assets/15.png";
+import i16 from "../../assets/16.png";
+import i17 from "../../assets/17.png";
 
 const Eventos = () => {
   const [carousel1, setcarousel1] = useState(0);
@@ -68,7 +70,7 @@ const Eventos = () => {
     }
   }
   function setcarousel4setter(x) {
-    if (x < 2 && x > -1) {
+    if (x < 3 && x > -1) {
       setcarousel4(x);
     }
   }
@@ -138,7 +140,7 @@ const Eventos = () => {
                     Prev
                   </CaroulselPrev>
                 )}
-                {carousel5 < 3 && (
+                {carousel5 < 2 && (
                   <CaroulselNext
                     onClick={() => setcarousel5setter(carousel5 + 1)}
                   >
@@ -162,8 +164,6 @@ const Eventos = () => {
                 </Text>
                 <Colocacoes>
                   <SubColoc>
-                  </SubColoc>
-                  <SubColoc>
                     <Text>
                       Colocações Notáveis: <br></br>3º Strive Moddado - Bydo
                       <br></br>
@@ -177,9 +177,10 @@ const Eventos = () => {
                   <Spinner />
                 </ImageLoader>
                 {carousel4 === 0 && <ImgComponent src={i12} />}
-                {carousel4 === 1 && <ImgComponent src={i11} />}
+                {carousel4 === 1 && <ImgComponent src={i16} />}
+                {carousel4 === 2 && <ImgComponent src={i17} />}
 
-                <MarkText>{carousel4 + 1}/2</MarkText>
+                <MarkText>{carousel4 + 1}/3</MarkText>
                 {carousel4 > 0 && (
                   <CaroulselPrev
                     onClick={() => setcarousel4setter(carousel4 - 1)}
@@ -187,7 +188,7 @@ const Eventos = () => {
                     Prev
                   </CaroulselPrev>
                 )}
-                {carousel4 < 1 && (
+                {carousel4 < 2 && (
                   <CaroulselNext
                     onClick={() => setcarousel4setter(carousel4 + 1)}
                   >
@@ -276,7 +277,7 @@ const Eventos = () => {
                 {carousel2 === 2 && <ImgComponent src={i5} />}
                 {carousel2 === 3 && <ImgComponent src={i6} />}
 
-                <MarkText>{carousel2 + 1}/3</MarkText>
+                <MarkText>{carousel2 + 1}/4</MarkText>
                 {carousel2 > 0 && (
                   <CaroulselPrev
                     onClick={() => setcarousel2setter(carousel2 - 1)}
