@@ -44,6 +44,8 @@ import i12 from "../../assets/12.png";
 import i13 from "../../assets/13.png";
 import i14 from "../../assets/14.png";
 import i15 from "../../assets/15.png";
+import i16 from "../../assets/16.png";
+import i17 from "../../assets/17.png";
 
 const Eventos = () => {
   const [carousel1, setcarousel1] = useState(0);
@@ -68,7 +70,7 @@ const Eventos = () => {
     }
   }
   function setcarousel4setter(x) {
-    if (x < 2 && x > -1) {
+    if (x < 3 && x > -1) {
       setcarousel4(x);
     }
   }
@@ -138,7 +140,7 @@ const Eventos = () => {
                     Prev
                   </CaroulselPrev>
                 )}
-                {carousel5 < 3 && (
+                {carousel5 < 2 && (
                   <CaroulselNext
                     onClick={() => setcarousel5setter(carousel5 + 1)}
                   >
@@ -152,26 +154,18 @@ const Eventos = () => {
 
         <Card>
             <TitleCard>
-              <Title>Molaço Guilty Gear</Title>
+              <Title>Molaço - Aniversário & Despedida</Title>
               <Text>25/06/2023</Text>
             </TitleCard>
             <CardContent>
               <TextCard>
                 <Text>
-                  O evento aconteceu no Goat Gaming Center, onde nossos guerreiros alcançaram o pódio e trouxeram resultados sólidos. 
+                  O evento aconteceu no Goat Gaming Center, onde nossos guerreiros alcançaram o pódio e trouxeram resultados sólidos.
                 </Text>
                 <Colocacoes>
                   <SubColoc>
                     <Text>
-                      Top 3 Semanal:<br></br>1º - Zatefgc (Giovanna)
-                      <br></br>2º - NabutiJinja (May)<br></br>3º
-                      - Pocket (Baiken)
-                    </Text>
-                    
-                  </SubColoc>
-                  <SubColoc>
-                    <Text>
-                      Colocações GrupoEsports:<br></br>3º Strive Moddado - Bydo
+                      Colocações Notáveis: <br></br>3º Strive Moddado - Bydo
                       <br></br>
                       5º Granblue - Nabutijinja<br></br>4º Mystery Tournament - Nabutijinja
                     </Text>
@@ -183,9 +177,10 @@ const Eventos = () => {
                   <Spinner />
                 </ImageLoader>
                 {carousel4 === 0 && <ImgComponent src={i12} />}
-                {carousel4 === 1 && <ImgComponent src={i11} />}
+                {carousel4 === 1 && <ImgComponent src={i16} />}
+                {carousel4 === 2 && <ImgComponent src={i17} />}
 
-                <MarkText>{carousel4 + 1}/2</MarkText>
+                <MarkText>{carousel4 + 1}/3</MarkText>
                 {carousel4 > 0 && (
                   <CaroulselPrev
                     onClick={() => setcarousel4setter(carousel4 - 1)}
@@ -193,7 +188,7 @@ const Eventos = () => {
                     Prev
                   </CaroulselPrev>
                 )}
-                {carousel4 < 1 && (
+                {carousel4 < 2 && (
                   <CaroulselNext
                     onClick={() => setcarousel4setter(carousel4 + 1)}
                   >
@@ -214,7 +209,7 @@ const Eventos = () => {
             <CardContent>
               <TextCard>
                 <Text>
-                  A Grupo Esports participou do campeonato de Counter Strike Global Ofensive chamado Front to Front, no Minas Shopping. Nossos guerreiros 
+                  A Grupo Esports participou do campeonato de Counter Strike Global Ofensive chamado Front to Front, no Minas Shopping. Nossos guerreiros
                   jogaram bravamente porém não conseguiram avançar da primeira fase contra TopPalau.
                 </Text>
                 <Colocacoes>
@@ -262,7 +257,7 @@ const Eventos = () => {
               <TextCard>
                 <Text>
                   A segunda Rinha teve como jogo Granblue Fantasy Versus. Essa
-                  foi a maior rinha até o momento contando com convidados especiais 
+                  foi a maior rinha até o momento contando com convidados especiais
                   e uma resenha completa.
                 </Text>
                 <Colocacoes>
@@ -282,7 +277,7 @@ const Eventos = () => {
                 {carousel2 === 2 && <ImgComponent src={i5} />}
                 {carousel2 === 3 && <ImgComponent src={i6} />}
 
-                <MarkText>{carousel2 + 1}/3</MarkText>
+                <MarkText>{carousel2 + 1}/4</MarkText>
                 {carousel2 > 0 && (
                   <CaroulselPrev
                     onClick={() => setcarousel2setter(carousel2 - 1)}
