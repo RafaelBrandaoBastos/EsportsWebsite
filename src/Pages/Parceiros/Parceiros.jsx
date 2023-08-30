@@ -27,6 +27,7 @@ import prc2 from "../../assets/prc2.png";
 import prc3 from "../../assets/prc3.png";
 import prc4 from "../../assets/prc4.png";
 import prc5 from "../../assets/prc5.png";
+import prc6 from "../../assets/prc6.png";
 const Parceiros = () => {
 
     const { x, y } = useWindowScroll();
@@ -99,6 +100,15 @@ const Parceiros = () => {
                 <PartnerTitle size={"35px"}>Mark I-No TV</PartnerTitle>
                 <Text>Partner TO and Streamer for ArcadianSlz. <br></br>Player AKA lau táier Magician of Kiseki no Sedai.<br></br>CEO for Mark I-no TV.<br></br> Mark I-no#9117
                 <br></br><SrcLink size={"23px"} href="https://www.twitch.tv/mark_inotv" target="_blank">twitch.tv/mark_inotv</SrcLink></Text>
+              </TextCard>
+            </PartnerCard>
+
+            <PartnerCard>
+            <ImageComponent url={prc6}/>
+              <TextCard>
+                <PartnerTitle size={"35px"}>Captain Honey</PartnerTitle>
+                <Text>Me chamo Artur, tenho 21 anos. <br></br>Sou ilustrador vetorial e faço lives de just chatting e de jogos.<br></br>
+                <SrcLink size={"23px"} href="https://www.twitch.tv/captain_honey" target="_blank">Captain_Honey</SrcLink></Text>
               </TextCard>
             </PartnerCard>
 

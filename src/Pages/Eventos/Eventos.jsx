@@ -116,7 +116,7 @@ const Eventos = () => {
                 <Colocacoes>
                   <SubColoc>
                     <Text>
-                      Top 3<br></br>1º - Fernando<br></br>2º - Migas<br></br>3º
+                      Top 3<br></br>1º - Fernando<br></br>2º - Migas<br></br>3º 
                       - Henriques
                     </Text>
                   </SubColoc>
