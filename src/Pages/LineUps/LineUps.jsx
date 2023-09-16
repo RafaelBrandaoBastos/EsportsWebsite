@@ -23,6 +23,7 @@ import ggst6 from "../../assets/players/ggst6.png"
 import ggst7 from "../../assets/players/ggst7.png"
 import mbt from "../../assets/players/mbt.png"
 import mbt1 from "../../assets/players/mbt1.png"
+import mbt2 from "../../assets/players/mbt2.png"
 import guiltas from "../../assets/players/guiltas.png"
 import cs1 from "../../assets/players/cs1.png"
 import cs2 from "../../assets/players/cs2.png"
@@ -39,6 +40,10 @@ import lol4 from "../../assets/players/lol4.png"
 import lol5 from "../../assets/players/lol5.png"
 import lol6 from "../../assets/players/lol6.png"
 import defuse from "../../assets/players/defuse.png"
+import dnf from "../../assets/players/dnf.png"
+import dnf1 from "../../assets/players/dnf1.png"
+import un from "../../assets/players/un.png"
+import un1 from "../../assets/players/un1.png"
 
 const LineUps = () => {
 
@@ -67,13 +72,13 @@ const LineUps = () => {
           <Card>
           <Title>Fighting Games</Title>          
             <PlayerCardComponent player={ggst1} icon={guiltas} nick="Bydo" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={ggst2} icon={guiltas} nick="Chubuca" size={28} top={215} right={25}/>
-            <PlayerCardComponent player={ggst3} icon={guiltas} nick="Nabuti" size={30} top={215} right={25}/>
             <PlayerCardComponent player={ggst4} icon={guiltas} nick="Lima" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={ggst5} icon={guiltas} nick="Jun Aikawa" size={20} top={225} right={25}/>
             <PlayerCardComponent player={ggst6} icon={guiltas} nick="Devious Octopod" size={20} top={220} right={25}/>
+            <PlayerCardComponent player={ggst5} icon={guiltas} nick="Jun Aikawa" size={20} top={225} right={25}/>
             <PlayerCardComponent player={ggst7} icon={guiltas} nick="Gabfusca" size={23} top={220} right={20}/>
-            <PlayerCardComponent player={mbt1} icon={mbt} nick="Rekom" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={un1} icon={un} nick="Nabuti" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={mbt2} icon={mbt} nick="Rekom" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={dnf1} icon={dnf} nick="Chubuca" size={28} top={215} right={25}/>
           </Card>
 
           <Card>
