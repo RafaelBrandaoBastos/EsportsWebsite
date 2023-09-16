@@ -1,46 +1,44 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Transition } from "react-transition-group";
 import { useWindowScroll } from "react-use";
+import PlayerCardComponent from "../../components/PlayerCard/PlatyerCard"
 import {
   Container,
   ContainerLoad,
   Card,
-  Card2,
-  BannerComponent,
-  TextCard,
-  TextCard2,
   SubContainer,
-  ImgComponent,
-  Text,
   Title,
-  PlayerCard,
-  PlayersContainer,
-  PlayerCardText,
-  PlayerImg,
-  PlayerTitle
 } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer";
 import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
-import banner from "../../assets/banner.png";
-import ggst1 from "../../assets/ggst1.png";
-import ggst2 from "../../assets/ggst2.png";
-import ggst3 from "../../assets/ggst3.png";
-import ggst4 from "../../assets/ggst4.png";
-import ggst5 from "../../assets/ggst5.png";
-import cs1 from "../../assets/cs1.png";
-import cs2 from "../../assets/cs2.png";
-import cs3 from "../../assets/cs3.png";
-import cs4 from "../../assets/cs4.png";
-import cs5 from "../../assets/cs5.png";
-import lol1 from "../../assets/lol1.png";
-import lol2 from "../../assets/lol2.png";
-import lol3 from "../../assets/lol3.png";
-import lol4 from "../../assets/lol4.png";
-import lol5 from "../../assets/lol5.png";
-
+import ggst1 from "../../assets/players/ggst1.png"
+import ggst2 from "../../assets/players/ggst2.png"
+import ggst3 from "../../assets/players/ggst3.png"
+import ggst4 from "../../assets/players/ggst4.png"
+import ggst5 from "../../assets/players/ggst5.png"
+import ggst6 from "../../assets/players/ggst6.png"
+import ggst7 from "../../assets/players/ggst7.png"
+import mbt from "../../assets/players/mbt.png"
+import mbt1 from "../../assets/players/mbt1.png"
+import guiltas from "../../assets/players/guiltas.png"
+import cs1 from "../../assets/players/cs1.png"
+import cs2 from "../../assets/players/cs2.png"
+import cs3 from "../../assets/players/cs3.png"
+import cs4 from "../../assets/players/cs4.png"
+import cs5 from "../../assets/players/cs5.png"
+import cs6 from "../../assets/players/cs6.png"
+import cs7 from "../../assets/players/cs7.png"
+import lol from "../../assets/players/lol.png"
+import lol1 from "../../assets/players/lol1.png"
+import lol2 from "../../assets/players/lol2.png"
+import lol3 from "../../assets/players/lol3.png"
+import lol4 from "../../assets/players/lol4.png"
+import lol5 from "../../assets/players/lol5.png"
+import lol6 from "../../assets/players/lol6.png"
+import defuse from "../../assets/players/defuse.png"
 
 const LineUps = () => {
 
@@ -67,97 +65,38 @@ const LineUps = () => {
         <SubContainer>
 
           <Card>
-          <Title>Guilty Gear Strive</Title>
-              <PlayersContainer>
-                <PlayerCard url={ggst1}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Bydo</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={ggst2}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Chubuca</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={ggst4}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Lima</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={ggst3}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"20px"}>Nabutijinja</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={ggst5}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"20px"}>Jun Aikawa</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-              </PlayersContainer>
+          <Title>Fighting Games</Title>          
+            <PlayerCardComponent player={ggst1} icon={guiltas} nick="Bydo" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={ggst2} icon={guiltas} nick="Chubuca" size={28} top={215} right={25}/>
+            <PlayerCardComponent player={ggst3} icon={guiltas} nick="Nabuti" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={ggst4} icon={guiltas} nick="Lima" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={ggst5} icon={guiltas} nick="Jun Aikawa" size={20} top={225} right={25}/>
+            <PlayerCardComponent player={ggst6} icon={guiltas} nick="Devious Octopod" size={20} top={220} right={25}/>
+            <PlayerCardComponent player={ggst7} icon={guiltas} nick="Gabfusca" size={23} top={220} right={20}/>
+            <PlayerCardComponent player={mbt1} icon={mbt} nick="Rekom" size={30} top={215} right={25}/>
           </Card>
 
           <Card>
-          <Title>Counter Strike</Title>
-              <PlayersContainer>
-                <PlayerCard url={cs1}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Sushi</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={cs2}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Chubuca</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={cs3}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"20px"}>Tulapas</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={cs4}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Riverx</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={cs5}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"20px"}>Nabutijinja</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-              </PlayersContainer>
+          <Title>First Person Shooter</Title>          
+            <PlayerCardComponent player={cs1} icon={defuse} nick="Sushi" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={cs2} icon={defuse} nick="Chubuca" size={25} top={225} right={20}/>
+            <PlayerCardComponent player={cs3} icon={defuse} nick="Tulapas" size={25} top={225} right={20}/>            
+            <PlayerCardComponent player={cs4} icon={defuse} nick="Melzinho" size={25} top={225} right={20}/>
+            <PlayerCardComponent player={cs5} icon={defuse} nick="Nabuti" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={cs6} icon={defuse} nick="Brands" size={30} top={215} right={20}/>
+            <PlayerCardComponent player={cs7} icon={defuse} nick="RiverX" size={30} top={215} right={25}/>
           </Card>
 
           <Card>
-          <Title>League of Legends</Title>
-              <PlayersContainer>
-                <PlayerCard url={lol1}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Sushi</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={lol2}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Chubuca</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={lol3}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"20px"}>Ferislaw</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={lol4}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"25px"}>Tulapas</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-                <PlayerCard url={lol5}>
-                    <PlayerCardText>
-                        <PlayerTitle size={"15px"}>Shogun Ravena</PlayerTitle>
-                    </PlayerCardText>                   
-                </PlayerCard>
-              </PlayersContainer>
+          <Title>Moba</Title>          
+            <PlayerCardComponent player={lol1} icon={lol} nick="Sushi" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={lol2} icon={lol} nick="Chubuca" size={25} top={225} right={20}/>
+            <PlayerCardComponent player={lol3} icon={lol} nick="Ferislaw" size={25} top={225} right={20}/>            
+            <PlayerCardComponent player={lol4} icon={lol} nick="Tulapas" size={25} top={225} right={20}/>
+            <PlayerCardComponent player={lol5} icon={lol} nick="Shogun Ravena" size={22} top={215} right={25}/>
+            <PlayerCardComponent player={lol6} icon={lol} nick="Brands" size={30} top={215} right={25}/>
           </Card>
+         
 
         </SubContainer>
         <Footer />
