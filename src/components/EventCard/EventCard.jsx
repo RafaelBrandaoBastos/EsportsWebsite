@@ -41,6 +41,11 @@ const EventCard = (props) => {
     setScrolled((y / height) * 100);
     console.log("/");
   }, [y]);
+  function NewlinePosition(props) {
+    const text = props.position;
+    return text.split('\n').map(str => <p>{str}</p>);
+  }
+  const position = NewlinePosition(props);
   return (
     <>
       <Card>
@@ -54,11 +59,7 @@ const EventCard = (props) => {
 
             <Colocacoes>
               <SubColoc>
-                <Text>{props.position}</Text>
-                <Text>
-                  <br></br>
-                  {props.award}
-                </Text>
+                <Text>{position}</Text>
               </SubColoc>
             </Colocacoes>
           </TextCard>

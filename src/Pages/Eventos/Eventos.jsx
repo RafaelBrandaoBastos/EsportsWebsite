@@ -93,8 +93,7 @@ const Eventos = () => {
             text={
               "A terceira rinha de prata teve como jogo DNF Duel."
             }
-            position={"Top 3: 1º - Fernando / 2º - Migas / 3º - Henrique"}
-            award={"Premiação: 1º - Lâmpada / 2º - Uno / 3º - Mini Panetone"}
+            position={"Top 3: \n 1º-Fernando \n 2º-Migas \n 3º-Henrique"}
             date={"10/07/2023"}
             photocount={3}
             foto1={photo1r3}
@@ -106,8 +105,7 @@ const Eventos = () => {
             text={
               "O evento aconteceu no Goat Gaming Center, onde nossos guerreiros alcançaram o pódio e trouxeram resultados sólidos."
             }
-            position={"Colocações Notáveis: 3º Strive Moddado - Bydo / 5º Granblue - Nabutijinja / 4º Mystery Tournament - Nabutijinja"}
-            award={""}
+            position={`Colocações Notáveis: \n 3º Strive Moddado - Bydo \n 5º Granblue - Nabutijinja \n 4º Mystery Tournament - Nabutijinja`}
             date={"25/06/2023"}
             photocount={3}
             foto1={photo1molaco}
@@ -120,7 +118,6 @@ const Eventos = () => {
               "A Grupo Esports participou do campeonato de Counter Strike Global Ofensive chamado Front to Front, no Minas Shopping. Nossos guerreiros jogaram bravamente porém não conseguiram avançar da primeira fase contra TopPalau."
             }
             position={"Colocação: Eliminado na Fase de Grupos"}
-            award={""}
             date={"28/05/2023"}
             photocount={3}
             foto1={photo1front}
@@ -132,8 +129,7 @@ const Eventos = () => {
             text={
               "A segunda Rinha teve como jogo Granblue Fantasy Versus. Essa foi a maior rinha até o momento contando com convidados especiais e uma resenha completa."
             }
-            position={"Top 3: 1º-Lima / 2º-Leo / 3º-Fefe"}
-            award={""}
+            position={"Top 3: \n 1º-Lima \n 2º-Leo \n 3º-Fefe"}
             date={"19/01/2023"}
             photocount={4}
             foto1={photo1r2}
@@ -146,8 +142,7 @@ const Eventos = () => {
             text={
               "A segunda Rinha teve como jogo Granblue Fantasy Versus. Essa foi a maior rinha até o momento contando com convidados especiais e uma resenha completa."
             }
-            position={"Top 3: 1º - Lima / 2º - Leo / 3º - Fefe"}
-            award={"Premiação: 1º - Coquinha / 2º - Escova de dentes / 3º - Duas paçocas"}
+            position={"Top 3: \n 1º-Sushi \n 2º-Fefe\n 3º-Migas"}
             date={"27/06/2022"}
             photocount={3}
             foto1={photo1r1}
