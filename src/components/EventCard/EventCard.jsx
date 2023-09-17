@@ -43,46 +43,44 @@ const EventCard = (props) => {
   }, [y]);
   function NewlinePosition(props) {
     const text = props.position;
-    return text.split('\n').map(str => <p>{str}</p>);
+    return text.split("\n").map((str) => <p>{str}</p>);
   }
   const position = NewlinePosition(props);
   return (
     <>
       <Card>
-        <TitleCard>
-          <Title>{props.title}</Title>
-          <Text>{props.date}</Text>
-        </TitleCard>
         <CardContent>
+          <TitleCard>
+            <Title>{props.title} <br></br><Text>{props.date}</Text></Title>
+          </TitleCard>
           <TextCard>
             <Text>{props.text}</Text>
-
             <Colocacoes>
               <SubColoc>
                 <Text>{position}</Text>
               </SubColoc>
             </Colocacoes>
           </TextCard>
-          <Carousel>
-            <ImageLoader>
-              <Spinner />
-            </ImageLoader>
-            {carousel === 0 && <ImgComponent src={props.foto1} />}
-            {carousel === 1 && <ImgComponent src={props.foto2} />}
-            {carousel === 2 && <ImgComponent src={props.foto3} />}
-            {carousel === 3 && <ImgComponent src={props.foto4} />}
-            {carousel === 4 && <ImgComponent src={props.foto5} />}
-            <MarkText>
-              {carousel + 1}/{props.photocount}
-            </MarkText>
-            {carousel > 0 && (
-              <CaroulselPrev onClick={() => setcarouselsetter(carousel - 1)} />
-            )}
-            {carousel < props.photocount - 1 && (
-              <CaroulselNext onClick={() => setcarouselsetter(carousel + 1)} />
-            )}
-          </Carousel>
         </CardContent>
+        <Carousel>
+          <ImageLoader>
+            <Spinner />
+          </ImageLoader>
+          {carousel === 0 && <ImgComponent src={props.foto1} />}
+          {carousel === 1 && <ImgComponent src={props.foto2} />}
+          {carousel === 2 && <ImgComponent src={props.foto3} />}
+          {carousel === 3 && <ImgComponent src={props.foto4} />}
+          {carousel === 4 && <ImgComponent src={props.foto5} />}
+          <MarkText>
+            {carousel + 1}/{props.photocount}
+          </MarkText>
+          {carousel > 0 && (
+            <CaroulselPrev onClick={() => setcarouselsetter(carousel - 1)} />
+          )}
+          {carousel < props.photocount - 1 && (
+            <CaroulselNext onClick={() => setcarouselsetter(carousel + 1)} />
+          )}
+        </Carousel>
       </Card>
     </>
   );

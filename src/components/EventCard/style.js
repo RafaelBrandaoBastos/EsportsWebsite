@@ -7,9 +7,9 @@ export const Card = styled.div`
     width: 80%;
     max-width: 1200px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: no-wrap;
+    align-items: space-between;
+    justify-content: space-around;
     margin-top: 150px;
     outline-style: solid;
     outline-color: rgba(255, 255, 255, 0.1);
@@ -20,17 +20,19 @@ export const Card = styled.div`
     @media (max-width: 1070px){
         max-height: 50000px;
         min-height: 700px;
+        flex-wrap: wrap;
     }
 
 `;
 
 export const CardContent = styled.div`
-    width: 100%;
+    width: 50%;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: flex-start;
     @media (max-width: 1070px){
+        width: 90%;
         flex-wrap: wrap;
         padding: 0px;
     }
@@ -38,8 +40,7 @@ export const CardContent = styled.div`
 
 export const TitleCard = styled.div`
     width: 100%;
-    margin-bottom: 40px;
-    padding: 0px;
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -58,7 +59,7 @@ export const TextCard = styled.div`
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 60%;
+    width: 100%;
     @media (max-width: 1070px){
         width: 100%;
         max-width: 500px;
@@ -100,24 +101,25 @@ export const BannerComponent = styled.img`
 
 
 export const Carousel = styled.div`
-    width: 500px;
-    height: 300px;
+    width: 45%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.3);
     position: relative;
     @media (max-width: 1070px){
-        max-width: 100%;
+        width: 90%;
         height: auto;
     }
 `;
 
 export const ImgComponent = styled.img`
     width: auto;
-    height: 90%;
-    max-width: 400px;
+    max-height: 95%;
+    max-width: 95%;
     position: absolute;
     @media (max-width: 600px){
         width: 90%;
@@ -145,7 +147,7 @@ export const Title = styled.p`
 `;
 
 export const MarkText = styled.p`
-    font-size: 23px;
+    font-size: 30px;
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
     position: absolute;
@@ -163,8 +165,7 @@ export const CaroulselPrev = styled.button`
     background-position: center;
     background-color: rgba(0, 0, 0, .5); 
     border: 0px;
-    outline-style: none;
-    right: 85%;
+    right: 90%;
 `;
 export const CaroulselNext = styled.button`
     position: absolute;
@@ -176,8 +177,7 @@ export const CaroulselNext = styled.button`
     background-position: center;
     background-color: rgba(0, 0, 0, .5); 
     border: 0px;
-    outline-style: none;
-    left: 85%;
+    left: 90%;
 `;
 export const ImageLoader = styled.div`
     width: 500px;
