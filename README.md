@@ -1,8 +1,19 @@
-# Website Images
+# Website for Grupo Esports Team
+
+Home
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/43fe450d-cea6-4c99-abc8-f5571c86edc0)
+
+Line Ups
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/64d240d1-84bd-43a8-a74b-de247707c6f8)
+
+Events
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/6dfb14d4-556f-4f68-801a-4b3f0f860062)
+
+Partners
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/cde1a978-0c72-4332-84b3-2780971aff77)
+
+Mobile
+![sites](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/a95efc03-0bcc-48a4-a1e6-dc05c563244e)
 
 
 # Getting Started with Create React App
