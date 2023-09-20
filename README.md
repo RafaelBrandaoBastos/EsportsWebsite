@@ -12,6 +12,8 @@ Events Page
 Partners Page
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/cde1a978-0c72-4332-84b3-2780971aff77)
 
+Responsive Flow
+![ezgif com-video-to-gif (1)](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/22eb109f-078e-406b-8605-162abaf866eb)
 
 # Getting Started with Create React App
 
