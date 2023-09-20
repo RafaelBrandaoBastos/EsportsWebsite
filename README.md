@@ -1,15 +1,15 @@
 # Website for Grupo Esports Team
 
-Home
+Home Page
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/43fe450d-cea6-4c99-abc8-f5571c86edc0)
 
-Line Ups
+Line Ups Page
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/64d240d1-84bd-43a8-a74b-de247707c6f8)
 
-Events
+Events Page
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/6dfb14d4-556f-4f68-801a-4b3f0f860062)
 
-Partners
+Partners Page
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/cde1a978-0c72-4332-84b3-2780971aff77)
 
 Mobile
