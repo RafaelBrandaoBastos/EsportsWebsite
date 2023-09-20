@@ -12,9 +12,6 @@ Events Page
 Partners Page
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/cde1a978-0c72-4332-84b3-2780971aff77)
 
-Mobile
-![sites](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/a95efc03-0bcc-48a4-a1e6-dc05c563244e)
-
 
 # Getting Started with Create React App
 
