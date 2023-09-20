@@ -68,6 +68,9 @@ export const Card = styled.div`
     align-items: center;
     margin-top: 60px;
     margin-bottom: 50px;
+    @media (max-width: 380px){
+        padding: 0px;
+    }
 `;
 
 export const Title = styled.p`
