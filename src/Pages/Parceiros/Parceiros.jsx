@@ -19,6 +19,7 @@ import prc3 from "../../assets/parceiros/prc3.png";
 import prc4 from "../../assets/parceiros/prc4.png";
 import prc5 from "../../assets/parceiros/prc5.png";
 import prc6 from "../../assets/parceiros/prc6.png";
+import prc7 from "../../assets/parceiros/prc7.png";
 
 const Parceiros = () => {
   const { x, y } = useWindowScroll();
@@ -68,11 +69,11 @@ const Parceiros = () => {
             <PartnerCard
               titlesize={30}
               linksize={23}
-              img={prc5}
-              title={"Tulapas"}
-              link={"https://www.twitch.tv/tulapas"}
+              img={prc7}
+              title={"srsayoni"}
+              link={"https://www.twitch.tv/srsayoni"}
               text={
-                "Prazer, esse estranho ai na tela sou eu, jogo de tudo um pouco, e faço live de um tanto de coisa diferente, live livre para vc falar e zoar da forma que quiser desde que não desrespeite ninguem. Da uma chance que tu vai viciar no pai xD"
+                "Pode me chamar de Sayoni, comecei a gostar bastante de jogos de luta recentemente e pretendo jogar bastante deles em live."
               }
             />
             <PartnerCard
