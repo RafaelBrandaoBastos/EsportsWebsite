@@ -58,10 +58,10 @@ const Home = () => {
                 incansavelmente a aprimorar suas habilidades e alcançar o
                 sucesso nas competições virtuais.<br></br>
                 <br></br>Com uma mentalidade focada no trabalho em equipe,
-                estratégias inovadoras e uma sede constante de aprendizado, o
+                estratégias inovadoras e uma sede constante de aprendizado, a
                 Grupo Esports está rapidamente conquistando seu espaço e
                 conquistando fãs fervorosos. Com certeza, podemos esperar ver
-                muito mais desse time emocionante no futuro dos esports.
+                muito mais desse time no futuro dos esports.
               </Text>
             </TextCard>
             <TextCard>
