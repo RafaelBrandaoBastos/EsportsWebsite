@@ -78,13 +78,13 @@ const Home = () => {
               </Text>
             </TextCard>
             <iframe
-                width="45%"
+                width="48%"
                 height="380px"
                 src="https://www.instagram.com/ultraarcadebh/embed/"
                 frameborder="0"
               ></iframe>
               <iframe
-                width="45%"
+                width="48%"
                 height="380px"
                 src="https://www.instagram.com/lacoffeecafeteria/embed/"
                 frameborder="0"
