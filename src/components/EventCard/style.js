@@ -16,7 +16,6 @@ export const Card = styled.div`
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 50px;
     @media (max-width: 1070px){
         max-height: 50000px;
         min-height: 700px;

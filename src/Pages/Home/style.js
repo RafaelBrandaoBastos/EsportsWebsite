@@ -22,13 +22,17 @@ export const Container = styled.div`
   }
 `;
 export const SubContainer = styled.div`
-  width: 100%;
+  width: 75%;
   min-height: 78vh;
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding-top: 100px;
+  justify-content: space-around;
+  @media (max-width: 1200px) {
+    width: 100%;
+    flex-wrap: wrap;F
+    max-width: none;
+  }
 `;
 export const Text = styled.p`
   font-size: 23px;
@@ -59,40 +63,51 @@ export const ContainerLoad = styled.div`
 `;
 
 export const Card = styled.div`
-  width: 95%;
-  height: 68vh;
-  display: flex;
+  display: flex;  
+  max-width: ${props => props.maxwidth};
   flex-wrap: wrap;
-  outline-color: white;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
+  justify-content: space-around;
+  align-items: space-around;
   margin-top: 50px;
-`;
-
-export const TextCard = styled.div`
-  width: 80%;
-  max-width: 1500px;
-  text-align: justify;
-  outline-color: white;
-  margin: 0px;
-  padding: 0px;
-  @media (max-width: 815px) {
+  @media (max-width: 850px) {
     width: 90%;
+    max-width: 100%;
   }
 `;
 
-export const BannerComponent = styled.img`
-  max-width: 1500px;
-  width: 80%;
+export const TextCard = styled.div`
+  width: 100%;
+  text-align: justify;
   margin: 0px;
   padding: 0px;
-  outline-color: white;
-  @media (max-width: 815px) {
-    width: 90%;
+`;
+
+export const BannerComponent = styled.img`
+  max-width: 1200px;
+  width: 75%;
+  margin-top: 100px;
+  @media (max-width: 1200px) {
+    width: 100%;
+    max-width: none;
   }
 `;
 
 export const ImgComponent = styled.img`
-  width: 70%;
+  width: 100%;
+`;
+export const TweetContainer = styled.div`
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  alin-items: center;
+  @media (max-width: 850px) {
+    width: 70%;
+  }
+`;
+export const Title = styled.p`
+    color: white;
+    font-size: 25px;
+    font-family: 'Ethnocentric Rg';
+    text-decoration: none;
 `;
