@@ -6,6 +6,7 @@ export const Container = styled.div`
   z-index: 1;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: center;
   position: absolute;
   animation: fade-in 1200ms;
@@ -26,8 +27,9 @@ export const SubContainer = styled.div`
   min-height: 78vh;
   max-width: 1200px;
   display: flex;
+  height: 1500px;
   flex-wrap: no-wrap;
-  margin-top: 50px;
+  margin-top: 25px;
   justify-content: space-around;
   align-items: flex-start;
   @media (max-width: 1200px) {
@@ -35,6 +37,7 @@ export const SubContainer = styled.div`
     flex-wrap: wrap;
     max-width: none;
     align-items: center;
+    height: auto;
   }
 `;
 export const Text = styled.p`
@@ -70,14 +73,12 @@ export const Card = styled.div`
   max-width: 60%;
   height: 100%;
   flex-wrap: wrap;
-  max-height: 2000px;
-  justify-content: space-around;
-  align-items: space-around;
+  justify-content: space-between;
+  align-items: space-between;
   @media (max-width: 850px) {
     width: 90%;
     height: auto;
     max-width: 100%;
-    max-height: none;
   }
 `;
 
@@ -91,10 +92,19 @@ export const TextCard = styled.div`
 export const BannerComponent = styled.img`
   max-width: 1200px;
   width: 75%;
-  margin-top: 100px;
+  margin-top: 150px;
   @media (max-width: 1200px) {
     width: 100%;
     max-width: none;
+  }
+  @media (max-width: 825px) {
+    margin-top: 75px;
+  }
+  @media (max-width: 700px) {
+    margin-top: 110px;
+  }
+  @media (max-width: 370px) {
+    margin-top: 75px;
   }
 `;
 

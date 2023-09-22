@@ -47,7 +47,7 @@ const Home = () => {
         />
         <BannerComponent src={banner} alt="Banner" />
         <SubContainer>
-          <Card maxwidth={"60%"}>
+          <Card>
             <TextCard>
               <Title>Sobre Nós</Title>
               <Text>
