@@ -13,7 +13,7 @@ import {
   Text,
   Title,
   TweetCard,
-  IframeCompoent
+  IframeComponent
 } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
@@ -78,12 +78,12 @@ const Home = () => {
                 habilidades e nos proporcionam momentos incríveis.
               </Text>
             </TextCard>
-            <IframeCompoent
+            <IframeComponent
                 src="https://www.instagram.com/ultraarcadebh/embed/"
-              ></IframeCompoent>
-              <IframeCompoent
+              ></IframeComponent>
+              <IframeComponent
                 src="https://www.instagram.com/lacoffeecafeteria/embed/"
-              ></IframeCompoent>
+              ></IframeComponent>
           </Card>
             <TweetCard>
               <Title>Notícias</Title>

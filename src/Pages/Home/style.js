@@ -120,12 +120,13 @@ export const Title = styled.p`
     display: flex;
 `;
 
-export const IframeCompoent = styled.iframe`
+export const IframeComponent = styled.iframe`
   width: 48%;
   height: 380px;
   frameborder: 0;
   @media (max-width: 850px) {
-    width: 100%;
-    padding: 25px 90px 25px 90px;
+    width: 90%;
+    margin: 50px 0px 25px 0px;
+    height: 50vw;
   }
 `;
