@@ -27,17 +27,28 @@ export const SubContainer = styled.div`
   min-height: 78vh;
   max-width: 1200px;
   display: flex;
-  height: 1500px;
-  flex-wrap: no-wrap;
+  height: auto;
+  flex-wrap: wrap;
   margin-top: 25px;
   justify-content: space-around;
   align-items: flex-start;
+  padding-top: 150px;
   @media (max-width: 1200px) {
     width: 100%;
     flex-wrap: wrap;
     max-width: none;
     align-items: center;
     height: auto;
+    padding-top: 65px;
+  }
+  @media (max-width: 825px) {
+    padding-top: 50px;
+  }
+  @media (max-width: 710px) {
+    padding-top: 90px;
+  }
+  @media (max-width: 370px) {
+    padding-top: 50px;
   }
 `;
 export const Text = styled.p`
@@ -71,7 +82,7 @@ export const ContainerLoad = styled.div`
 export const Card = styled.div`
   display: flex;  
   max-width: 60%;
-  height: 100%;
+  height: 1490px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: space-between;
@@ -91,21 +102,11 @@ export const TextCard = styled.div`
 
 export const BannerComponent = styled.img`
   max-width: 1200px;
-  width: 75%;
-  margin-top: 150px;
+  width: 100%;
+  margin-bottom: 35px;
   @media (max-width: 1200px) {
     width: 100%;
     max-width: none;
-    margin-top: 90px;
-  }
-  @media (max-width: 825px) {
-    margin-top: 78px;
-  }
-  @media (max-width: 710px) {
-    margin-top: 115px;
-  }
-  @media (max-width: 370px) {
-    margin-top: 75px;
   }
 `;
 

@@ -45,8 +45,8 @@ const Home = () => {
           lineupsStyle="none"
           parceirosStyle="none"
         />
-        <BannerComponent src={banner} alt="Banner" />
         <SubContainer>
+        <BannerComponent src={banner} alt="Banner" />
           <Card>
             <TextCard>
               <Title>Sobre Nós</Title>
