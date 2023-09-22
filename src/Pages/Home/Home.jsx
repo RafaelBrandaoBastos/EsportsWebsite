@@ -12,7 +12,8 @@ import {
   ImgComponent,
   Text,
   Title,
-  TweetContainer,
+  TweetCard,
+  IframeCompoent
 } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
@@ -77,26 +78,18 @@ const Home = () => {
                 habilidades e nos proporcionam momentos incríveis.
               </Text>
             </TextCard>
-            <iframe
-                width="48%"
-                height="380px"
+            <IframeCompoent
                 src="https://www.instagram.com/ultraarcadebh/embed/"
-                frameborder="0"
-              ></iframe>
-              <iframe
-                width="48%"
-                height="380px"
+              ></IframeCompoent>
+              <IframeCompoent
                 src="https://www.instagram.com/lacoffeecafeteria/embed/"
-                frameborder="0"
-              ></iframe>
+              ></IframeCompoent>
           </Card>
-          <Card maxwidth={"25%"}>
-            <TweetContainer>
+            <TweetCard>
               <Title>Notícias</Title>
               <Tweet id="1704141672211206276" />
               <Tweet id="1702032678935986450" />
-            </TweetContainer>
-          </Card>
+            </TweetCard>
         </SubContainer>
         <Footer />
         <Arrow scroll={y} height={height} />
