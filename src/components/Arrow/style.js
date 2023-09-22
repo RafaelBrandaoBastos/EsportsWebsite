@@ -14,9 +14,9 @@ export const ArrowComponent = styled.img`
 
 
 export const Container = styled.div`
-    top: 95%;
+    top: 96%;
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: flex-start;
     padding-top: .5%;
