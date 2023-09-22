@@ -101,7 +101,7 @@ export const BannerComponent = styled.img`
   @media (max-width: 825px) {
     margin-top: 78px;
   }
-  @media (max-width: 700px) {
+  @media (max-width: 710px) {
     margin-top: 115px;
   }
   @media (max-width: 370px) {
