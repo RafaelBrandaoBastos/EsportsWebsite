@@ -77,7 +77,6 @@ export const HeaderListMobile = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgba(0, 0, 0, 0.8);
     @media (min-width: 815px){
         display: none;
     }

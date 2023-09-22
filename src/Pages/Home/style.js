@@ -96,12 +96,13 @@ export const BannerComponent = styled.img`
   @media (max-width: 1200px) {
     width: 100%;
     max-width: none;
+    margin-top: 90px;
   }
   @media (max-width: 825px) {
-    margin-top: 75px;
+    margin-top: 78px;
   }
   @media (max-width: 700px) {
-    margin-top: 110px;
+    margin-top: 115px;
   }
   @media (max-width: 370px) {
     margin-top: 75px;
