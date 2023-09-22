@@ -5,10 +5,7 @@ import arrow from "../../assets/arrow.png"
 
 const Arrow = (props) => {
 
-    useEffect(() => {
-        console.log(props.scroll);
-        console.log(props.height);
-    }, [props.scroll]);
+    useEffect(() => {}, [props.scroll]);
 
     if((document.body.clientHeight == 0) || props.scroll < (props.height - 120)) {
         return (
