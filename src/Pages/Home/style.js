@@ -26,9 +26,10 @@ export const SubContainer = styled.div`
   min-height: 78vh;
   max-width: 1200px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   margin-top: 50px;
   justify-content: space-around;
+  align-items: flex-start;
   @media (max-width: 1200px) {
     width: 100%;
     flex-wrap: wrap;
@@ -66,13 +67,15 @@ export const ContainerLoad = styled.div`
 
 export const Card = styled.div`
   display: flex;  
-  max-width: ${props => props.maxwidth};
+  max-width: 60%;
+  height: 100%;
   flex-wrap: wrap;
-  max-height: 1800px;
+  max-height: 2000px;
   justify-content: space-around;
   align-items: space-around;
   @media (max-width: 850px) {
     width: 90%;
+    height: auto;
     max-width: 100%;
     max-height: none;
   }
@@ -100,12 +103,13 @@ export const ImgComponent = styled.img`
 `;
 export const TweetCard = styled.div`
   width: 300px;
-  height: auto;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   alin-items: center;
   @media (max-width: 850px) {
     width: 90%;
+    height: auto;
     align-items: center;
     justify-content: center;
   }
@@ -125,8 +129,8 @@ export const IframeComponent = styled.iframe`
   height: 380px;
   frameborder: 0;
   @media (max-width: 850px) {
-    width: 90%;
+    width: 100%;
     margin: 50px 0px 25px 0px;
-    height: 50vw;
+    height: 86vw;
   }
 `;
