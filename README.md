@@ -1,6 +1,6 @@
 # Website for Grupo Esports Team
 
-![dfgdf](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/ab554ea6-718e-4498-99e4-0938e72e6715)
+![sdfsdf](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/da71fcb9-2434-4012-b4ac-22a176ec17a4)
 
 ![ezgif com-video-to-gif (1)](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/22eb109f-078e-406b-8605-162abaf866eb)
 
