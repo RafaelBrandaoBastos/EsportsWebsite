@@ -81,7 +81,7 @@ const Parceiros = () => {
               titlesize={30}
               linksize={23}
               img={prc8}
-              title={"SamanthaMiha"}
+              title={"Samantha Miha"}
               link={"https://www.twitch.tv/samanthamiha"}
               text={
                 "Opa! Meu nome é Samantha, sou Vtuber em tempo honorário e faço live de jogos de luta, foco, e em jogos variados, vem e se diverte!"
@@ -95,6 +95,16 @@ const Parceiros = () => {
               link={"https://www.twitch.tv/captain_honey"}
               text={
                 "Me chamo Artur, tenho 21 anos. Sou ilustrador vetorial e faço lives de just chatting e de jogos."
+              }
+            />
+            <PartnerCard
+              titlesize={30}
+              linksize={23}
+              img={prc5}
+              title={"Astro7Wave"}
+              link={"https://www.twitch.tv/astro7wave"}
+              text={
+                "E aí! Sou o Astro, um Vtuber entusiasta de jogos de luta que joga um pouco de tudo! Meu foco é em ensinar a galera que tá começando agora e manter comunidades ativas em vários jogos. Faço lives, jogo com a galera e tiro dúvidas! Aparece lá!"
               }
             />
             <PartnerCard
