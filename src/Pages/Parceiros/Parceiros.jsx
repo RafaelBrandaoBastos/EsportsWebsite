@@ -79,6 +79,16 @@ const Parceiros = () => {
             <PartnerCard
               titlesize={30}
               linksize={23}
+              img={prc8}
+              title={"SamanthaMiha"}
+              link={"https://www.twitch.tv/samanthamiha"}
+              text={
+                "Opa! Meu nome é Samantha, sou Vtubber em tempo honorário e faço live de jogos de luta, foco, e em jogos variados, vem e se diverte!"
+              }
+            />
+            <PartnerCard
+              titlesize={30}
+              linksize={23}
               img={prc6}
               title={"Captain Honey"}
               link={"https://www.twitch.tv/captain_honey"}
