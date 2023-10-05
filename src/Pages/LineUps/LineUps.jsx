@@ -89,7 +89,6 @@ const LineUps = () => {
             <PlayerCardComponent player={cs2} icon={defuse} nick="Chubuca" size={25} top={225} right={20}/>
             <PlayerCardComponent player={cs3} icon={defuse} nick="Tulapas" size={25} top={225} right={20}/>            
             <PlayerCardComponent player={cs4} icon={defuse} nick="Melzinho" size={25} top={225} right={20}/>
-            <PlayerCardComponent player={cs5} icon={defuse} nick="Nabuti" size={30} top={215} right={25}/>
             <PlayerCardComponent player={cs6} icon={defuse} nick="Brands" size={30} top={215} right={20}/>
             <PlayerCardComponent player={cs7} icon={defuse} nick="RiverX" size={30} top={215} right={25}/>
           </Card>
