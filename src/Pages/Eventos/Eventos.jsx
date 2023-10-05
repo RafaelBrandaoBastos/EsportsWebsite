@@ -93,7 +93,7 @@ const Eventos = () => {
             text={
               "A terceira rinha de prata teve como jogo DNF Duel."
             }
-            position={"Top 3: \n 1º-Fernando \n 2º-Migas \n 3º-Henrique"}
+            position={"Top 3: \n 1º-Fernando \n 2º-Mingau \n 3º-HTravel"}
             date={"10/07/2023"}
             photocount={3}
             foto1={photo1r3}
@@ -103,10 +103,10 @@ const Eventos = () => {
         <EventCard
             title={"Molaço - Aniversário & Despedida"}
             text={
-              "O evento aconteceu no Goat Gaming Center, onde nossos guerreiros alcançaram o pódio e trouxeram resultados sólidos."
+              "O evento aconteceu no Goat Gaming Center, onde nossos guerreiros alcançaram o pódio e trouxeram resultados sólidos em diversos jogos."
             }
-            position={`Colocações Notáveis: \n 3º Strive Moddado - Bydo \n 5º Granblue - Nabutijinja \n 4º Mystery Tournament - Nabutijinja`}
-            date={"25/06/2023"}
+            position={`Colocações Notáveis: \n 3º Strive Moddado - Bydo \n 5º Granblue - Nabuti \n 4º Mystery Tournament - Nabuti`}
+            date={"06/05/2023"}
             photocount={3}
             foto1={photo1molaco}
             foto2={photo2molaco}
@@ -140,7 +140,7 @@ const Eventos = () => {
           <EventCard
             title={"Rinha de Prata 1"}
             text={
-              "A segunda Rinha teve como jogo Granblue Fantasy Versus. Essa foi a maior rinha até o momento contando com convidados especiais e uma resenha completa."
+              "A primeira Rinha de todas. O jogo foi Guilty Gear -STRIVE-, foi nessa edição que costumes clássicos da rinha surgiram: Premiação excepcional e participantes que nunca jogaram o jogo da vez."
             }
             position={"Top 3: \n 1º-Sushi \n 2º-Fefe\n 3º-Migas"}
             date={"27/06/2022"}
