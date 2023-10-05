@@ -83,7 +83,7 @@ const Parceiros = () => {
               title={"SamanthaMiha"}
               link={"https://www.twitch.tv/samanthamiha"}
               text={
-                "Opa! Meu nome é Samantha, sou Vtubber em tempo honorário e faço live de jogos de luta, foco, e em jogos variados, vem e se diverte!"
+                "Opa! Meu nome é Samantha, sou Vtuber em tempo honorário e faço live de jogos de luta, foco, e em jogos variados, vem e se diverte!"
               }
             />
             <PartnerCard
