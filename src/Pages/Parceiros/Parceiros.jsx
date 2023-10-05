@@ -20,6 +20,7 @@ import prc4 from "../../assets/parceiros/prc4.png";
 import prc5 from "../../assets/parceiros/prc5.png";
 import prc6 from "../../assets/parceiros/prc6.png";
 import prc7 from "../../assets/parceiros/prc7.png";
+import prc8 from "../../assets/parceiros/prc8.png";
 
 const Parceiros = () => {
   const { x, y } = useWindowScroll();
