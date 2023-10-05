@@ -91,7 +91,7 @@ const Eventos = () => {
         <EventCard
             title={"Rinha de Prata 3"}
             text={
-              "A terceira rinha de prata teve como jogo DNF Duel."
+              "A terceira rinha de prata teve como jogo DNF Duel. Esta rinha contou com o novo formato de batalhas em DUPLA! Uma ft2 onde ambos da dupla precisam vencer. E no final, as 2 melhores duplas se enfrentaram em um incrível top 4."
             }
             position={"Top 3: \n 1º-Fernando \n 2º-Mingau \n 3º-HTravel"}
             date={"10/07/2023"}
