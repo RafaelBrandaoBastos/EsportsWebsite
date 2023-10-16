@@ -39,6 +39,7 @@ import lol3 from "../../assets/players/lol3.png"
 import lol4 from "../../assets/players/lol4.png"
 import lol5 from "../../assets/players/lol5.png"
 import lol6 from "../../assets/players/lol6.png"
+import lol7 from "../../assets/players/lol7.png"
 import defuse from "../../assets/players/defuse.png"
 import dnf from "../../assets/players/dnf.png"
 import dnf1 from "../../assets/players/dnf1.png"
@@ -101,6 +102,7 @@ const LineUps = () => {
             <PlayerCardComponent player={lol4} icon={lol} nick="Tulapas" size={25} top={225} right={20}/>
             <PlayerCardComponent player={lol5} icon={lol} nick="Shogun Ravena" size={22} top={215} right={25}/>
             <PlayerCardComponent player={lol6} icon={lol} nick="Brands" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={lol7} icon={lol} nick="Mingau" size={30} top={215} right={25}/>
           </Card>
          
 
