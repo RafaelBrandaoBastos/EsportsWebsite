@@ -87,7 +87,7 @@ const Home = () => {
           </Card>
             <TweetCard>
               <Title>Notícias</Title>
-              <Tweet id="1704141672211206276" />
+              <Tweet id="1711767657618235562" />
               <Tweet id="1702032678935986450" />
             </TweetCard>
         </SubContainer>
