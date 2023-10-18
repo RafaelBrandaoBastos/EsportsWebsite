@@ -32,38 +32,6 @@ import photo2r3 from "../../assets/rinha-de-prata-3/photo2.png"
 import photo3r3 from "../../assets/rinha-de-prata-3/photo3.png"
 
 const Eventos = () => {
-  const [carousel1, setcarousel1] = useState(0);
-  const [carousel2, setcarousel2] = useState(0);
-  const [carousel3, setcarousel3] = useState(0);
-  const [carousel4, setcarousel4] = useState(0);
-  const [carousel5, setcarousel5] = useState(0);
-
-  function setcarousel1setter(x) {
-    if (x < 4 && x > -1) {
-      setcarousel1(x);
-    }
-  }
-  function setcarousel2setter(x) {
-    if (x < 5 && x > -1) {
-      setcarousel2(x);
-    }
-  }
-  function setcarousel3setter(x) {
-    if (x < 4 && x > -1) {
-      setcarousel3(x);
-    }
-  }
-  function setcarousel4setter(x) {
-    if (x < 3 && x > -1) {
-      setcarousel4(x);
-    }
-  }
-  function setcarousel5setter(x) {
-    if (x < 3 && x > -1) {
-      setcarousel5(x);
-    }
-  }
-
   const { x, y } = useWindowScroll();
   const [scrolled, setScrolled] = useState(0);
   const height =
