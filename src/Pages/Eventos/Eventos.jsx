@@ -10,6 +10,10 @@ import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 import EventCard from "../../components/EventCard/EventCard";
 
+import photo1ug from "../../assets/ultra-goat/photo1.png"
+import photo2ug from "../../assets/ultra-goat/photo2.png"
+import photo3ug from "../../assets/ultra-goat/photo3.png"
+
 import photo1r1 from "../../assets/rinha-de-prata-1/photo1.png"
 import photo2r1 from "../../assets/rinha-de-prata-1/photo2.png"
 import photo3r1 from "../../assets/rinha-de-prata-1/photo3.png"
@@ -56,6 +60,18 @@ const Eventos = () => {
           parceirosStyle="none"
         />
         <SubContainer>
+        <EventCard
+            title={"Ultra Goat"}
+            text={
+              "Evento presencial da Ultra Arcade em parceria com o GOAT Gaming Center"
+            }
+            position={"Colocações Notáveis: \n 4º Uni[cl-r] - Nabuti \n 5º GGST / JOJO - Nabuti \n 5º Smash B - Rekom"}
+            date={"22/10/2023"}
+            photocount={3}
+            foto1={photo1ug}
+            foto2={photo2ug}
+            foto3={photo3ug}
+          />
         <EventCard
             title={"Rinha de Prata 3"}
             text={
