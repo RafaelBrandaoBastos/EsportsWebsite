@@ -45,6 +45,8 @@ import dnf from "../../assets/players/dnf.png"
 import dnf1 from "../../assets/players/dnf1.png"
 import un from "../../assets/players/un.png"
 import un1 from "../../assets/players/un1.png"
+import gbvs from "../../assets/players/gbvs.png"
+import gbvs1 from "../../assets/players/gbvs1.png"
 import tk from "../../assets/players/tk.png"
 import tk1 from "../../assets/players/tk1.png"
 
@@ -79,7 +81,7 @@ const LineUps = () => {
             <PlayerCardComponent player={ggst5} icon={guiltas} nick="Jun Aikawa" size={20} top={225} right={25}/>
             <PlayerCardComponent player={ggst7} icon={guiltas} nick="Gabfusca" size={23} top={220} right={20}/>
             <PlayerCardComponent player={tk1} icon={tk} nick="Lima" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={un1} icon={un} nick="Nabuti" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={gbvs1} icon={gbvs} nick="Nabuti" size={30} top={215} right={25}/>
             <PlayerCardComponent player={mbt2} icon={mbt} nick="Rekom" size={30} top={215} right={25}/>
             <PlayerCardComponent player={dnf1} icon={dnf} nick="Chubuca" size={28} top={215} right={25}/>
           </Card>
