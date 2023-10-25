@@ -24,7 +24,6 @@ export const Container = styled.div`
 `;
 export const SubContainer = styled.div`
   width: 75%;
-  min-height: 78vh;
   max-width: 1200px;
   display: flex;
   height: auto;
@@ -82,7 +81,6 @@ export const ContainerLoad = styled.div`
 export const Card = styled.div`
   display: flex;  
   max-width: 60%;
-  height: 1490px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: space-between;
@@ -115,7 +113,6 @@ export const ImgComponent = styled.img`
 `;
 export const TweetCard = styled.div`
   width: 300px;
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   alin-items: center;
@@ -137,8 +134,9 @@ export const Title = styled.p`
 `;
 
 export const IframeComponent = styled.iframe`
-  width: 48%;
-  height: 380px;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 25px;
   frameborder: 0;
   @media (max-width: 850px) {
     width: 100%;

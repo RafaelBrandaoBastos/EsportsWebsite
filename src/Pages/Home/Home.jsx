@@ -13,7 +13,7 @@ import {
   Text,
   Title,
   TweetCard,
-  IframeComponent
+  IframeComponent,
 } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
@@ -46,7 +46,7 @@ const Home = () => {
           parceirosStyle="none"
         />
         <SubContainer>
-        <BannerComponent src={banner} alt="Banner" />
+          <BannerComponent src={banner} alt="Banner" />
           <Card>
             <TextCard>
               <Title>Sobre Nós</Title>
@@ -65,9 +65,7 @@ const Home = () => {
                 muito mais desse time no futuro dos esports.
               </Text>
             </TextCard>
-            <TextCard>
-              <ImgComponent src={sushi} />
-            </TextCard>
+            <ImgComponent src={sushi} />
             <TextCard>
               <Title>Patrocinadores</Title>
               <Text>
@@ -77,18 +75,15 @@ const Home = () => {
                 controles de alta qualidade da Ultra Arcade aprimoram nossas
                 habilidades e nos proporcionam momentos incríveis.
               </Text>
+              <IframeComponent src="https://www.instagram.com/ultraarcadebh/embed/"></IframeComponent>
+              <IframeComponent src="https://www.instagram.com/lacoffeecafeteria/embed/"></IframeComponent>
             </TextCard>
-            <IframeComponent
-                src="https://www.instagram.com/ultraarcadebh/embed/"
-              ></IframeComponent>
-              <IframeComponent
-                src="https://www.instagram.com/lacoffeecafeteria/embed/"
-              ></IframeComponent>
           </Card>
-            <TweetCard>
-              <Title>Notícias</Title>
-              <Tweet id="1716448572168601879" />              
-            </TweetCard>
+          <TweetCard>
+            <Title>Notícias</Title>
+            <Tweet id="1716448572168601879" />
+            <Tweet id="1702032678935986450" />
+          </TweetCard>
         </SubContainer>
         <Footer />
         <Arrow scroll={y} height={height} />

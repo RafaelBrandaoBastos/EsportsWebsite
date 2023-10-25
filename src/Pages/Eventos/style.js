@@ -26,6 +26,7 @@ export const Container = styled.div`
 `;
 export const SubContainer = styled.div`
     width: 100vw;
+    margin-top: 180px;
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;

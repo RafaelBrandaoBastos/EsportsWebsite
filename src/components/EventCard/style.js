@@ -10,7 +10,7 @@ export const Card = styled.div`
     flex-wrap: no-wrap;
     align-items: space-between;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-bottom: 100px;
     outline-style: solid;
     outline-color: rgba(255, 255, 255, 0.1);
     background-color: rgba(0, 0, 0, 0.4);
