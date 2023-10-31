@@ -65,7 +65,7 @@ const Eventos = () => {
             text={
               "Evento presencial da Ultra Arcade em parceria com o GOAT Gaming Center"
             }
-            position={"Colocações Notáveis: \n 4º Uni[cl-r] - Nabuti \n 5º GGST / JOJO - Nabuti \n 5º Smash B - Rekom"}
+            position={"Colocações Notáveis: \n 4º Uni[cl-r] - Nabuti \n 5º GGST / JOJO - Nabuti \n 5º Smash B / 7º JOJO - Rekom"}
             date={"22/10/2023"}
             photocount={3}
             foto1={photo1ug}
