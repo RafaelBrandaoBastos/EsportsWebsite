@@ -28,7 +28,7 @@ export const HeaderList = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    @media (max-width: 815px){
+    @media (max-width: 950px){
         display: none;
     }
 `;
@@ -59,7 +59,7 @@ export const LogoComponent = styled.img`
     width: auto;
     margin-left: 50px;
     position: relative;
-    @media (max-width: 815px){
+    @media (max-width: 950px){
         left: 2%;
         margin-left: 0px;
         position: absolute;
@@ -77,7 +77,7 @@ export const HeaderListMobile = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    @media (min-width: 815px){
+    @media (min-width: 950px){
         display: none;
     }
     @media (max-width: 500px){
@@ -111,7 +111,7 @@ export const HeaderOptionMobile = styled.a`
             text-decoration: underline #ff255f;
         }
     }
-    @media (min-width: 815px){
+    @media (min-width: 950px){
         display: none;
         text-align: center;
     }
