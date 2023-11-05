@@ -23,6 +23,7 @@ import ggst6 from "../../assets/players/ggst6.png"
 import ggst7 from "../../assets/players/ggst7.png"
 import ggst8 from "../../assets/players/ggst8.png"
 import ggst9 from "../../assets/players/ggst9.png"
+import ggst10 from "../../assets/players/ggst10.png"
 import mbt from "../../assets/players/mbt.png"
 import mbt1 from "../../assets/players/mbt1.png"
 import mbt2 from "../../assets/players/mbt2.png"
@@ -82,7 +83,8 @@ const LineUps = () => {
             <PlayerCardComponent player={mbt2} icon={mbt} nick="Rekom" size={30} top={215} right={25}/> 
             <PlayerCardComponent player={ggst5} icon={guiltas} nick="Jun Aikawa" size={20} top={225} right={25}/>
             <PlayerCardComponent player={ggst7} icon={guiltas} nick="Gabfusca" size={23} top={220} right={20}/>    
-            <PlayerCardComponent player={ggst9} icon={guiltas} nick="JoseGalas" size={21} top={230} right={22}/>                
+            <PlayerCardComponent player={ggst9} icon={guiltas} nick="JoseGalas" size={21} top={230} right={22}/>
+            <PlayerCardComponent player={ggst10} icon={guiltas} nick="Sudano" size={30} top={215} right={22}/>             
             <PlayerCardComponent player={ggst8} icon={guiltas} nick="Raicon" size={30} top={215} right={25}/>         
           </Card>
 

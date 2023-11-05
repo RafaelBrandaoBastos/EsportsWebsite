@@ -47,7 +47,7 @@ const LineUps = () => {
           <Card>
             <StaffImg src={brands}></StaffImg>
             <Title>CMO</Title>   
-            <Subtitle>Rafael Brandão "Brandis"</Subtitle>    
+            <Subtitle>Rafael "Brandis" Brandão </Subtitle>    
             <Subtitle>Chief Marketing Officer</Subtitle>    
             <SrcLink size={"23px"} href="https://twitter.com/RafaelBrandsB" target="_blank">@RafaelBrandsB</SrcLink>   
           </Card>
@@ -55,7 +55,7 @@ const LineUps = () => {
           <Card>
             <StaffImg src={nabuti}></StaffImg>
             <Title>CEO</Title> 
-            <Subtitle>Gabriel Terra "Nabuti"</Subtitle>  
+            <Subtitle>Gabriel "Nabuti" Terra </Subtitle>  
             <Subtitle>Chief Executive Officer</Subtitle>   
             <SrcLink size={"23px"} href="https://twitter.com/NabutiJinja" target="_blank">@NabutiJinja</SrcLink>              
           </Card>
@@ -63,7 +63,7 @@ const LineUps = () => {
           <Card>
             <StaffImg src={bydo}></StaffImg>
             <Title>COO</Title> 
-            <Subtitle>Bernardo Miranda "Bydo"</Subtitle>  
+            <Subtitle>Bernardo "Bydo" Miranda </Subtitle>  
             <Subtitle>Chief Operations Officer</Subtitle>   
             <SrcLink size={"23px"} href="https://twitter.com/TheBydo" target="_blank">@TheBydo</SrcLink>              
           </Card>
