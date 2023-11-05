@@ -30,10 +30,8 @@ export const SubContainer = styled.div`
     justify-content: space-around;
     padding-top: 90px;
     align-items: center;
-    outline-style: solid;
-    outline-color: white;
     @media (max-width: 1500px) {
-        padding-top: 200px;
+        padding-top: 250px;
         flex-direction: column;
     }
 `;
