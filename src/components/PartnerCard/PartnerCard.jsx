@@ -16,7 +16,7 @@ const PartnerCard = (props) => {
               <TextCard>
                 <PartnerTitle size={"35px"}>{props.title}</PartnerTitle>
                 <Text>{props.text}
-                <br></br><SrcLink size={"23px"} href={props.link} target="_blank">{props.link}</SrcLink></Text>
+                <br></br><SrcLink size={"23px"} href="https://twitter.com/RafaelBrandsB" target="_blank">{props.link}</SrcLink></Text>
               </TextCard>
             </PartnerCardComponent>
         );
