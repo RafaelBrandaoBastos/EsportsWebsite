@@ -28,10 +28,9 @@ export const SubContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 90px;
+    padding-top: 200px;
     align-items: center;
     @media (max-width: 1500px) {
-        padding-top: 250px;
         flex-direction: column;
     }
 `;
