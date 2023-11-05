@@ -30,8 +30,11 @@ export const SubContainer = styled.div`
     justify-content: space-around;
     padding-top: 90px;
     align-items: center;
+    outline-style: solid;
+    outline-color: white;
     @media (max-width: 1500px) {
         padding-top: 200px;
+        flex-direction: column;
     }
 `;
 export const ContainerLoad = styled.div`
@@ -66,18 +69,8 @@ export const Card = styled.div`
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20px;
     padding: 20px;
-    align-items: center;   
-    @media (max-width: 1500px)  {
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-bottom: 100px;
-    }
-    @media (max-width: 800px)  {
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
+    align-items: center;  
+    margin-bottom: 100px; 
 `;
 export const Subtitle = styled.p`
     font-size: 23px;
