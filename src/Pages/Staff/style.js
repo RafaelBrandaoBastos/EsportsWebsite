@@ -28,7 +28,7 @@ export const SubContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 200px;
+    padding-top: 150px;
     align-items: center;
     @media (max-width: 1500px) {
         flex-direction: column;
