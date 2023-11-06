@@ -49,7 +49,7 @@ const LineUps = () => {
             <Title>CMO</Title>   
             <Subtitle>Rafael "Brandis" Brandão </Subtitle>    
             <Subtitle>Chief Marketing Officer/Dev</Subtitle>    
-            <SrcLink size={"23px"} href="https://twitter.com/RafaelBrandsB" target="_blank">@RafaelBrandsB</SrcLink>   
+            <SrcLink size={"23px"} href="https://www.instagram.com/rafaelbrandsb/" target="_blank">@rafaelbrandsb</SrcLink>   
           </Card>
 
           <Card>
