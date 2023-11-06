@@ -10,7 +10,7 @@ import {
   Title,
   Subtitle,
   StaffImg,
-  SrcLink
+  Link
 } from "./style";
 import "./style.js";
 import brands from '../../assets/brands.png';
@@ -49,7 +49,7 @@ const LineUps = () => {
             <Title>CMO</Title>   
             <Subtitle>Rafael "Brandis" Brandão </Subtitle>    
             <Subtitle>Chief Marketing Officer / Dev</Subtitle>    
-            <SrcLink size={"23px"} href="https://www.instagram.com/rafaelbrandsb/" target="_blank">@rafaelbrandsb</SrcLink>   
+            <Link size={"23px"} href="https://www.instagram.com/rafaelbrandsb/" target="_blank">@rafaelbrandsb</Link>   
           </Card>
 
           <Card>
@@ -57,7 +57,7 @@ const LineUps = () => {
             <Title>CEO</Title> 
             <Subtitle>Gabriel "Nabuti" Terra </Subtitle>  
             <Subtitle>Chief Executive Officer</Subtitle>   
-            <SrcLink size={"23px"} href="https://twitter.com/NabutiJinja" target="_blank">@NabutiJinja</SrcLink>              
+            <Link size={"23px"} href="https://twitter.com/NabutiJinja" target="_blank">@NabutiJinja</Link>              
           </Card>
 
           <Card>
@@ -65,7 +65,7 @@ const LineUps = () => {
             <Title>COO</Title> 
             <Subtitle>Bernardo "Bydo" Miranda </Subtitle>  
             <Subtitle>Chief Operations Officer</Subtitle>   
-            <SrcLink size={"23px"} href="https://twitter.com/TheBydo" target="_blank">@TheBydo</SrcLink>              
+            <Link size={"23px"} href="https://twitter.com/TheBydo" target="_blank">@TheBydo</Link>              
           </Card>
         </SubContainer>
         <Footer />

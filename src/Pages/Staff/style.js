@@ -102,7 +102,7 @@ export const StaffImg = styled.img`
     height: auto;
     border-radius: 15px;
 `;
-export const SrcLink = styled.a`
+export const Link = styled.a`
     font-size: ${props => props.size};
     font-family: 'Barlow Condensed', sans-serif;
     color: #ff255f;
