@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
+  height: auto;
   background-color: #141414;
   z-index: 1;
   display: flex;
@@ -21,6 +22,9 @@ export const Container = styled.div`
       opacity: 1;
     }
   }
+  @media (max-width: 950px) {
+    justify-content: flex-start;
+  }
 `;
 export const SubContainer = styled.div`
   width: 75%;
@@ -28,26 +32,16 @@ export const SubContainer = styled.div`
   display: flex;
   height: auto;
   flex-wrap: wrap;
-  margin-top: 25px;
   justify-content: space-around;
   align-items: flex-start;
   padding-top: 150px;
-  @media (max-width: 1200px) {
+  @media (max-width: 950px) {
     width: 100%;
     flex-wrap: wrap;
     max-width: none;
     align-items: center;
     height: auto;
-    padding-top: 65px;
-  }
-  @media (max-width: 825px) {
-    padding-top: 50px;
-  }
-  @media (max-width: 710px) {
-    padding-top: 90px;
-  }
-  @media (max-width: 370px) {
-    padding-top: 50px;
+    padding-top: 0px;
   }
 `;
 export const Text = styled.p`
@@ -93,7 +87,7 @@ export const Card = styled.div`
 
 export const TextCard = styled.div`
   width: 100%;
-  text-align: justify;
+  
   margin: 0px;
   padding: 0px;
 `;
@@ -122,6 +116,9 @@ export const TweetCard = styled.div`
     align-items: center;
     justify-content: center;
   }
+  @media (max-width: 850px) {
+    display: none;
+  }
 `;
 export const Title = styled.p`
     color: white;
@@ -131,6 +128,9 @@ export const Title = styled.p`
     text-align: start;
     width: 100%;
     display: flex;
+    @media (max-width: 400px) {
+      font-size: 15px;
+    }
 `;
 
 export const IframeComponent = styled.iframe`

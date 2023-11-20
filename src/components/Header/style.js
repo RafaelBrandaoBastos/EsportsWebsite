@@ -5,7 +5,6 @@ export const HeaderComponent = styled.div`
     width: 100%;
     height: 90px;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.8);
     border: 0;
     padding: 0px;
     display: flex;
@@ -13,15 +12,37 @@ export const HeaderComponent = styled.div`
     align-items: center;
     position: fixed;
     z-index: 2;
-    @media (max-width: 815px){
+    background-color: rgba(0, 0, 0, 0.8);
+    @media (max-width: 950px){
+        background-color: rgba(0, 0, 0, 0);
         height: auto;
+        width: auto;
+        justify-content: left;
+        align-items: left;
+        display: block;
     }
-    @media (max-width: 710px){
-        justify-content: space-around;
-        align-items: center;
+    .hide {
+        display: none;
+        color: #ff255f;
+    }
+    .fade {
+        background-color: rgba(5, 5, 5, 5);
     }
 `;
-
+export const LogoComponent = styled.img`
+    height: 50px;
+    width: auto;
+    margin-left: 50px;
+    position: relative;
+    @media (max-width: 950px){
+        left: 2%;
+        margin-left: 0px;
+        position: absolute;
+    }
+    @media (max-width: 950px){
+        display: none;
+    }
+`;
 export const HeaderList = styled.div`
     height: 100%;
     width: 100%;
@@ -54,50 +75,40 @@ export const HeaderOption = styled.a`
         }
     }
 `;
-export const LogoComponent = styled.img`
-    height: 50px;
-    width: auto;
-    margin-left: 50px;
-    position: relative;
-    @media (max-width: 950px){
-        left: 2%;
-        margin-left: 0px;
-        position: absolute;
-    }
-`;
 
 
 
-
-
-export const HeaderListMobile = styled.div`
-    width: 80%;
-    display: flex;
-    margin-left: 0px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+export const LogoMobileComponent = styled.img`
+    width: 60px;
+    height: 60px;
+    margin: 30px 10px 0px;
+    background-image: url(${({icon}) => icon});
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
     @media (min-width: 950px){
         display: none;
     }
-    @media (max-width: 500px){
-        width: 70%;
-        margin-left: 40px;
-    }
-    @media (max-width: 370px){
-        width: 50%;
-        margin-left: 30px;
-    }
-    @media (max-width: 370px){
-        width: 70%;
-        margin-left: 60px;
+`;
+export const HeaderListMobile = styled.div`
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    @media (min-width: 950px){
+        display: none;
     }
 `;
+
 export const HeaderOptionMobile = styled.a`
     color: white;
-    margin: 10px;
+    padding: 10px 20px 0px 20px;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     font-family: 'Ethnocentric Rg';
     text-decoration: none;
     .none {
@@ -113,20 +124,5 @@ export const HeaderOptionMobile = styled.a`
     }
     @media (min-width: 950px){
         display: none;
-        text-align: center;
-    }
-    @media (max-width: 710px){
-        width: 32%;
-        height: 25%;
-        margin: 0px;
-        text-align: center;
-    }
-    @media (max-width: 500px){
-        width: 50%;
-        text-align: left;
-    }
-    @media (max-width: 370px){
-        width: 50%;
-        font-size: 12px;
     }
 `;

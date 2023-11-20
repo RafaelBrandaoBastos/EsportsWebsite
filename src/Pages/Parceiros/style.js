@@ -20,6 +20,9 @@ export const Container = styled.div`
             opacity: 1;
         }
     }
+    @media (max-width: 950px) {
+        justify-content: flex-start;
+    }
 `;
 export const SubContainer = styled.div`
     width: 100%;
@@ -29,6 +32,9 @@ export const SubContainer = styled.div`
     justify-content: center;
     align-items: flex-start;
     padding-top: 100px;
+    @media (max-width: 950px) {
+        padding-top: 60px;
+    }
 `;
 
 export const ContainerLoad = styled.div`
@@ -54,17 +60,14 @@ export const ContainerLoad = styled.div`
 
 
 export const Card = styled.div`
-    width: 95%;
+    width: 90%;
     max-width: 1500px;
     min-height: 70vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 20px;
     padding: 20px;
-    @media (max-width: 600px){
-    }
     outline-color: blue;
 `;
 

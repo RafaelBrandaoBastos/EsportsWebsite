@@ -20,9 +20,12 @@ export const Container = styled.div`
             opacity: 1;
         }
     }
+    @media (max-width: 950px) {
+        justify-content: flex-start;
+    }  
 `;
 export const SubContainer = styled.div`
-    width: 80%;
+    width: 100%;
     height: 100%;
     min-height: 78vh;
     display: flex;
@@ -33,6 +36,9 @@ export const SubContainer = styled.div`
     @media (max-width: 1500px) {
         flex-direction: column;
     }
+    @media (max-width: 950px) {
+        padding-top: 125px;
+      } 
 `;
 export const ContainerLoad = styled.div`
     width: 100vw;
@@ -68,6 +74,10 @@ export const Card = styled.div`
     padding: 20px;
     align-items: center;  
     margin-bottom: 100px; 
+    @media (max-width: 950px){
+        padding: 20px;
+        width: 80%;
+    }
 `;
 export const Subtitle = styled.p`
     font-size: 23px;
@@ -95,10 +105,12 @@ export const Title = styled.p`
     text-align: center;
     @media (max-width: 1070px){
         margin-bottom: 10px;
+        font-size: 60px;
     }
 `;
 export const StaffImg = styled.img`
     width: 80%;
+    max-width: 250px;
     height: auto;
     border-radius: 15px;
 `;

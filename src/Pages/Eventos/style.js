@@ -23,6 +23,9 @@ export const Container = styled.div`
             opacity: 1;
         }
     }
+    @media (max-width: 950px) {
+        justify-content: flex-start;
+      }
 `;
 export const SubContainer = styled.div`
     width: 100vw;
@@ -34,8 +37,8 @@ export const SubContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    @media (max-width: 815px){
-
+    @media (max-width: 950px) {
+        margin-top: 100px;
     }
 `;
 

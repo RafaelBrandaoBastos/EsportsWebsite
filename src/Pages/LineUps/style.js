@@ -20,6 +20,9 @@ export const Container = styled.div`
             opacity: 1;
         }
     }
+    @media (max-width: 950px) {
+        justify-content: flex-start;
+    }
 `;
 export const SubContainer = styled.div`
     width: 100%;
@@ -30,6 +33,9 @@ export const SubContainer = styled.div`
     justify-content: center;
     align-items: flex-start;
     padding-top: 100px;
+    @media (max-width: 950px) {
+        padding-top: 50px;
+    }
 `;
 export const ContainerLoad = styled.div`
     width: 100vw;
@@ -54,7 +60,7 @@ export const ContainerLoad = styled.div`
 
 
 export const Card = styled.div`
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     min-height: 400px;
     display: flex;

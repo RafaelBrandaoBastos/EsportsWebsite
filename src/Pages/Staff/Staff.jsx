@@ -31,7 +31,6 @@ const LineUps = () => {
       document.documentElement.scrollHeight -
       document.documentElement.clientHeight;
     setScrolled((y / height) * 100);
-    console.log("/");
   }, [y]);
   return (
     <>

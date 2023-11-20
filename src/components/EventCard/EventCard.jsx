@@ -39,7 +39,6 @@ const EventCard = (props) => {
       document.documentElement.scrollHeight -
       document.documentElement.clientHeight;
     setScrolled((y / height) * 100);
-    console.log("/");
   }, [y]);
   function NewlinePosition(props) {
     const text = props.position;

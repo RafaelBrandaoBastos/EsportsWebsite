@@ -24,4 +24,7 @@ export const Container = styled.div`
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     z-index: 2;
+    @media (max-width: 950px) {
+        display: none;
+    }
 `;
