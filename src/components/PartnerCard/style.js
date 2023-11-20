@@ -16,7 +16,7 @@ export const Text = styled.p`
 export const PartnerCardComponent = styled.div`
     margin: 10px;
     display: flex;
-    width: 650px;
+    max-width: 650px;
     height: 250px;
     align-items: center;
     justify-content: center;
@@ -27,8 +27,8 @@ export const PartnerCardComponent = styled.div`
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20px;
     margin-bottom: 20px;
-    @media (max-width: 815px){
-        width: 50%;
+    @media (max-width: 950px){
+        width: 90%;
         height: auto;
         padding: 30px;
         flex-wrap: wrap;

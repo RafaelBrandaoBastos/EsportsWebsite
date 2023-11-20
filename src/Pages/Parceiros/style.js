@@ -33,7 +33,7 @@ export const SubContainer = styled.div`
     align-items: flex-start;
     padding-top: 100px;
     @media (max-width: 950px) {
-        padding-top: 60px;
+        padding-top: 90px;
     }
 `;
 

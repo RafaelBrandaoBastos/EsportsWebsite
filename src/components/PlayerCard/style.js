@@ -13,8 +13,8 @@ export const Container = styled.div`
     display: flex;
     align-items: flex-start;
     margin: 50px;
-    @media (max-width: 380px){
-        width: 95%;
+    @media (max-width: 665px){
+        width: 60%;
         margin: 50px 0px 50px 0px;
         height: 500px;
     }
@@ -28,7 +28,7 @@ export const PlayerCardComponent = styled.img`
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    @media (max-width: 380px){
+    @media (max-width: 665px){
         height: 500px;
     }
 `;
@@ -45,6 +45,14 @@ export const Text = styled.p`
     font-size: ${(props) => props.size}px;
     font-family: 'Ethnocentric Rg';
     text-align: center;
+    @media (max-width: 665px){
+        top: ${(props) => props.top * 1.73}px;
+        transform: rotate(30deg);
+    }
+    @media (max-width: 550px){
+        top: ${(props) => props.top * 1.73}px;
+        transform: rotate(38deg);
+    }
     @media (max-width: 380px){
         top: ${(props) => props.top * 1.7}px;
         transform: rotate(35deg);
@@ -58,5 +66,4 @@ export const Icon = styled.img`
     width: 50px;
     position: absolute;
     padding: 10px;
-
 `;
