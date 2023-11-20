@@ -21,6 +21,7 @@ import prc5 from "../../assets/parceiros/prc5.png";
 import prc6 from "../../assets/parceiros/prc6.png";
 import prc7 from "../../assets/parceiros/prc7.png";
 import prc8 from "../../assets/parceiros/prc8.png";
+import prc9 from "../../assets/parceiros/prc9.png";
 
 const Parceiros = () => {
   const { x, y } = useWindowScroll();
@@ -104,6 +105,16 @@ const Parceiros = () => {
               link={"https://www.twitch.tv/astro7wave"}
               text={
                 "E aí! Sou o Astro, um Vtuber entusiasta de jogos de luta que joga um pouco de tudo! Meu foco é em ensinar a galera que tá começando agora e manter comunidades ativas em vários jogos. Faço lives, jogo com a galera e tiro dúvidas! Aparece lá!"
+              }
+            />
+            <PartnerCard
+              titlesize={30}
+              linksize={23}
+              img={prc9}
+              title={"yorezordd"}
+              link={"https://www.twitch.tv/yorezordd"}
+              text={
+                "Todos os tipos de fighting games possíveis eu jogo aqui, alguns dias eu tiro pra dar aquela mamadinha em outros jogos tentando variar um pouco, suave. Chega junto meu padrinho, tem água, aquele cafézinho e pão com mortadela. Sinta-se em casa!"
               }
             />
             <PartnerCard
