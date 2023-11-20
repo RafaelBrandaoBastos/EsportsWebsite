@@ -76,7 +76,7 @@ export const Card = styled.div`
     margin-bottom: 100px; 
     @media (max-width: 950px){
         padding: 20px;
-        width: 80%;
+        width: 60%;
     }
 `;
 export const Subtitle = styled.p`
@@ -89,6 +89,7 @@ export const Subtitle = styled.p`
     margin-bottom: 0px;
     width: 100%;
     text-align: center;
+    word-break: break-all;
     @media (max-width: 1070px){
         margin-bottom: 10px;
     }
@@ -103,6 +104,7 @@ export const Title = styled.p`
     margin-bottom: 0px;
     width: 100%;
     text-align: center;
+    word-break: break-all;
     @media (max-width: 1070px){
         margin-bottom: 10px;
         font-size: 60px;
