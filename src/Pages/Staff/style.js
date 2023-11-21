@@ -27,6 +27,7 @@ export const Container = styled.div`
 export const SubContainer = styled.div`
     width: 100%;
     height: 100%;
+    max-width: 1500px;
     min-height: 78vh;
     display: flex;
     flex-wrap: wrap;

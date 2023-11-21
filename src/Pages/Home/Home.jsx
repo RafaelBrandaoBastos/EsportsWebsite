@@ -13,6 +13,7 @@ import {
   Text,
   Title,
   TweetCard,
+  Spacing,
   IframeComponent,
 } from "./style";
 import "./style.js";
@@ -64,7 +65,9 @@ const Home = () => {
                 muito mais desse time no futuro dos esports.
               </Text>
             </TextCard>
+            <Spacing spacing={20}/>
             <ImgComponent src={sushi} />
+            <Spacing spacing={50}/>
             <TextCard>
               <Title>Patrocinadores</Title>
               <Text>
@@ -80,8 +83,8 @@ const Home = () => {
           </Card>
           <TweetCard>
             <Title>Notícias</Title>
-            <Tweet id="1720924927950250057" />
-            <Tweet id="1716448572168601879" />
+            <Tweet id="1726689197430546815" />
+            <Tweet id="1721350093905797586" />
           </TweetCard>
         </SubContainer>
         <Footer />
