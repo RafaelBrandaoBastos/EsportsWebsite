@@ -62,7 +62,7 @@ export const ContainerLoad = styled.div`
 `;
 export const Card = styled.div`
     width: 300px;
-    max-width: 1200px;
+    max-width: 350px;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -75,8 +75,9 @@ export const Card = styled.div`
     align-items: center;  
     margin-bottom: 100px; 
     @media (max-width: 950px){
-        padding: 20px;
-        width: 60%;
+        padding: 20px 5px;
+        width: 80%;
+        height: auto;
     }
 `;
 export const Subtitle = styled.p`
@@ -93,6 +94,9 @@ export const Subtitle = styled.p`
     @media (max-width: 1070px){
         margin-bottom: 10px;
     }
+    @media (max-width: 300px){
+        font-size: 18px;
+    }
 `;
 export const Title = styled.p`
     font-size: 70px;
@@ -108,6 +112,9 @@ export const Title = styled.p`
     @media (max-width: 1070px){
         margin-bottom: 10px;
         font-size: 60px;
+    }
+    @media (max-width: 300px){
+        font-size: 30px;
     }
 `;
 export const StaffImg = styled.img`
