@@ -60,7 +60,7 @@ export const ContainerLoad = styled.div`
 
 
 export const Card = styled.div`
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     min-height: 400px;
     display: flex;

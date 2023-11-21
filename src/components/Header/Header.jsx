@@ -2,9 +2,11 @@ import { HeaderComponent, HeaderList, HeaderOption, LogoComponent, HeaderListMob
 import React, { useEffect, useState, useRef } from "react";
 import "./style.js";
 import logo from '../../assets/grupo.png';
-import iconmenu from '../../assets/iconmenu.png';
+import iconWhite from '../../assets/iconWhite.png';
+import iconPink from '../../assets/iconPink.png';
+
 const Header = (props) => {
-    const [hide, setHide] = useState(false);
+    const [hide, setHide] = useState(true);
     const handleClick = () => {
         setHide(!hide);
     };
@@ -18,7 +20,7 @@ const Header = (props) => {
                 <HeaderOption href="/parceiros"><p className={props.parceirosStyle}>Parceiros</p></HeaderOption>
                 <HeaderOption href="/staff"><p className={props.staffStyle}>Staff</p></HeaderOption>
             </HeaderList>
-            <LogoMobileComponent src={iconmenu} alt ="LogoMobile" onClick={handleClick}/>
+            <LogoMobileComponent src={iconPink} alt ="LogoMobile" onClick={handleClick}/>
             <HeaderListMobile className={hide ? "hide" : ""}>
                 <HeaderOptionMobile href="/"> <p className={props.homeStyle}>Home</p> </HeaderOptionMobile>
                 <HeaderOptionMobile href="/staff"><p className={props.staffStyle}>Staff</p></HeaderOptionMobile>

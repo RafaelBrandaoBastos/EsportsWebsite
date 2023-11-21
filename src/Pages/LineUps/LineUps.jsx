@@ -72,35 +72,35 @@ const LineUps = () => {
 
           <Card>
             <Title>Fighting Games</Title>          
-            <PlayerCardComponent player={ggst1} icon={guiltas} nick="Bydo" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={ggst6} icon={guiltas} nick="Devious Octopod" size={20} top={220} right={25}/>
-            <PlayerCardComponent player={ggst5} icon={guiltas} nick="Jun Aikawa" size={20} top={225} right={25}/>
-            <PlayerCardComponent player={ggst7} icon={guiltas} nick="Gabfusca" size={23} top={220} right={20}/>
-            <PlayerCardComponent player={tk1} icon={tk} nick="Lima" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={un1} icon={un} nick="Nabuti" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={mbt2} icon={mbt} nick="Rekom" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={dnf1} icon={dnf} nick="Chubuca" size={28} top={215} right={25}/>
+            <PlayerCardComponent player={ggst1} icon={guiltas} nick="Bydo" size={30} top={72} right={25}/>
+            <PlayerCardComponent player={ggst6} icon={guiltas} nick="Devious Octopod" size={20} top={73} right={25}/>
+            <PlayerCardComponent player={ggst5} icon={guiltas} nick="Jun Aikawa" size={20} top={75} right={25}/>
+            <PlayerCardComponent player={ggst7} icon={guiltas} nick="Gabfusca" size={23} top={73} right={20}/>
+            <PlayerCardComponent player={tk1} icon={tk} nick="Lima" size={30} top={72} right={25}/>
+            <PlayerCardComponent player={un1} icon={un} nick="Nabuti" size={30} top={72} right={25}/>
+            <PlayerCardComponent player={mbt2} icon={mbt} nick="Rekom" size={30} top={72} right={25}/>
+            <PlayerCardComponent player={dnf1} icon={dnf} nick="Chubuca" size={28} top={72} right={25}/>
           </Card>
 
           <Card>
             <Title>First Person Shooter</Title>          
-            <PlayerCardComponent player={cs1} icon={defuse} nick="Sushi" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={cs2} icon={defuse} nick="Chubuca" size={25} top={225} right={20}/>
-            <PlayerCardComponent player={cs3} icon={defuse} nick="Tulapas" size={25} top={225} right={20}/>            
-            <PlayerCardComponent player={cs4} icon={defuse} nick="Melzinho" size={25} top={225} right={20}/>
-            <PlayerCardComponent player={cs5} icon={defuse} nick="Nabuti" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={cs6} icon={defuse} nick="Brands" size={30} top={215} right={20}/>
-            <PlayerCardComponent player={cs7} icon={defuse} nick="RiverX" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={cs1} icon={defuse} nick="Sushi" size={30} top={72} right={25}/>
+            <PlayerCardComponent player={cs2} icon={defuse} nick="Chubuca" size={25} top={72} right={20}/>
+            <PlayerCardComponent player={cs3} icon={defuse} nick="Tulapas" size={25} top={72} right={20}/>            
+            <PlayerCardComponent player={cs4} icon={defuse} nick="Melzinho" size={25} top={72} right={20}/>
+            <PlayerCardComponent player={cs5} icon={defuse} nick="Nabuti" size={30} top={72} right={25}/>
+            <PlayerCardComponent player={cs6} icon={defuse} nick="Brands" size={30} top={72} right={20}/>
+            <PlayerCardComponent player={cs7} icon={defuse} nick="RiverX" size={30} top={72} right={25}/>
           </Card>
 
           <Card>
             <Title>Moba</Title>          
-            <PlayerCardComponent player={lol1} icon={lol} nick="Sushi" size={30} top={215} right={25}/>
-            <PlayerCardComponent player={lol2} icon={lol} nick="Chubuca" size={25} top={225} right={20}/>
-            <PlayerCardComponent player={lol3} icon={lol} nick="Ferislaw" size={25} top={225} right={20}/>            
-            <PlayerCardComponent player={lol4} icon={lol} nick="Tulapas" size={25} top={225} right={20}/>
-            <PlayerCardComponent player={lol5} icon={lol} nick="Shogun Ravena" size={22} top={215} right={25}/>
-            <PlayerCardComponent player={lol6} icon={lol} nick="Brands" size={30} top={215} right={25}/>
+            <PlayerCardComponent player={lol1} icon={lol} nick="Sushi" size={30} top={72} right={25}/>
+            <PlayerCardComponent player={lol2} icon={lol} nick="Chubuca" size={25} top={72} right={20}/>
+            <PlayerCardComponent player={lol3} icon={lol} nick="Ferislaw" size={25} top={72} right={20}/>            
+            <PlayerCardComponent player={lol4} icon={lol} nick="Tulapas" size={25} top={72} right={20}/>
+            <PlayerCardComponent player={lol5} icon={lol} nick="Shogun Ravena" size={22} top={72} right={25}/>
+            <PlayerCardComponent player={lol6} icon={lol} nick="Brands" size={30} top={72} right={25}/>
           </Card>
          
 

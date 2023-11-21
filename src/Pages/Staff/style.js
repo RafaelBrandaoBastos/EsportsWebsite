@@ -37,7 +37,7 @@ export const SubContainer = styled.div`
         flex-direction: column;
     }
     @media (max-width: 950px) {
-        padding-top: 125px;
+        padding-top: 110px;
       } 
 `;
 export const ContainerLoad = styled.div`

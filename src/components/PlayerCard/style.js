@@ -13,10 +13,17 @@ export const Container = styled.div`
     display: flex;
     align-items: flex-start;
     margin: 50px;
-    @media (max-width: 665px){
-        width: 60%;
-        margin: 50px 0px 50px 0px;
-        height: 500px;
+    @media (max-width: 750px){
+        height: auto;
+        width: 90%;
+        max-width: 400px;
+        margin: 50px 0px;
+    }
+    @media (max-width: 450px){
+        height: auto;
+        width: 90%;
+        max-width: 400px;
+        max-height: 400px;
     }
     
 `;
@@ -28,15 +35,19 @@ export const PlayerCardComponent = styled.img`
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    max-width: 600px;
     @media (max-width: 665px){
-        height: 500px;
+       height: 600px;
+    }
+    @media (max-width: 450px){
+        height: 400px;
     }
 `;
 
 export const Text = styled.p`
     color: black;
     position: absolute;
-    top: ${(props) => props.top}px;
+    top: ${(props) => props.top}%;
     height: 40px;
     width: 100%;
     right: ${(props) => props.right}px;
@@ -45,21 +56,20 @@ export const Text = styled.p`
     font-size: ${(props) => props.size}px;
     font-family: 'Ethnocentric Rg';
     text-align: center;
-    @media (max-width: 665px){
-        top: ${(props) => props.top * 1.73}px;
-        transform: rotate(30deg);
+    @media (max-width: 750px){
+        top: ${(props) => props.top - 2}%;
+        font-size: ${(props) => props.size * 2}px;
+        transform: rotate(32deg);
     }
     @media (max-width: 550px){
-        top: ${(props) => props.top * 1.73}px;
-        transform: rotate(38deg);
+        transform: rotate(34deg);
+        font-size: ${(props) => props.size / .6}px;
+        top: ${(props) => props.top - 2}%;
     }
-    @media (max-width: 380px){
-        top: ${(props) => props.top * 1.7}px;
-        transform: rotate(35deg);
-    }
-    @media (max-width: 280px){
-        top: ${(props) => props.top * 1.7}px;
-        transform: rotate(45deg);
+    @media (max-width: 450px){
+        transform: rotate(29deg);
+        font-size: ${(props) => props.size / .8}px;
+        top: ${(props) => props.top - 1}%;
     }
 `;
 export const Icon = styled.img`
