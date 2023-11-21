@@ -23,7 +23,7 @@ export const Container = styled.div`
         height: auto;
         width: 90%;
         max-width: 400px;
-        max-height: 400px;
+        max-height: 600px;
     }
     
 `;
@@ -36,11 +36,8 @@ export const PlayerCardComponent = styled.img`
     background-size: cover;
     border-radius: 10px;
     max-width: 600px;
-    @media (max-width: 665px){
-       height: 600px;
-    }
     @media (max-width: 450px){
-        height: 400px;
+        height: auto;
     }
 `;
 
@@ -57,19 +54,34 @@ export const Text = styled.p`
     font-family: 'Ethnocentric Rg';
     text-align: center;
     @media (max-width: 750px){
-        top: ${(props) => props.top - 2}%;
+        top: ${(props) => props.top - 3}%;
         font-size: ${(props) => props.size * 2}px;
-        transform: rotate(32deg);
+        transform: rotate(31deg);
     }
     @media (max-width: 550px){
-        transform: rotate(34deg);
+        transform: rotate(31deg);
         font-size: ${(props) => props.size / .6}px;
-        top: ${(props) => props.top - 2}%;
+        top: ${(props) => props.top - 1.5}%;
     }
     @media (max-width: 450px){
-        transform: rotate(29deg);
+        transform: rotate(30deg);
         font-size: ${(props) => props.size / .8}px;
-        top: ${(props) => props.top - 1}%;
+        top: ${(props) => props.top - 1.5}%;
+    }
+    @media (max-width: 350px){
+        transform: rotate(33deg);
+        font-size: ${(props) => props.size / .98}px;
+        top: ${(props) => props.top - 1.5}%;
+    }
+    @media (max-width: 300px){
+        transform: rotate(35deg);
+        font-size: ${(props) => props.size / 1.2}px;
+        top: ${(props) => props.top - 1.5}%;
+    }
+    @media (max-width: 250px){
+        transform: rotate(35deg);
+        font-size: ${(props) => props.size / 1.5}px;
+        top: ${(props) => props.top - 1.5}%;
     }
 `;
 export const Icon = styled.img`
