@@ -17,7 +17,7 @@ import brands from '../../assets/brands.png';
 import bydo from '../../assets/bydo.png';
 import nabuti from '../../assets/nabuti.png';
 import Spinner from "../../components/Spinner/Spinner";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer.jsx";
 import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 const LineUps = () => {

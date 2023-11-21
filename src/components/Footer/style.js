@@ -13,14 +13,24 @@ export const FooterComponent = styled.div`
 `;
 
 
-export const FooterText = styled.p`
+export const FooterText = styled.div`
     color: white;
     text-align: center;
     width: 100%;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 `;
 export const FooterLink = styled.a`
     color: #ff255f;
-    text-align: center;
-    text-decoration: underline;
+    width: 50px;
+    height: 50px;
+    margin: 0px 30px;
+    background-image: url(${({logo}) => logo});
+    background-size: cover;
+    @media (max-width: 400px) {
+        margin: 0px 5px;
+    }
 `;
+

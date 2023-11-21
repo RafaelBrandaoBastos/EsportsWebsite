@@ -81,7 +81,7 @@ export const HeaderOption = styled.a`
 export const LogoMobileComponent = styled.img`
     width: 60px;
     height: 60px;
-    margin: 30px 10px 0px;
+    margin: 30px 20px 0px;
     background-image: url(${({icon}) => icon});
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
@@ -93,7 +93,7 @@ export const HeaderListMobile = styled.div`
     width: auto;
     height: auto;
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;

@@ -18,7 +18,7 @@ import {
 } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer.jsx";
 import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 import banner from "../../assets/banner.png";
