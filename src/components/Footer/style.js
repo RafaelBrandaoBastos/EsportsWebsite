@@ -24,8 +24,8 @@ export const FooterText = styled.div`
 `;
 export const FooterLink = styled.a`
     color: #ff255f;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 0px 30px;
     background-image: url(${({logo}) => logo});
     background-size: cover;

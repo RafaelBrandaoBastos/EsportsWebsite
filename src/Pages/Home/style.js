@@ -57,6 +57,7 @@ export const Text = styled.p`
   padding: 0px;
 `;
 export const Title = styled.p`
+
     color: white;
     font-size: 25px;
     font-family: 'Ethnocentric Rg';
@@ -142,13 +143,13 @@ export const TweetCard = styled.div`
 
 export const IframeComponent = styled.iframe`
   width: 100%;
-  height: 350px;
-  margin-bottom: 25px;
+  height: 450px;
+  margin: 25px 0px 50px 0px;
   frameborder: 0;
   @media (max-width: 850px) {
     width: 100%;
     margin: 50px 0px 25px 0px;
-    height: 46vw;
+    height: 400px;
   }
 `;
 
