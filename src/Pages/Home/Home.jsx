@@ -33,7 +33,7 @@ const Home = () => {
     useEffect(() => {
       if (page == "/en") {
         setSelectedLanguage(1);
-      } else if (page == "/esp") {
+      } else if (page == "/es") {
           setSelectedLanguage(2);
       } else {
           setSelectedLanguage(0);

@@ -43,7 +43,7 @@ const Header = (props) => {
   };
 
   function handleLenguageClick() {
-    if (path == "/esp" || path == "/en") {
+    if (path == "/es" || path == "/en") {
       window.location.href = "/";
     }
     if (selectedLanguage == 2) {
