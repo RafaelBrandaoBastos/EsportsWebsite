@@ -14,7 +14,13 @@ import {
   LanguageMobile,
   Arrow,
 } from "./style";
-import React, { useEffect, useState, useRef, useContext } from "react";
+import React, {
+  useEffect,
+  useState,
+  useRef,
+  useContext,
+  useNavigate,
+} from "react";
 import "./style.js";
 import logo from "../../assets/grupo.png";
 import iconWhite from "../../assets/iconWhite.png";
@@ -27,20 +33,20 @@ import arrowr from "../../assets/arrowr.png";
 import { LanguageContext } from "../../contexts/LanguageProvider";
 
 const Header = (props) => {
+  const navigate = useNavigate();
   const [hide, setHide] = useState(true);
   const [lenguage, setlenguage] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
-
-  const page = (window.location.href);
+  const path = window.location.pathname;
 
   const handleMenuClick = () => {
     setHide(!hide);
   };
 
   const handleLenguageClick = () => {
-    page.replace("/esp", "");
-    page.replace("/en", "");
-    console.log("page location: " + page)
+    if (path == "/es" || "en") {
+      navigate("/");
+    }
     if (selectedLanguage == 2) {
       setSelectedLanguage(0);
     } else {
@@ -63,67 +69,71 @@ const Header = (props) => {
           </HeaderOption>
 
           <HeaderOption href="/eventos">
-          <p className={props.eventosStyle}>{selectedLanguage == 0
-                  ? "Eventos"
-                  : selectedLanguage == 1
-                  ? "Events"
-                  : "Eventos"}</p>
+            <p className={props.eventosStyle}>
+              {selectedLanguage == 0
+                ? "Eventos"
+                : selectedLanguage == 1
+                ? "Events"
+                : "Eventos"}
+            </p>
           </HeaderOption>
 
           <HeaderOption href="/parceiros">
-          <p className={props.parceirosStyle}>{selectedLanguage == 0
-                  ? "Parceiros"
-                  : selectedLanguage == 1
-                  ? "Partners"
-                  : "Parceiros"}</p>
+            <p className={props.parceirosStyle}>
+              {selectedLanguage == 0
+                ? "Parceiros"
+                : selectedLanguage == 1
+                ? "Partners"
+                : "Parceiros"}
+            </p>
           </HeaderOption>
 
           <HeaderOption href="/staff">
             <p className={props.staffStyle}>Staff</p>
           </HeaderOption>
         </HeaderList>
-        <Language onClick={handleLenguageClick} href="/">
-              <LanguageCarousel>
-                <LanguageIcon
-                  src={brlogo}
-                  className={
-                    selectedLanguage === 0
-                      ? ""
-                      : selectedLanguage === 1
-                      ? "thd"
-                      : "sec"
-                  }
-                />
-                <LanguageIcon
-                  src={usalogo}
-                  className={
-                    selectedLanguage === 0
-                      ? "sec"
-                      : selectedLanguage === 1
-                      ? ""
-                      : "thd"
-                  }
-                />
-                <LanguageIcon
-                  src={esplogo}
-                  className={
-                    selectedLanguage === 0
-                      ? "thd"
-                      : selectedLanguage === 1
-                      ? "sec"
-                      : ""
-                  }
-                />
-              </LanguageCarousel>
-              <Arrow src={arrowl} className="l" />
-              <LanguageText>
-                {selectedLanguage == 0
-                  ? "PT/BR"
-                  : selectedLanguage == 1
-                  ? "ENG"
-                  : "ESP"}
-              </LanguageText>
-              <Arrow src={arrowr} className="r" />
+        <Language onClick={handleLenguageClick}>
+          <LanguageCarousel>
+            <LanguageIcon
+              src={brlogo}
+              className={
+                selectedLanguage === 0
+                  ? ""
+                  : selectedLanguage === 1
+                  ? "thd"
+                  : "sec"
+              }
+            />
+            <LanguageIcon
+              src={usalogo}
+              className={
+                selectedLanguage === 0
+                  ? "sec"
+                  : selectedLanguage === 1
+                  ? ""
+                  : "thd"
+              }
+            />
+            <LanguageIcon
+              src={esplogo}
+              className={
+                selectedLanguage === 0
+                  ? "thd"
+                  : selectedLanguage === 1
+                  ? "sec"
+                  : ""
+              }
+            />
+          </LanguageCarousel>
+          <Arrow src={arrowl} className="l" />
+          <LanguageText>
+            {selectedLanguage == 0
+              ? "PT/BR"
+              : selectedLanguage == 1
+              ? "ENG"
+              : "ESP"}
+          </LanguageText>
+          <Arrow src={arrowr} className="r" />
         </Language>
 
         <LogoMobileComponent
@@ -137,7 +147,6 @@ const Header = (props) => {
             <p className={props.homeStyle}>Home</p>{" "}
           </HeaderOptionMobile>
 
-
           <HeaderOptionMobile href="/staff">
             <p className={props.staffStyle}>Staff</p>
           </HeaderOptionMobile>
@@ -147,19 +156,23 @@ const Header = (props) => {
           </HeaderOptionMobile>
 
           <HeaderOptionMobile href="/eventos">
-            <p className={props.eventosStyle}>{selectedLanguage == 0
-                  ? "Eventos"
-                  : selectedLanguage == 1
-                  ? "Events"
-                  : "Eventos"}</p>
+            <p className={props.eventosStyle}>
+              {selectedLanguage == 0
+                ? "Eventos"
+                : selectedLanguage == 1
+                ? "Events"
+                : "Eventos"}
+            </p>
           </HeaderOptionMobile>
 
           <HeaderOptionMobile href="/parceiros">
-            <p className={props.parceirosStyle}>{selectedLanguage == 0
-                  ? "Parceiros"
-                  : selectedLanguage == 1
-                  ? "Partners"
-                  : "Parceiros"}</p>
+            <p className={props.parceirosStyle}>
+              {selectedLanguage == 0
+                ? "Parceiros"
+                : selectedLanguage == 1
+                ? "Partners"
+                : "Parceiros"}
+            </p>
           </HeaderOptionMobile>
 
           <HeaderOptionMobile>
@@ -207,7 +220,6 @@ const Header = (props) => {
               <Arrow src={arrowr} className="r" />
             </LanguageMobile>
           </HeaderOptionMobile>
-          
         </HeaderListMobile>
       </HeaderComponent>
     </>
