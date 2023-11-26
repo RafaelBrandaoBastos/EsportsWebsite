@@ -19,7 +19,6 @@ import React, {
   useState,
   useRef,
   useContext,
-  useNavigate,
 } from "react";
 import "./style.js";
 import logo from "../../assets/grupo.png";
@@ -33,10 +32,8 @@ import arrowr from "../../assets/arrowr.png";
 import { LanguageContext } from "../../contexts/LanguageProvider";
 
 const Header = (props) => {
-  const navigate = useNavigate();
   const [hide, setHide] = useState(true);
   const [path, setPath] = useState(window.location.pathname);
-  const [lenguage, setlenguage] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
   
   console.log("page location: " + path);
@@ -45,10 +42,9 @@ const Header = (props) => {
     setHide(!hide);
   };
 
-  const handleLenguageClick = () => {
+  function handleLenguageClick() {
     if (path == "/esp" || path == "/en") {
-      navigate("/");
-      path="/"
+      window.location.href = "/";
     }
     if (selectedLanguage == 2) {
       setSelectedLanguage(0);

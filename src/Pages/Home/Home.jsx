@@ -51,7 +51,7 @@ const Home = () => {
   }, [y]);
   return (
     <>
-      <Container className="scroll-container" onLoad>
+      <Container className="scroll-container">
         <Header
           homeStyle="selected"
           eventosStyle="none"
