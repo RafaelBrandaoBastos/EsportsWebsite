@@ -143,7 +143,7 @@ export const TweetCard = styled.div`
 
 export const IframeComponent = styled.iframe`
   width: 100%;
-  height: 450px;
+  height: 480px;
   margin: 25px 0px 50px 0px;
   frameborder: 0;
   @media (max-width: 850px) {
