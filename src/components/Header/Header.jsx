@@ -38,14 +38,14 @@ const Header = (props) => {
   const [lenguage, setlenguage] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
   const path = window.location.pathname;
+
   console.log("page location: " + path);
-  
   const handleMenuClick = () => {
     setHide(!hide);
   };
 
   const handleLenguageClick = () => {
-    if (path == "/es" || path == "/en") {
+    if (path == "/esp" || path == "/en") {
       navigate("/");
     }
     if (selectedLanguage == 2) {

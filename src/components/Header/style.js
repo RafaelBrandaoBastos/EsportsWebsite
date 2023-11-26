@@ -170,7 +170,7 @@ export const LanguageIcon = styled.img`
   position: absolute;
   left: 40px;
   z-index: 3;
-  opacity: 0.9;
+  opacity: 1;
   @media (max-width: 1120px) {
     height: 30px;
   }
@@ -209,7 +209,7 @@ export const LanguageText = styled.p`
   outline-color: red;
   margin: 0px;
   padding: 0px;
-  opacity: 0.9;
+  opacity: 1;
 `;
 export const Arrow = styled.img`
   opacity: 1;
