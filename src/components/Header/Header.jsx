@@ -38,13 +38,14 @@ const Header = (props) => {
   const [lenguage, setlenguage] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
   const path = window.location.pathname;
-
+  console.log("page location: " + path);
+  
   const handleMenuClick = () => {
     setHide(!hide);
   };
 
   const handleLenguageClick = () => {
-    if (path == "/es" || path == "en") {
+    if (path == "/es" || path == "/en") {
       navigate("/");
     }
     if (selectedLanguage == 2) {
@@ -176,7 +177,7 @@ const Header = (props) => {
           </HeaderOptionMobile>
 
           <HeaderOptionMobile>
-            <LanguageMobile onClick={handleLenguageClick} href="/">
+            <LanguageMobile onClick={handleLenguageClick}>
               <LanguageCarousel>
                 <LanguageIcon
                   src={brlogo}
