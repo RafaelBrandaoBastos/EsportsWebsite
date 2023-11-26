@@ -57,6 +57,7 @@ const Eventos = () => {
           eventosStyle="selected"
           lineupsStyle="none"
           parceirosStyle="none"
+          staffStyle="none"
         />
         <SubContainer>
         <EventCard

@@ -20,7 +20,7 @@ export const Container = styled.div`
             opacity: 1;
         }
     }
-    @media (max-width: 950px) {
+    @media (max-width: 1120px) {
         justify-content: flex-start;
     }
 `;
@@ -33,7 +33,7 @@ export const SubContainer = styled.div`
     justify-content: center;
     align-items: flex-start;
     padding-top: 100px;
-    @media (max-width: 950px) {
+    @media (max-width: 1120px) {
         padding-top: 50px;
     }
 `;

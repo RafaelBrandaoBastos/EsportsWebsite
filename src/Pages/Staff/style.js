@@ -20,7 +20,7 @@ export const Container = styled.div`
             opacity: 1;
         }
     }
-    @media (max-width: 950px) {
+    @media (max-width: 1120px) {
         justify-content: flex-start;
     }  
 `;
@@ -37,7 +37,7 @@ export const SubContainer = styled.div`
     @media (max-width: 1500px) {
         flex-direction: column;
     }
-    @media (max-width: 950px) {
+    @media (max-width: 1120px) {
         padding-top: 110px;
       } 
 `;
@@ -75,7 +75,7 @@ export const Card = styled.div`
     padding: 20px;
     align-items: center;  
     margin-bottom: 100px; 
-    @media (max-width: 950px){
+    @media (max-width: 1120px){
         padding: 20px 5px;
         width: 80%;
         height: auto;

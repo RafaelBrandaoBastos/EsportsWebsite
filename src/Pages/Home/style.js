@@ -22,7 +22,7 @@ export const Container = styled.div`
       opacity: 1;
     }
   }
-  @media (max-width: 950px) {
+  @media (max-width: 1120px) {
     justify-content: flex-start;
   }
 `;
@@ -40,7 +40,7 @@ export const SubContainer = styled.div`
   @media (max-width: 1050px) {
     width: 90%;
   }
-  @media (max-width: 950px) {
+  @media (max-width: 1120px) {
     width: 100%;
     flex-wrap: wrap;
     max-width: none;

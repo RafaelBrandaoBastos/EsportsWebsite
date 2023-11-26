@@ -71,6 +71,7 @@ const LineUps = () => {
           eventosStyle="none"
           lineupsStyle="selected"
           parceirosStyle="none"
+          staffStyle="none"
         />
         <SubContainer>
 
