@@ -44,7 +44,7 @@ const Header = (props) => {
   };
 
   const handleLenguageClick = () => {
-    if (path == "/es" || "en") {
+    if (path == "/es" || path == "en") {
       navigate("/");
     }
     if (selectedLanguage == 2) {
