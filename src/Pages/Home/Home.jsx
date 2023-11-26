@@ -30,7 +30,6 @@ const Home = () => {
   const [scrolled, setScrolled] = useState(0);
 
   const page = (window.location.pathname);
-  console.log("page location: " + page)
     useEffect(() => {
       if (page == "/en") {
         setSelectedLanguage(1);
