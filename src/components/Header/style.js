@@ -182,7 +182,7 @@ export const LanguageIcon = styled.img`
     left: 0px;
     top: 5px;
     z-index: 2;
-    opacity: 0.5;
+    opacity: 0.7;
     @media (max-width: 1120px) {
       height: 25px;
       top: 2.5px;
@@ -196,7 +196,7 @@ export const LanguageIcon = styled.img`
     left: 90px;
     top: 2.5px;
     z-index: 1;
-    opacity: 0.5;
+    opacity: 0.7;
     @media (max-width: 1120px) {
       height: 25px;
     }
@@ -218,7 +218,7 @@ export const Arrow = styled.img`
   margin: 0px 10px;
   z-index: 4;
   &.l {
-    animation: horizontal-shakingl 1.5s infinite alternate;
+    animation: horizontal-shakingl 1.8s infinite alternate;
     @keyframes horizontal-shakingl {
       0% {
         transform: translateX(0);
@@ -239,7 +239,7 @@ export const Arrow = styled.img`
   }
 
   &.r {
-    animation: horizontal-shakingr 1.5s infinite alternate;
+    animation: horizontal-shakingr 1.8s infinite alternate;
     @keyframes horizontal-shakingr {
       0% {
         transform: translateX(0);
