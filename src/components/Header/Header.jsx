@@ -35,9 +35,9 @@ import { LanguageContext } from "../../contexts/LanguageProvider";
 const Header = (props) => {
   const navigate = useNavigate();
   const [hide, setHide] = useState(true);
+  const [path, setPath] = useState(window.location.pathname);
   const [lenguage, setlenguage] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
-  const path = window.location.pathname;
 
   console.log("page location: " + path);
   const handleMenuClick = () => {
@@ -47,6 +47,7 @@ const Header = (props) => {
   const handleLenguageClick = () => {
     if (path == "/esp" || path == "/en") {
       navigate("/");
+      path="/"
     }
     if (selectedLanguage == 2) {
       setSelectedLanguage(0);
