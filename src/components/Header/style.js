@@ -128,7 +128,7 @@ export const HeaderOptionMobile = styled.a`
   }
 `;
 
-export const Language = styled.div`
+export const Language = styled.a`
   display: flex;
   width: 145px;
   flex-wrap: wrap;
@@ -141,7 +141,7 @@ export const Language = styled.div`
     display: none;
   }
 `;
-export const LanguageMobile = styled.div`
+export const LanguageMobile = styled.a`
   display: flex;
   width: 140px;
   height: 65px;

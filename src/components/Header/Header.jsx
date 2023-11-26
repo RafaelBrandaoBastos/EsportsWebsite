@@ -31,11 +31,16 @@ const Header = (props) => {
   const [lenguage, setlenguage] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
 
+  const page = (window.location.href);
+
   const handleMenuClick = () => {
     setHide(!hide);
   };
 
   const handleLenguageClick = () => {
+    page.replace("/esp", "");
+    page.replace("/en", "");
+    console.log("page location: " + page)
     if (selectedLanguage == 2) {
       setSelectedLanguage(0);
     } else {
@@ -77,7 +82,7 @@ const Header = (props) => {
             <p className={props.staffStyle}>Staff</p>
           </HeaderOption>
         </HeaderList>
-        <Language onClick={handleLenguageClick}>
+        <Language onClick={handleLenguageClick} href="/">
               <LanguageCarousel>
                 <LanguageIcon
                   src={brlogo}
@@ -158,7 +163,7 @@ const Header = (props) => {
           </HeaderOptionMobile>
 
           <HeaderOptionMobile>
-            <LanguageMobile onClick={handleLenguageClick}>
+            <LanguageMobile onClick={handleLenguageClick} href="/">
               <LanguageCarousel>
                 <LanguageIcon
                   src={brlogo}
