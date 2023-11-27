@@ -2,13 +2,13 @@
 A fully responsive web application made in ReactJs, to an Esports Orghanization. https://grupoesports.com/
 
 ## Desktop
-![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/c00cf308-8408-4b9e-a579-11410c8ec963)
+![image 11](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/bfd031f0-b4a2-468d-9b50-8038cc3f6e56)
 
 ## Intermediary
-![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/ab3c69a8-de05-4946-a3c5-a979281875da)
+![image 10](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/82c9e58b-f6bd-42b7-b2c2-421708b25c0a)
 
 ## Mobile
-![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/50118afd-e6bf-4c92-9912-0679ce045005)
+![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/869057e7-bbd5-49de-9231-3d882cd35619)
 
 
 # Getting Started with Create React App
