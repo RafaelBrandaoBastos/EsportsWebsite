@@ -1,8 +1,8 @@
 # Website for Esports Team
+![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/c00cf308-8408-4b9e-a579-11410c8ec963)
+![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/ab3c69a8-de05-4946-a3c5-a979281875da)
+![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/50118afd-e6bf-4c92-9912-0679ce045005)
 
-![sdfsdf](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/da71fcb9-2434-4012-b4ac-22a176ec17a4)
-![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/58cdeefa-248c-4d75-af25-11c58fdde5c0)
-![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/5d569463-d60f-4961-a003-f951f44781be)
 
 # Getting Started with Create React App
 
