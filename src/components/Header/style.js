@@ -183,9 +183,9 @@ export const LanguageIcon = styled.img`
     top: 5px;
     z-index: 2;
     opacity: 0.7;
+    top: 2.5px;
     @media (max-width: 1120px) {
       height: 25px;
-      top: 2.5px;
     }
   }
   &.thd {
@@ -196,9 +196,9 @@ export const LanguageIcon = styled.img`
     left: 95px;
     z-index: 1;
     opacity: 0.7;
+    top: 2.5px;
     @media (max-width: 1120px) {
       height: 25px;
-      top: 2.5px;
     }
   }
 `;
