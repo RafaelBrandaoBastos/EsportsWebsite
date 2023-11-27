@@ -164,7 +164,7 @@ const Eventos = () => {
                 ? "A segunda Rinha teve como jogo Granblue Fantasy Versus. Essa foi a maior rinha até o momento contando com convidados especiais e uma resenha completa."
                 : selectedLanguage == 1
                 ? "The second Rinha had the game Granblue Fantasy Versus. This was the biggest fight to date with special guests and a complete event."
-                : "La segunda Rinha tenía el juego Granblue Fantasy Versus. Esta fue la pelea más grande hasta la fecha con invitados especiales en un evento completo."
+                : "La segunda Rinha tuvo el juego Granblue Fantasy Versus. Esta fue la pelea más grande hasta la fecha con invitados especiales en un evento completo."
             }
             position={
               selectedLanguage == 0

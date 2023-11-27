@@ -193,12 +193,12 @@ export const LanguageIcon = styled.img`
     width: auto;
     border-radius: 10px;
     position: absolute;
-    left: 90px;
-    top: 2.5px;
+    left: 95px;
     z-index: 1;
     opacity: 0.7;
     @media (max-width: 1120px) {
       height: 25px;
+      top: 2.5px;
     }
   }
 `;
