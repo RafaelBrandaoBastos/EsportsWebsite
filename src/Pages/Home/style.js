@@ -35,13 +35,13 @@ export const SubContainer = styled.div`
   justify-content: space-around;
   align-items: flex-start;
   padding-top: 150px;
-  margin-top: 80px;
   height: 100%;
   outline-color: white;
   @media (max-width: 1050px) {
     width: 90%;
   }
   @media (max-width: 1120px) {
+    margin-top: 80px;
     width: 100%;
     flex-wrap: wrap;
     max-width: none;
@@ -143,7 +143,7 @@ export const TweetCard = styled.div`
 
 export const IframeComponent = styled.iframe`
   width: 100%;
-  height: 480px;
+  height: 350px;
   margin: 25px 0px 50px 0px;
   frameborder: 0;
   @media (max-width: 850px) {
