@@ -74,13 +74,16 @@ export const Card = styled.div`
     align-items: center;
     margin-top: 60px;
     margin-bottom: 50px;
-    @media (max-width: 380px){
+
+    @media (max-width: 750px){
         padding: 0px;
+        outline-color: rgba(255, 255, 255, 0);
+        background-color: rgba(0, 0, 0, 0);
     }
 `;
 
 export const Title = styled.p`
-    font-size: 23px;
+    font-size: 50px;
     font-family: 'Ethnocentric Rg';
     color: white;
     margin: 0px;
@@ -91,5 +94,8 @@ export const Title = styled.p`
     text-align: center;
     @media (max-width: 1070px){
         margin-bottom: 10px;
+    }
+    @media (max-width: 400px){
+        font-size: 35px;
     }
 `;
