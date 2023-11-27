@@ -1,6 +1,13 @@
 # Website for Esports Team
+A fully responsive web application made in ReactJs, to an Esports Orghanization. https://grupoesports.com/
+
+## Desktop
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/c00cf308-8408-4b9e-a579-11410c8ec963)
+
+## Intermediary
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/ab3c69a8-de05-4946-a3c5-a979281875da)
+
+## Mobile
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/50118afd-e6bf-4c92-9912-0679ce045005)
 
 
