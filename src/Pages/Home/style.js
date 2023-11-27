@@ -149,7 +149,7 @@ export const IframeComponent = styled.iframe`
   @media (max-width: 850px) {
     width: 100%;
     margin: 50px 0px 25px 0px;
-    height: 400px;
+    height: 450px;
   }
 `;
 
