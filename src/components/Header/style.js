@@ -204,7 +204,7 @@ export const LanguageIcon = styled.img`
     width: auto;
     border-radius: 10px;
     position: absolute;
-    left: 95px;
+    left: 90px;
     z-index: 1;
     opacity: 0.7;
     top: 2.5px;
