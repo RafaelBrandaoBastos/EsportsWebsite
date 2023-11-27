@@ -88,14 +88,6 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={mbt2}
-              icon={mbt}
-              nick="Rekom"
-              size={30}
-              top={72}
-              right={25}
-            />
-            <PlayerCardComponent
               player={ggst5}
               icon={guiltas}
               nick="Jun Aikawa"
@@ -110,6 +102,14 @@ const LineUps = () => {
               size={23}
               top={75}
               right={20}
+            />
+            <PlayerCardComponent
+              player={mbt2}
+              icon={mbt}
+              nick="Rekom"
+              size={30}
+              top={72}
+              right={25}
             />
             <PlayerCardComponent
               player={ggst9}
