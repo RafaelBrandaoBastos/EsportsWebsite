@@ -47,7 +47,7 @@ export const TextCard = styled.div`
     padding-left: 20px;
     outline-color: red;
     max-width: 60%;
-    word-break: break-all;
+    word-break: word-break;
     @media (max-width: 815px){
         padding-left: 0px;
         align-items: center;

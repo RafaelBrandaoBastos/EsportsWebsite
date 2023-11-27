@@ -1,4 +1,10 @@
-import React, { useEffect, useState, useRef, useContext, useLocation } from "react";
+import React, {
+  useEffect,
+  useState,
+  useRef,
+  useContext,
+  useLocation,
+} from "react";
 import { Transition } from "react-transition-group";
 import { Tweet } from "react-tweet";
 import { useWindowScroll } from "react-use";
@@ -29,15 +35,15 @@ const Home = () => {
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
   const [scrolled, setScrolled] = useState(0);
 
-  const page = (window.location.pathname);
-    useEffect(() => {
-      if (page == "/en") {
-        setSelectedLanguage(1);
-      } else if (page == "/es") {
-          setSelectedLanguage(2);
-      } else {
-          setSelectedLanguage(0);
-      }
+  const page = window.location.pathname;
+  useEffect(() => {
+    if (page == "/en") {
+      setSelectedLanguage(1);
+    } else if (page == "/es") {
+      setSelectedLanguage(2);
+    } else {
+      setSelectedLanguage(0);
+    }
   }, window.location.href);
 
   const height =
@@ -72,7 +78,7 @@ const Home = () => {
               </Title>
               <Text>
                 {selectedLanguage == 0
-                  ? "A Grupo Esports é uma organização de jogos eletronicos que se destaca pela sua habilidade e paixão pela competição virtual.Atualmente com representantes no cenario brasileiro de GuiltyGear Strive, Counter-Strike: Global Offensive e jogos de lutavariados. Unidos, os membros do Grupo eSports dedicam-se incansavelmente a aprimorar suas habilidades e alcançar o sucesso nas competições virtuais."
+                  ? "A Grupo Esports é uma organização de jogos eletronicos que se destaca pela sua habilidade e paixão pela competição virtual. Atualmente com representantes no cenario brasileiro de GuiltyGear Strive, Counter-Strike: Global Offensive e jogos de lutavariados. Unidos, os membros do Grupo eSports dedicam-se incansavelmente a aprimorar suas habilidades e alcançar o sucesso nas competições virtuais."
                   : selectedLanguage == 1
                   ? "Grupo Esports is an electronic gaming organization that stands out for its skill and passion for virtual competition. Currently with representatives in the Brazilian scene of GuiltyGear Strive, Counter-Strike: Global Offensive and various fighting games. United, the members of the Grupo eSports are tirelessly dedicated to improving their skills and achieving success in virtual competitions."
                   : "Grupo Esports es una organización de juegos electrónicos que se destaca por su habilidad y pasión por la competencia virtual, actualmente con representantes en la escena brasileña de GuiltyGear Strive, Counter-Strike: Global Offensive y diversos juegos de lucha. Unidos, los miembros del eSports Group se dedican incansablemente a mejorar sus habilidades y alcanzar el éxito en las competiciones virtuales."}
@@ -108,11 +114,13 @@ const Home = () => {
             </TextCard>
           </Card>
           <TweetCard>
-            <Title>{selectedLanguage == 0
-                  ? "Notícias"
-                  : selectedLanguage == 1
-                  ? "Updates"
-                  : "Noticias"}</Title>
+            <Title>
+              {selectedLanguage == 0
+                ? "Notícias"
+                : selectedLanguage == 1
+                ? "Updates"
+                : "Noticias"}
+            </Title>
             <Tweet id="1728622030566928830" />
             <Tweet id="1728574075000299650" />
             <Tweet id="1726689197430546815" />

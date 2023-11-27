@@ -57,17 +57,16 @@ export const Text = styled.p`
   padding: 0px;
 `;
 export const Title = styled.p`
-
-    color: white;
-    font-size: 25px;
-    font-family: 'Ethnocentric Rg';
-    text-decoration: none;
-    text-align: start;
-    width: 100%;
-    display: flex;
-    @media (max-width: 400px) {
-      font-size: 15px;
-    }
+  color: white;
+  font-size: 25px;
+  font-family: "Ethnocentric Rg";
+  text-decoration: none;
+  text-align: start;
+  width: 100%;
+  display: flex;
+  @media (max-width: 400px) {
+    font-size: 15px;
+  }
 `;
 export const ContainerLoad = styled.div`
   width: 100%;
@@ -91,7 +90,7 @@ export const ContainerLoad = styled.div`
 `;
 
 export const Card = styled.div`
-  display: flex;  
+  display: flex;
   max-width: 60%;
   height: 100%;
   outline-color: blue;
@@ -106,7 +105,7 @@ export const Card = styled.div`
 
 export const TextCard = styled.div`
   width: 100%;
-  
+
   margin: 0px;
   padding: 0px;
 `;
@@ -154,7 +153,7 @@ export const IframeComponent = styled.iframe`
 `;
 
 export const Spacing = styled.div`
-  height: ${props => props.spacing}px;
+  height: ${(props) => props.spacing}px;
   width: 100%;
   display: block;
 `;

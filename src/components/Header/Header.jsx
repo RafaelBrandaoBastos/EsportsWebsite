@@ -4,9 +4,9 @@ import {
   HeaderOption,
   LogoComponent,
   HeaderListMobile,
-  LogoComponentMobile,
-  HeaderOptionMobile,
   LogoMobileComponent,
+  HeaderOptionMobile,
+  MenuMobileComponent,
   LanguageIcon,
   Language,
   LanguageText,
@@ -14,12 +14,7 @@ import {
   LanguageMobile,
   Arrow,
 } from "./style";
-import React, {
-  useEffect,
-  useState,
-  useRef,
-  useContext,
-} from "react";
+import React, { useEffect, useState, useRef, useContext } from "react";
 import "./style.js";
 import logo from "../../assets/grupo.png";
 import iconWhite from "../../assets/iconWhite.png";
@@ -49,7 +44,7 @@ const Header = (props) => {
     } else {
       setSelectedLanguage(selectedLanguage + 1);
     }
-  };
+  }
 
   return (
     <>
@@ -133,11 +128,14 @@ const Header = (props) => {
           <Arrow src={arrowr} className="r" />
         </Language>
 
-        <LogoMobileComponent
-          src={iconPink}
+        <MenuMobileComponent
+          src={hide ? iconWhite : iconPink}
           alt="LogoMobile"
           onClick={handleMenuClick}
         />
+
+        <LogoMobileComponent src={logo} alt="LogoMobile" />
+
         <HeaderListMobile className={hide ? "hide" : ""}>
           <HeaderOptionMobile href="/">
             {" "}

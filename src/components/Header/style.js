@@ -14,12 +14,10 @@ export const HeaderComponent = styled.div`
   position: fixed;
   z-index: 2;
   @media (max-width: 1120px) {
-    background-color: rgba(0, 0, 0, 0);
-    height: auto;
-    width: auto;
-    justify-content: left;
-    align-items: left;
-    display: block;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
   }
   .hide {
     display: none;
@@ -76,22 +74,36 @@ export const HeaderOption = styled.a`
   }
 `;
 
-export const LogoMobileComponent = styled.img`
+export const MenuMobileComponent = styled.img`
   width: 60px;
   height: 60px;
-  margin: 30px 20px 0px;
   background-image: url(${({ icon }) => icon});
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
+  margin-left: 20px;
   @media (min-width: 1120px) {
     display: none;
   }
 `;
+
+export const LogoMobileComponent = styled.img`
+  width: 40px;
+  height: 40px;
+  background-image: url(${({ icon }) => icon});
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-right: 30px;
+  @media (min-width: 1120px) {
+    display: none;
+  }
+`;
+
 export const HeaderListMobile = styled.div`
   width: auto;
   height: auto;
+  position: absolute;
+  top: 75px;
   display: flex;
-  margin-left: 20px;
+
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
@@ -107,7 +119,7 @@ export const HeaderOptionMobile = styled.a`
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 10px 20px 0px 10px;
+  padding: 10px 35px 0px 30px;
   font-size: 18px;
   text-align: left;
   font-family: "Ethnocentric Rg";

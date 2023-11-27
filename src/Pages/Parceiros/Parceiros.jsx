@@ -1,12 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Transition } from "react-transition-group";
 import { useWindowScroll } from "react-use";
-import {
-  Container,
-  ContainerLoad,
-  Card,
-  SubContainer,
-} from "./style";
+import { Container, ContainerLoad, Card, SubContainer } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer";
@@ -55,7 +50,7 @@ const Parceiros = () => {
               title={"La Coffe"}
               link={"https://instagram.com/lacoffeecafeteria/"}
               text={
-                "☕ Para os que buscam o verdadeiro sabor do café!Rua Sergipe, 623, Savassi, Belo Horizonte. Segunda a Sexta de 7h00 às 17h30"
+                "☕ Para os que buscam o verdadeiro sabor do café! Rua Sergipe, 623, Savassi, Belo Horizonte. Segunda a Sexta de 7h00 às 17h30"
               }
             />
             <PartnerCard
