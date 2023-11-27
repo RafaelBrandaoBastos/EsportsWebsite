@@ -35,8 +35,6 @@ const Header = (props) => {
   const [hide, setHide] = useState(true);
   const [path, setPath] = useState(window.location.pathname);
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
-  
-  console.log("page location: " + path);
 
   const handleMenuClick = () => {
     setHide(!hide);
