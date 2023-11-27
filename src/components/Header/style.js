@@ -191,12 +191,12 @@ export const LanguageIcon = styled.img`
     border-radius: 10px;
     position: absolute;
     left: 0px;
-    top: 5px;
     z-index: 2;
     opacity: 0.7;
-    top: 2.5px;
+    top: 5px;
     @media (max-width: 1120px) {
       height: 25px;
+      top: 3px;
     }
   }
   &.thd {
@@ -207,8 +207,9 @@ export const LanguageIcon = styled.img`
     left: 90px;
     z-index: 1;
     opacity: 0.7;
-    top: 2.5px;
+    top: 5px;
     @media (max-width: 1120px) {
+      top: 3px;
       height: 25px;
     }
   }
