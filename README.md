@@ -2,6 +2,7 @@
 
 ![sdfsdf](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/da71fcb9-2434-4012-b4ac-22a176ec17a4)
 ![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/58cdeefa-248c-4d75-af25-11c58fdde5c0)
+![image](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/5d569463-d60f-4961-a003-f951f44781be)
 
 # Getting Started with Create React App
 
