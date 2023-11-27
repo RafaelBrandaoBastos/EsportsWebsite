@@ -75,10 +75,9 @@ export const HeaderOption = styled.a`
 `;
 
 export const MenuMobileComponent = styled.img`
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background-image: url(${({ icon }) => icon});
-  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   margin-left: 20px;
   @media (min-width: 1120px) {
@@ -90,7 +89,7 @@ export const LogoMobileComponent = styled.img`
   width: 40px;
   height: 40px;
   background-image: url(${({ icon }) => icon});
-  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
   margin-right: 30px;
   @media (min-width: 1120px) {
     display: none;

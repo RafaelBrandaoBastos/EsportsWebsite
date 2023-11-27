@@ -35,6 +35,7 @@ export const SubContainer = styled.div`
   justify-content: space-around;
   align-items: flex-start;
   padding-top: 150px;
+  margin-top: 80px;
   height: 100%;
   outline-color: white;
   @media (max-width: 1050px) {
