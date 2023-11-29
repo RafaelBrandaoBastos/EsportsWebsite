@@ -148,6 +148,7 @@ export const Language = styled.div`
   margin-right: 50px;
   align-items: center;
   justify-content: center;
+  position: relative;
   @media (max-width: 1120px) {
     display: none;
   }
@@ -167,18 +168,23 @@ export const LanguageMobile = styled.div`
 `;
 export const LanguageCarousel = styled.div`
   width: 100%;
-  height: 40px;
+  height: 50px;
   display: flex;
-  position: relative;
   margin: 0px;
   padding: 0px;
 `;
-
+export const LanguageOption = styled.div`
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+`;
 export const LanguageIcon = styled.img`
   height: 35px;
   width: auto;
   border-radius: 10px;
-  position: absolute;
   left: 40px;
   z-index: 3;
   opacity: 1;
@@ -189,11 +195,9 @@ export const LanguageIcon = styled.img`
     height: 25px;
     width: auto;
     border-radius: 10px;
-    position: absolute;
     left: 0px;
     z-index: 2;
-    opacity: 0.7;
-    top: 5px;
+    margin-top: 5px;
     @media (max-width: 1120px) {
       height: 25px;
       top: 3px;
@@ -203,11 +207,9 @@ export const LanguageIcon = styled.img`
     height: 25px;
     width: auto;
     border-radius: 10px;
-    position: absolute;
-    left: 90px;
+    left: 100px;
     z-index: 1;
-    opacity: 0.7;
-    top: 5px;
+    margin-top: 5px;
     @media (max-width: 1120px) {
       top: 3px;
       height: 25px;
@@ -215,22 +217,31 @@ export const LanguageIcon = styled.img`
   }
 `;
 export const LanguageText = styled.p`
-  font-size: 17px;
+  font-size: 14px;
   font-family: "Ethnocentric Rg";
-  color: white;
+  top: 30px;
+  color: #ff255f;
   outline-color: red;
   margin: 0px;
   padding: 0px;
   opacity: 1;
+  &.sec {
+    font-size: 10px;
+    color: white;
+  }
 `;
 export const Arrow = styled.img`
-  opacity: 1;
   width: 15px;
-  height: 20px;
+  height: 15px;
   margin: 0px 10px;
   z-index: 4;
+  position: absolute;
+  outline-color: blue;
+  outline-style: ;
   &.l {
-    animation: horizontal-shakingl 1.8s infinite alternate;
+    padding: 35px 10px 0px 20px;
+    right: 90px;
+    animation: horizontal-shakingl 1.8s infinite linear;
     @keyframes horizontal-shakingl {
       0% {
         transform: translateX(0);
@@ -251,19 +262,21 @@ export const Arrow = styled.img`
   }
 
   &.r {
-    animation: horizontal-shakingr 1.8s infinite alternate;
+    padding: 35px 20px 0px 10px;
+    left: 90px;
+    animation: horizontal-shakingr 1.8s infinite linear;
     @keyframes horizontal-shakingr {
       0% {
         transform: translateX(0);
       }
       25% {
-        transform: translateX(1.5px);
+        transform: translateX(2px);
       }
       50% {
-        transform: translateX(-1.5px);
+        transform: translateX(-2px);
       }
       75% {
-        transform: translateX(1.5px);
+        transform: translateX(0px);
       }
       100% {
         transform: translateX(0);

@@ -13,6 +13,7 @@ import {
   LanguageCarousel,
   LanguageMobile,
   Arrow,
+  LanguageOption,
 } from "./style";
 import React, { useEffect, useState, useRef, useContext } from "react";
 import "./style.js";
@@ -24,25 +25,32 @@ import usalogo from "../../assets/usalogo.png";
 import esplogo from "../../assets/esplogo.png";
 import arrowl from "../../assets/arrowl.png";
 import arrowr from "../../assets/arrowr.png";
-import { LanguageContext } from "../../contexts/LanguageProvider";
+import { LanguageContext } from "../../contexts/LanguageProvider.jsx";
 
 const Header = (props) => {
   const [hide, setHide] = useState(true);
-  const [path, setPath] = useState(window.location.pathname);
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
 
   const handleMenuClick = () => {
     setHide(!hide);
   };
 
-  function handleLenguageClick() {
-    if (path == "/es" || path == "/en") {
+  function handleLenguageClick2() {
+    if (selectedLanguage == "") {
+      window.location.href = "/en";
+    } else if (selectedLanguage == "/es") {
       window.location.href = "/";
-    }
-    if (selectedLanguage == 2) {
-      setSelectedLanguage(0);
     } else {
-      setSelectedLanguage(selectedLanguage + 1);
+      window.location.href = "/es";
+    }
+  }
+  function handleLenguageClick1() {
+    if (selectedLanguage == "") {
+      window.location.href = "/es";
+    } else if (selectedLanguage == "/es") {
+      window.location.href = "/en";
+    } else {
+      window.location.href = "/";
     }
   }
 
@@ -51,81 +59,101 @@ const Header = (props) => {
       <HeaderComponent className={hide ? "fade" : ""}>
         <LogoComponent src={logo} alt="Logo" />
         <HeaderList>
-          <HeaderOption href="/">
+          <HeaderOption href={"" + selectedLanguage}>
             {" "}
             <p className={props.homeStyle}>Home</p>{" "}
           </HeaderOption>
 
-          <HeaderOption href="/lineups">
+          <HeaderOption href={"/lineups" + selectedLanguage}>
             <p className={props.lineupsStyle}>LineUps</p>
           </HeaderOption>
 
-          <HeaderOption href="/eventos">
+          <HeaderOption href={"/eventos" + selectedLanguage}>
             <p className={props.eventosStyle}>
-              {selectedLanguage == 0
+              {selectedLanguage == "/"
                 ? "Eventos"
-                : selectedLanguage == 1
+                : selectedLanguage == "/en"
                 ? "Events"
                 : "Eventos"}
             </p>
           </HeaderOption>
 
-          <HeaderOption href="/parceiros">
+          <HeaderOption href={"/parceiros" + selectedLanguage}>
             <p className={props.parceirosStyle}>
-              {selectedLanguage == 0
+              {selectedLanguage == "/"
                 ? "Parceiros"
-                : selectedLanguage == 1
+                : selectedLanguage == "/en"
                 ? "Partners"
                 : "Parceiros"}
             </p>
           </HeaderOption>
 
-          <HeaderOption href="/staff">
+          <HeaderOption href={"/staff" + selectedLanguage}>
             <p className={props.staffStyle}>Staff</p>
           </HeaderOption>
         </HeaderList>
-        <Language onClick={handleLenguageClick}>
+        <Language>
           <LanguageCarousel>
-            <LanguageIcon
-              src={brlogo}
-              className={
-                selectedLanguage === 0
-                  ? ""
-                  : selectedLanguage === 1
-                  ? "thd"
-                  : "sec"
-              }
-            />
-            <LanguageIcon
-              src={usalogo}
-              className={
-                selectedLanguage === 0
-                  ? "sec"
-                  : selectedLanguage === 1
-                  ? ""
-                  : "thd"
-              }
-            />
-            <LanguageIcon
-              src={esplogo}
-              className={
-                selectedLanguage === 0
-                  ? "thd"
-                  : selectedLanguage === 1
-                  ? "sec"
-                  : ""
-              }
-            />
+            <LanguageOption>
+              <LanguageIcon
+                src={
+                  selectedLanguage == ""
+                    ? esplogo
+                    : selectedLanguage == "/en"
+                    ? brlogo
+                    : usalogo
+                }
+                className={"sec"}
+                onClick={handleLenguageClick1}
+              />
+              <LanguageText className={"sec"}>
+                {selectedLanguage == ""
+                  ? "ESP"
+                  : selectedLanguage == "/en"
+                  ? "PTBR"
+                  : "ENG"}
+              </LanguageText>
+            </LanguageOption>
+            <LanguageOption>
+              <LanguageIcon
+                src={
+                  selectedLanguage == ""
+                    ? brlogo
+                    : selectedLanguage == "/en"
+                    ? usalogo
+                    : esplogo
+                }
+                className={""}
+              />
+              <LanguageText>
+                {selectedLanguage == ""
+                  ? "PTBR"
+                  : selectedLanguage == "/en"
+                  ? "ENG"
+                  : "ESP"}
+              </LanguageText>
+            </LanguageOption>
+            <LanguageOption>
+              <LanguageIcon
+                src={
+                  selectedLanguage == ""
+                    ? usalogo
+                    : selectedLanguage == "/en"
+                    ? esplogo
+                    : brlogo
+                }
+                className={"thd"}
+                onClick={handleLenguageClick2}
+              />
+              <LanguageText className={"sec"}>
+                {selectedLanguage == ""
+                  ? "ENG"
+                  : selectedLanguage == "/en"
+                  ? "ESP"
+                  : "PTBR"}
+              </LanguageText>
+            </LanguageOption>
           </LanguageCarousel>
-          <Arrow src={arrowl} className="l" />
-          <LanguageText>
-            {selectedLanguage == 0
-              ? "PT/BR"
-              : selectedLanguage == 1
-              ? "ENG"
-              : "ESP"}
-          </LanguageText>
-          <Arrow src={arrowr} className="r" />
         </Language>
 
         <MenuMobileComponent
@@ -137,82 +165,102 @@ const Header = (props) => {
         <LogoMobileComponent src={logo} alt="LogoMobile" />
 
         <HeaderListMobile className={hide ? "hide" : ""}>
-          <HeaderOptionMobile href="/">
+          <HeaderOptionMobile href={"" + selectedLanguage}>
             {" "}
             <p className={props.homeStyle}>Home</p>{" "}
           </HeaderOptionMobile>
 
-          <HeaderOptionMobile href="/staff">
-            <p className={props.staffStyle}>Staff</p>
-          </HeaderOptionMobile>
-
-          <HeaderOptionMobile href="/lineups">
+          <HeaderOptionMobile href={"/lineups" + selectedLanguage}>
             <p className={props.lineupsStyle}>LineUps</p>
           </HeaderOptionMobile>
 
-          <HeaderOptionMobile href="/eventos">
+          <HeaderOptionMobile href={"/eventos" + selectedLanguage}>
             <p className={props.eventosStyle}>
-              {selectedLanguage == 0
+              {selectedLanguage == "/"
                 ? "Eventos"
-                : selectedLanguage == 1
+                : selectedLanguage == "/en"
                 ? "Events"
                 : "Eventos"}
             </p>
           </HeaderOptionMobile>
 
-          <HeaderOptionMobile href="/parceiros">
+          <HeaderOptionMobile href={"/parceiros" + selectedLanguage}>
             <p className={props.parceirosStyle}>
-              {selectedLanguage == 0
+              {selectedLanguage == "/"
                 ? "Parceiros"
-                : selectedLanguage == 1
+                : selectedLanguage == "/en"
                 ? "Partners"
                 : "Parceiros"}
             </p>
           </HeaderOptionMobile>
 
+          <HeaderOptionMobile href={"/staff" + selectedLanguage}>
+            <p className={props.staffStyle}>Staff</p>
+          </HeaderOptionMobile>
+
           <HeaderOptionMobile>
-            <LanguageMobile onClick={handleLenguageClick}>
+            <LanguageMobile>
               <LanguageCarousel>
-                <LanguageIcon
-                  src={brlogo}
-                  className={
-                    selectedLanguage === 0
-                      ? ""
-                      : selectedLanguage === 1
-                      ? "thd"
-                      : "sec"
-                  }
-                />
-                <LanguageIcon
-                  src={usalogo}
-                  className={
-                    selectedLanguage === 0
-                      ? "sec"
-                      : selectedLanguage === 1
-                      ? ""
-                      : "thd"
-                  }
-                />
-                <LanguageIcon
-                  src={esplogo}
-                  className={
-                    selectedLanguage === 0
-                      ? "thd"
-                      : selectedLanguage === 1
-                      ? "sec"
-                      : ""
-                  }
-                />
+                <LanguageOption>
+                  <LanguageIcon
+                    src={
+                      selectedLanguage == ""
+                        ? esplogo
+                        : selectedLanguage == "/en"
+                        ? brlogo
+                        : usalogo
+                    }
+                    className={"sec"}
+                    onClick={handleLenguageClick1}
+                  />
+                  <LanguageText className={"sec"}>
+                    {selectedLanguage == ""
+                      ? "ESP"
+                      : selectedLanguage == "/en"
+                      ? "PTBR"
+                      : "ENG"}
+                  </LanguageText>
+                </LanguageOption>
+                <LanguageOption>
+                  <LanguageIcon
+                    src={
+                      selectedLanguage == ""
+                        ? brlogo
+                        : selectedLanguage == "/en"
+                        ? usalogo
+                        : esplogo
+                    }
+                    className={""}
+                  />
+                  <LanguageText>
+                    {selectedLanguage == ""
+                      ? "PTBR"
+                      : selectedLanguage == "/en"
+                      ? "ENG"
+                      : "ESP"}
+                  </LanguageText>
+                </LanguageOption>
+                <LanguageOption>
+                  <LanguageIcon
+                    src={
+                      selectedLanguage == ""
+                        ? usalogo
+                        : selectedLanguage == "/en"
+                        ? esplogo
+                        : brlogo
+                    }
+                    className={"thd"}
+                    onClick={handleLenguageClick2}
+                  />
+                  <LanguageText className={"sec"}>
+                    {selectedLanguage == ""
+                      ? "ENG"
+                      : selectedLanguage == "/en"
+                      ? "ESP"
+                      : "PTBR"}
+                  </LanguageText>
+                </LanguageOption>
               </LanguageCarousel>
-              <Arrow src={arrowl} className="l" />
-              <LanguageText>
-                {selectedLanguage == 0
-                  ? "PT/BR"
-                  : selectedLanguage == 1
-                  ? "ENG"
-                  : "ESP"}
-              </LanguageText>
-              <Arrow src={arrowr} className="r" />
             </LanguageMobile>
           </HeaderOptionMobile>
         </HeaderListMobile>
