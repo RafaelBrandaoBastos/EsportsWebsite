@@ -27,9 +27,6 @@ export const LanguageProvider = ({ children }) => {
     );
   }, [path]);
 
-  console.log("path: " + path);
-  console.log("selected: " + selectedLanguage);
-
   return (
     <LanguageContext.Provider value={[selectedLanguage, setSelectedLanguage]}>
       {children}
