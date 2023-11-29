@@ -18,6 +18,7 @@ import ggst7 from "../../assets/players/ggst7.png";
 import ggst8 from "../../assets/players/ggst8.png";
 import ggst9 from "../../assets/players/ggst9.png";
 import ggst10 from "../../assets/players/ggst10.png";
+import ggst11 from "../../assets/players/ggst11.png";
 import mbt from "../../assets/players/mbt.png";
 import mbt1 from "../../assets/players/mbt1.png";
 import mbt2 from "../../assets/players/mbt2.png";
@@ -110,6 +111,14 @@ const LineUps = () => {
               size={30}
               top={72}
               right={25}
+            />
+            <PlayerCardComponent
+              player={ggst11}
+              icon={guiltas}
+              nick="Daniel INSS"
+              size={21}
+              top={75}
+              right={23}
             />
             <PlayerCardComponent
               player={ggst9}
