@@ -38,6 +38,7 @@ import photo3r3 from "../../assets/rinha-de-prata-3/photo3.png";
 
 import photo1BC from "../../assets/BC23/photo1.jpg";
 import photo2BC from "../../assets/BC23/photo2.jpg";
+import photo3BC from "../../assets/BC23/photo3.jpeg";
 
 const Eventos = () => {
   const { x, y } = useWindowScroll();
@@ -81,9 +82,10 @@ const Eventos = () => {
                 : "Posiciones notables: \n Sudano - 7th GGST ARC World Tour Qualifier / 1st Jackie Chan \n Bydo - 5th JOJO \n Rekom - 9th MBTL / 13th JOJO \n gabfusca - 5th ABK \n Fire - 9th MBTL & UNI[cl-r] \n Wangi - 1st GBVS"
             }
             date={"25/11/2023"}
-            photocount={2}
+            photocount={3}
             foto1={photo1BC}
             foto2={photo2BC}
+            foto3={photo3BC}
           />
           <EventCard
             title={"Ultra Goat"}
