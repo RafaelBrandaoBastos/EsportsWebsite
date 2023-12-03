@@ -202,6 +202,10 @@ export const LanguageIcon = styled.img`
       height: 25px;
       top: 3px;
     }
+    &:hover {
+      outline-style: solid;
+      outline-color: white;
+    }
   }
   &.thd {
     height: 25px;
@@ -213,6 +217,10 @@ export const LanguageIcon = styled.img`
     @media (max-width: 1120px) {
       top: 3px;
       height: 25px;
+    }
+    &:hover {
+      outline-style: solid;
+      outline-color: white;
     }
   }
 `;

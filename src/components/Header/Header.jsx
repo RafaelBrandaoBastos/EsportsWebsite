@@ -53,15 +53,20 @@ const Header = (props) => {
       window.location.href = "/";
     }
   }
-
+  console.log("");
   return (
     <>
       <HeaderComponent className={hide ? "fade" : ""}>
         <LogoComponent src={logo} alt="Logo" />
         <HeaderList>
-          <HeaderOption href={"" + selectedLanguage}>
-            {" "}
-            <p className={props.homeStyle}>Home</p>{" "}
+          <HeaderOption
+            href={
+              selectedLanguage != ""
+                ? "" + selectedLanguage
+                : "/" + selectedLanguage
+            }
+          >
+            <p className={props.homeStyle}>Home</p>
           </HeaderOption>
 
           <HeaderOption href={"/lineups" + selectedLanguage}>
