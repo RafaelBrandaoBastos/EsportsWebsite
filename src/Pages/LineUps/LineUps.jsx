@@ -45,6 +45,8 @@ import un from "../../assets/players/un.png";
 import un1 from "../../assets/players/un1.png";
 import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
+import battle from "../../assets/players/battle.png";
+import bb1 from "../../assets/players/battlebit.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -154,6 +156,22 @@ const LineUps = () => {
               nick="Tulapas"
               size={25}
               top={72}
+              right={20}
+            />
+            <PlayerCardComponent
+              player={bb1}
+              icon={battle}
+              nick="Sudano"
+              size={29}
+              top={72}
+              right={22}
+            />
+            <PlayerCardComponent
+              player={bb1}
+              icon={battle}
+              nick="Tatubola"
+              size={25}
+              top={73}
               right={20}
             />
             <PlayerCardComponent
