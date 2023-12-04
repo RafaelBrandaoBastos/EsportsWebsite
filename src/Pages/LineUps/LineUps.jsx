@@ -149,12 +149,12 @@ const LineUps = () => {
               size={30}
               top={72}
               right={25}
-            />
-            <PlayerCardComponent
-              player={cs3}
+            />            
+              <PlayerCardComponent
+              player={cs8}
               icon={defuse}
-              nick="Tulapas"
-              size={25}
+              nick="Brands"
+              size={30}
               top={72}
               right={20}
             />
@@ -199,10 +199,10 @@ const LineUps = () => {
               right={20}
             />
             <PlayerCardComponent
-              player={cs8}
+              player={cs3}
               icon={defuse}
-              nick="Brands"
-              size={30}
+              nick="Tulapas"
+              size={25}
               top={72}
               right={20}
             />
