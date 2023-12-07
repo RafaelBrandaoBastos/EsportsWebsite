@@ -122,14 +122,14 @@ const LineUps = () => {
               size={21}
               top={75}
               right={23}
-            />            
+            />   
             <PlayerCardComponent
-              player={ggst12}
+              player={ggst8}
               icon={guiltas}
-              nick="Tatubola"
-              size={25}
-              top={73}
-              right={20}
+              nick="Raicon"
+              size={30}
+              top={72}
+              right={25}         
             /> 
             <PlayerCardComponent
               player={ggst9}
@@ -140,12 +140,12 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={ggst8}
+              player={ggst12}
               icon={guiltas}
-              nick="Raicon"
-              size={30}
-              top={72}
-              right={25}
+              nick="Tatubola"
+              size={25}
+              top={73}
+              right={20}
             />
           </Card>
 
