@@ -23,6 +23,7 @@ import ggst12 from "../../assets/players/ggst12.png";
 import mbt from "../../assets/players/mbt.png";
 import mbt1 from "../../assets/players/mbt1.png";
 import mbt2 from "../../assets/players/mbt2.png";
+import mbt3 from "../../assets/players/mbt3.png";
 import guiltas from "../../assets/players/guiltas.png";
 import cs1 from "../../assets/players/cs1.png";
 import cs2 from "../../assets/players/cs2.png";
@@ -74,7 +75,7 @@ const LineUps = () => {
         />
         <SubContainer>
           <Card>
-            <Title>Fighting Games</Title>
+            <Title>Guilty Gear</Title>
             <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
@@ -106,15 +107,7 @@ const LineUps = () => {
               size={23}
               top={75}
               right={20}
-            />
-            <PlayerCardComponent
-              player={mbt2}
-              icon={mbt}
-              nick="Rekom"
-              size={30}
-              top={72}
-              right={25}
-            />
+            />            
             <PlayerCardComponent
               player={ggst11}
               icon={guiltas}
@@ -138,10 +131,22 @@ const LineUps = () => {
               size={21}
               top={75}
               right={22}
-            />
+            />          
+          </Card>
+          
+          <Card>
+            <Title>Melty Blood</Title>
             <PlayerCardComponent
-              player={ggst12}
-              icon={guiltas}
+              player={mbt2}
+              icon={mbt}
+              nick="Rekom"
+              size={30}
+              top={72}
+              right={25}                    
+            />             
+            <PlayerCardComponent
+              player={mbt3}
+              icon={mbt}
               nick="Tatubola"
               size={25}
               top={73}
