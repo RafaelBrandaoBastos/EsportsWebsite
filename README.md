@@ -4,7 +4,7 @@ A fully responsive web application made in ReactJs, to an Esports Orghanization.
 ## Desktop
 ![image 11](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/bfd031f0-b4a2-468d-9b50-8038cc3f6e56)
 
-## Intermediary
+## Responsive
 ![image 10](https://github.com/RafaelBrandaoBastos/EsportsWebsite/assets/72472711/82c9e58b-f6bd-42b7-b2c2-421708b25c0a)
 
 ## Mobile
