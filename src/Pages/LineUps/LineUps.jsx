@@ -77,7 +77,7 @@ const LineUps = () => {
         />
         <SubContainer>
           <Card>
-            <Title>Guilty Gear</Title>
+            <Title>Fighting Games</Title>
             <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
