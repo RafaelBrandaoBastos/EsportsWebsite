@@ -49,6 +49,8 @@ import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
 import battle from "../../assets/players/battle.png";
 import bb1 from "../../assets/players/battlebit.png";
+import granblas from "../../assets/players/gbvs.png";
+import gbvs1 from "../../assets/players/gbvs2.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -125,8 +127,8 @@ const LineUps = () => {
               right={25}         
             /> 
             <PlayerCardComponent
-              player={ggst9}
-              icon={guiltas}
+              player={gbvs1}
+              icon={granblas}
               nick="Jose Galas"
               size={21}
               top={75}
