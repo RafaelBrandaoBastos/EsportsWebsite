@@ -68,7 +68,7 @@ const Home = () => {
           staffStyle="none"
         />
         <SubContainer>
-          <BannerComponent src={banner2} alt="Banner" />
+          <BannerComponent src={banner} alt="Banner" />
           <Card>
             <TextCard>
               <Title>
