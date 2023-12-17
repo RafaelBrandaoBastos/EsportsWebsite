@@ -52,6 +52,7 @@ import bb1 from "../../assets/players/battlebit.png";
 import granblas from "../../assets/players/gbvs.png";
 import gbvs1 from "../../assets/players/gbvs2.png";
 import gbvs2 from "../../assets/players/gbvs1.png";
+import gbvs3 from "../../assets/players/gbvs3.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -144,6 +145,14 @@ const LineUps = () => {
               nick="Jose Galas"
               size={21}
               top={75}
+              right={22}
+            />
+            <PlayerCardComponent
+              player={gbvs3}
+              icon={granblas}
+              nick="Sudano"
+              size={29}
+              top={72}
               right={22}
             />
             <PlayerCardComponent
