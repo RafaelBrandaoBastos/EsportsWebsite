@@ -53,6 +53,7 @@ import granblas from "../../assets/players/gbvs.png";
 import gbvs1 from "../../assets/players/gbvs2.png";
 import gbvs2 from "../../assets/players/gbvs1.png";
 import gbvs3 from "../../assets/players/gbvs3.png";
+import gbvs4 from "../../assets/players/gbvs4.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -156,13 +157,22 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
+              player={gbvs4}
+              icon={granblas}
+              nick="Daniel INSS"
+              size={21}
+              top={75}
+              right={23}
+            />  
+            <PlayerCardComponent
               player={gbvs2}
               icon={granblas}
               nick="Nabuti"
               size={30}
               top={72}
               right={22}
-            />   
+            />
+            
           </Card>
           <Card>
             <Title>Melty Blood</Title>
