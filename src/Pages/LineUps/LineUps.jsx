@@ -54,6 +54,7 @@ import gbvs1 from "../../assets/players/gbvs2.png";
 import gbvs2 from "../../assets/players/gbvs1.png";
 import gbvs3 from "../../assets/players/gbvs3.png";
 import gbvs4 from "../../assets/players/gbvs4.png";
+import gbvs5 from "../../assets/players/gbvs5.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -170,6 +171,14 @@ const LineUps = () => {
               nick="Nabuti"
               size={30}
               top={72}
+              right={22}
+            />
+            <PlayerCardComponent
+              player={gbvs5}
+              icon={granblas}
+              nick="Bydo"
+              size={37}
+              top={68}
               right={22}
             />
             
