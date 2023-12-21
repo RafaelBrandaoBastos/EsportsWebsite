@@ -54,7 +54,7 @@ const LineUps = () => {
               href="https://twitter.com/sayoni__"
               target="_blank"
             >
-              @NabutiJinja
+              @sayoni__
             </Link>
           </Card>
 
