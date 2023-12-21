@@ -16,6 +16,7 @@ import "./style.js";
 import brands from "../../assets/brands.png";
 import bydo from "../../assets/bydo.png";
 import nabuti from "../../assets/nabuti.png";
+import prc7 from "../../assets/parceiros/prc7.png";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
 import Arrow from "../../components/Arrow/Arrow";
@@ -44,13 +45,13 @@ const LineUps = () => {
         />
         <SubContainer>
           <Card>
-            <StaffImg src={nabuti}></StaffImg>
+            <StaffImg src={prc7}></StaffImg>
             <Title>CEO</Title>
             <Subtitle>Chief Executive Officer</Subtitle>
-            <Subtitle>Gabriel "Nabuti" Terra </Subtitle>
+            <Subtitle>Rafael "SaySay" Sayoni</Subtitle>
             <Link
               size={"23px"}
-              href="https://twitter.com/NabutiJinja"
+              href="https://twitter.com/sayoni__"
               target="_blank"
             >
               @NabutiJinja
