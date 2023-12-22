@@ -45,16 +45,16 @@ const LineUps = () => {
         />
         <SubContainer>
           <Card>
-            <StaffImg src={prc7}></StaffImg>
+            <StaffImg src={nabuti}></StaffImg>
             <Title>CEO</Title>
             <Subtitle>Chief Executive Officer</Subtitle>
-            <Subtitle>Rafael "SaySay" Sayoni</Subtitle>
+            <Subtitle>Gabriel "Nabuti" Terra</Subtitle>
             <Link
               size={"23px"}
-              href="https://twitter.com/sayoni__"
+              href="https://twitter.com/NabutiJinja"
               target="_blank"
             >
-              @sayoni__
+              @NabutiJinja
             </Link>
           </Card>
 
