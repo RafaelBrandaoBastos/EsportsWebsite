@@ -67,11 +67,11 @@ const Parceiros = () => {
             <PartnerCard
               titlesize={30}
               linksize={23}
-              img={prc7}
+              img={prc11}
               title={"Tulapas"}
               link={"https://www.twitch.tv/tulapas"}
               text={
-                ""
+                "Prazer, esse estranho ai na tela sou eu, jogo de tudo um pouco, e faço live de um tanto de coisa diferente, live livre para vc falar e zoar da forma que quiser desde que não desrespeite ninguem. Da uma chance que tu vai viciar no pai xD"
               }
             />
             <PartnerCard
