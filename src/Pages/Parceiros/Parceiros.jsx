@@ -17,6 +17,7 @@ import prc6 from "../../assets/parceiros/prc6.png";
 import prc7 from "../../assets/parceiros/prc7.png";
 import prc8 from "../../assets/parceiros/prc8.png";
 import prc9 from "../../assets/parceiros/prc9.png";
+import prc11 from "../../assets/parceiros/prc11.png";
 
 const Parceiros = () => {
   const { x, y } = useWindowScroll();
@@ -61,6 +62,16 @@ const Parceiros = () => {
               link={"https://shop.ultraarcadebh.com.br/"}
               text={
                 "Um fliperama modernizado para amantes de jogos de luta, retrô e E-sports. Controles artesanais e fabricados do zero."
+              }
+            />
+            <PartnerCard
+              titlesize={30}
+              linksize={23}
+              img={prc7}
+              title={"Tulapas"}
+              link={"https://www.twitch.tv/tulapas"}
+              text={
+                ""
               }
             />
             <PartnerCard
