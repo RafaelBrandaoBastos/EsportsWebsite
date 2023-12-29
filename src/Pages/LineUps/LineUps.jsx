@@ -44,7 +44,9 @@ import defuse from "../../assets/players/defuse.png";
 import dnf from "../../assets/players/dnf.png";
 import dnf1 from "../../assets/players/dnf1.png";
 import un from "../../assets/players/un.png";
-import un1 from "../../assets/players/un1.png";
+import un1 from "../../assets/players/uni1.png";
+import un2 from "../../assets/players/uni2.png";
+import un3 from "../../assets/players/uni3.png";
 import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
 import battle from "../../assets/players/battle.png";
@@ -55,6 +57,7 @@ import gbvs2 from "../../assets/players/gbvs1.png";
 import gbvs3 from "../../assets/players/gbvs3.png";
 import gbvs4 from "../../assets/players/gbvs4.png";
 import gbvs5 from "../../assets/players/gbvs5.png";
+import gbvs6 from "../../assets/players/gbvs6.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -166,7 +169,7 @@ const LineUps = () => {
               right={23}
             />  
             <PlayerCardComponent
-              player={gbvs2}
+              player={gbvs6}
               icon={granblas}
               nick="Nabuti"
               size={30}
@@ -182,6 +185,33 @@ const LineUps = () => {
               right={22}
             />
             
+          </Card>
+          <Card>
+            <Title>Under Night In-Birth</Title>
+            <PlayerCardComponent
+              player={uni2}
+              icon={un}
+              nick="Gabfusca"
+              size={30}
+              top={72}
+              right={25}                    
+            />             
+            <PlayerCardComponent
+              player={uni3}
+              icon={un}
+              nick="fire"
+              size={37}
+              top={68}
+              right={22}
+            />
+            <PlayerCardComponent
+              player={uni1}
+              icon={un}
+              nick="nabuti"
+              size={30}
+              top={72}
+              right={22}
+            />
           </Card>
           <Card>
             <Title>Melty Blood</Title>
