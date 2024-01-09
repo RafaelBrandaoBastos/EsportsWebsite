@@ -96,6 +96,17 @@ const Header = (props) => {
           <HeaderOption href={"/staff" + selectedLanguage}>
             <p className={props.staffStyle}>Staff</p>
           </HeaderOption>
+
+          <HeaderOption href={"/camisas" + selectedLanguage}>
+            <p className={props.camisasStyle}>
+              {selectedLanguage == "/"
+                ? "Uniformes"
+                : selectedLanguage == "/en"
+                ? "Jerseys"
+                : "Uniformes"}
+            </p>
+          </HeaderOption>
+
         </HeaderList>
         <Language>
           <LanguageCarousel>
@@ -201,6 +212,16 @@ const Header = (props) => {
 
           <HeaderOptionMobile href={"/staff" + selectedLanguage}>
             <p className={props.staffStyle}>Staff</p>
+          </HeaderOptionMobile>
+
+          <HeaderOptionMobile href={"/camisas" + selectedLanguage}>
+            <p className={props.camisasStyle}>
+              {selectedLanguage == "/"
+                ? "Uniformes"
+                : selectedLanguage == "/en"
+                ? "Jerseys"
+                : "Uniformes"}
+            </p>
           </HeaderOptionMobile>
 
           <HeaderOptionMobile>
