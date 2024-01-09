@@ -1,7 +1,13 @@
-import React, { useEffect, useState, useRef } from "react";
-import { Transition } from "react-transition-group";
-import { useWindowScroll } from "react-use";
+import React, {
+  useEffect,
+  useState,
+  useRef,
+  useContext,
+  useLocation,
+} from "react";
 import { Tweet } from "react-tweet";
+import { useWindowScroll } from "react-use";
+import { LanguageContext } from "../../contexts/LanguageProvider";
 import { Container, ContainerLoad, Card, SubContainer } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner.jsx";
@@ -9,10 +15,9 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
 const Shirt = () => {
-
   window.onload = codeAddress;
   function codeAddress() {
-    window.open("https://forms.gle/GvwqCNfnhpWjGk2G6");
+    //window.open("https://forms.gle/GvwqCNfnhpWjGk2G6");   
   }
   return (
     <>

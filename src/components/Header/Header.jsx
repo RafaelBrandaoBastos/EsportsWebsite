@@ -53,7 +53,7 @@ const Header = (props) => {
       window.location.href = "/";
     }
   }
-  console.log("");
+  console.log(selectedLanguage);
   return (
     <>
       <HeaderComponent className={hide ? "fade" : ""}>
@@ -100,7 +100,7 @@ const Header = (props) => {
           <HeaderOption href={"/camisas" + selectedLanguage}>
             <p className={props.camisasStyle}>
               {selectedLanguage == "/"
-                ? "Uniformes"
+                ? "Camisas"
                 : selectedLanguage == "/en"
                 ? "Jerseys"
                 : "Uniformes"}
