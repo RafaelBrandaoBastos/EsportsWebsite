@@ -69,7 +69,7 @@ const LineUps = () => {
               href="https://twitter.com/Matheusshi"
               target="_blank"
             >
-              @TheBydo
+              @Matheusshi
             </Link>
           </Card>
 
