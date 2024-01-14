@@ -16,6 +16,7 @@ import "./style.js";
 import brands from "../../assets/brands.png";
 import bydo from "../../assets/bydo.png";
 import nabuti from "../../assets/nabuti.png";
+import shi from "../../assets/MatShi.jpg";
 import prc7 from "../../assets/parceiros/prc7.png";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
@@ -59,13 +60,13 @@ const LineUps = () => {
           </Card>
 
           <Card>
-            <StaffImg src={bydo}></StaffImg>
+            <StaffImg src={shi}></StaffImg>
             <Title>COO</Title>
             <Subtitle>Chief Operations Officer</Subtitle>
-            <Subtitle>Bernardo "Bydo" Miranda </Subtitle>
+            <Subtitle>Matheus "Matheusshi" Shi</Subtitle>
             <Link
               size={"23px"}
-              href="https://twitter.com/TheBydo"
+              href="https://twitter.com/Matheusshi"
               target="_blank"
             >
               @TheBydo
