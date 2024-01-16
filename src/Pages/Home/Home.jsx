@@ -81,10 +81,10 @@ const Home = () => {
               </Title>
               <Text>
                 {selectedLanguage == ""
-                  ? "A Grupo Esports é uma organização de jogos eletronicos que se destaca pela sua habilidade e paixão pela competição virtual. Atualmente com representantes no cenario brasileiro de GuiltyGear Strive, Counter-Strike: Global Offensive e jogos de lutavariados. Unidos, os membros do Grupo eSports dedicam-se incansavelmente a aprimorar suas habilidades e alcançar o sucesso nas competições virtuais."
+                  ? "A Grupo Esports é uma organização de jogos eletronicos que se destaca pela sua habilidade e paixão pela competição virtual. Atualmente com representantes no cenario brasileiro de GuiltyGear Strive, Granblue Fantasy Versus e jogos de luta variados. Unidos, os membros do Grupo eSports dedicam-se incansavelmente a aprimorar suas habilidades e alcançar o sucesso nas competições virtuais."
                   : selectedLanguage == "/en"
-                  ? "Grupo Esports is an electronic gaming organization that stands out for its skill and passion for virtual competition. Currently with representatives in the Brazilian scene of GuiltyGear Strive, Counter-Strike: Global Offensive and various fighting games. United, the members of the Grupo eSports are tirelessly dedicated to improving their skills and achieving success in virtual competitions."
-                  : "Grupo Esports es una organización de juegos electrónicos que se destaca por su habilidad y pasión por la competencia virtual, actualmente con representantes en la escena brasileña de GuiltyGear Strive, Counter-Strike: Global Offensive y diversos juegos de lucha. Unidos, los miembros del eSports Group se dedican incansablemente a mejorar sus habilidades y alcanzar el éxito en las competiciones virtuales."}
+                  ? "Grupo Esports is an electronic gaming organization that stands out for its skill and passion for virtual competition. Currently with representatives in the Brazilian scene of GuiltyGear Strive, Granblue Fantasy Versus and various fighting games. United, the members of the Grupo eSports are tirelessly dedicated to improving their skills and achieving success in virtual competitions."
+                  : "Grupo Esports es una organización de juegos electrónicos que se destaca por su habilidad y pasión por la competencia virtual, actualmente con representantes en la escena brasileña de GuiltyGear Strive, Granblue Fantasy Versus y diversos juegos de lucha. Unidos, los miembros del eSports Group se dedican incansablemente a mejorar sus habilidades y alcanzar el éxito en las competiciones virtuales."}
                 <br></br>
                 <br></br>
                 {selectedLanguage == ""
