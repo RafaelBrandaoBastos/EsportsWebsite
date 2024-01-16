@@ -51,7 +51,7 @@ export const SubContainer = styled.div`
   }
 `;
 export const Text = styled.p`
-  font-size: 26px;
+  font-size: 25px;
   font-family: "Barlow Condensed", sans-serif;
   color: white;
   padding: 0px;
@@ -65,8 +65,9 @@ export const Title = styled.p`
   text-align: start;
   width: 100%;
   display: flex;
+  transform: scale(1, 1.4);
   @media (max-width: 400px) {
-    font-size: 15px;
+    font-size: 20px;
   }
 `;
 export const ContainerLoad = styled.div`
