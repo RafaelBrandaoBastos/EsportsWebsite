@@ -60,16 +60,16 @@ const LineUps = () => {
           </Card>
 
           <Card>
-            <StaffImg src={shi}></StaffImg>
+            <StaffImg src={bydo}></StaffImg>
             <Title>COO</Title>
             <Subtitle>Chief Operations Officer</Subtitle>
-            <Subtitle>Matheus "Matheusshi" Shi</Subtitle>
+            <Subtitle>Bernardo "Bydo" Miranda</Subtitle>
             <Link
               size={"23px"}
-              href="https://twitter.com/Matheusshi"
+              href="https://twitter.com/TheBydo"
               target="_blank"
             >
-              @Matheusshi
+              @TheBydo
             </Link>
           </Card>
 
