@@ -177,9 +177,7 @@ const Header = (props) => {
           alt="LogoMobile"
           onClick={handleMenuClick}
         />
-
         <LogoMobileComponent src={logo} alt="LogoMobile" />
-
         <HeaderListMobile className={hide ? "hide" : ""}>
           <HeaderOptionMobile href={
               selectedLanguage != ""

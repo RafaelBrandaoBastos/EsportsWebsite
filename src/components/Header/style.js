@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderComponent = styled.div`
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.95);
   width: 100%;
   height: 90px;
   margin: 0;
@@ -101,12 +101,13 @@ export const HeaderListMobile = styled.div`
   width: auto;
   height: auto;
   position: absolute;
-  top: 75px;
+  top: 80px;
+  left: -5px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.95);
   border-radius: 10px;
   @media (min-width: 1120px) {
     display: none;
@@ -161,7 +162,7 @@ export const LanguageMobile = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.95);
   margin-bottom: 20px;
   @media (min-width: 1120px) {
     display: none;
