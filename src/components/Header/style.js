@@ -59,6 +59,7 @@ export const HeaderOption = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: scale(1, 1.2);
   font-family: "Ethnocentric Rg";
   text-decoration: none;
   .none {
@@ -102,7 +103,6 @@ export const HeaderListMobile = styled.div`
   position: absolute;
   top: 75px;
   display: flex;
-
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
@@ -121,6 +121,7 @@ export const HeaderOptionMobile = styled.a`
   padding: 10px 35px 0px 30px;
   font-size: 18px;
   text-align: left;
+  transform: scale(1, 1.2);
   font-family: "Ethnocentric Rg";
   text-decoration: none;
   .none {
