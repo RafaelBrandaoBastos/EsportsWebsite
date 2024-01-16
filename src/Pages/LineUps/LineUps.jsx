@@ -233,7 +233,7 @@ const LineUps = () => {
             />
           </Card>
 
-          <Card>
+          {/* <Card>
             <Title>First Person Shooter</Title>
             <PlayerCardComponent
               player={cs1}
@@ -243,7 +243,7 @@ const LineUps = () => {
               top={72}
               right={25}
             />            
-              <PlayerCardComponent
+            <PlayerCardComponent
               player={bb1}
               icon={battle}
               nick="Brands"
@@ -299,7 +299,7 @@ const LineUps = () => {
               top={72}
               right={20}
             />
-          </Card>
+          </Card> */}
         </SubContainer>
         <Footer />
         <Arrow scroll={y} height={height} />

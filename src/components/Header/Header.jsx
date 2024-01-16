@@ -181,7 +181,11 @@ const Header = (props) => {
         <LogoMobileComponent src={logo} alt="LogoMobile" />
 
         <HeaderListMobile className={hide ? "hide" : ""}>
-          <HeaderOptionMobile href={"" + selectedLanguage}>
+          <HeaderOptionMobile href={
+              selectedLanguage != ""
+                ? "" + selectedLanguage
+                : "/" + selectedLanguage
+            }>
             {" "}
             <p className={props.homeStyle}>Home</p>{" "}
           </HeaderOptionMobile>

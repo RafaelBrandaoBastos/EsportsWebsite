@@ -51,7 +51,7 @@ export const SubContainer = styled.div`
   }
 `;
 export const Text = styled.p`
-  font-size: 23px;
+  font-size: 26px;
   font-family: "Barlow Condensed", sans-serif;
   color: white;
   padding: 0px;
@@ -143,7 +143,7 @@ export const TweetCard = styled.div`
 
 export const IframeComponent = styled.iframe`
   width: 100%;
-  height: 420px;
+  height: 670px;
   margin: 25px 0px 50px 0px;
   frameborder: 0;
   @media (max-width: 850px) {
