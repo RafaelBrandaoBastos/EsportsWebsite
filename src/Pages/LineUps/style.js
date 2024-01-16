@@ -93,6 +93,6 @@ export const Title = styled.p`
     margin-bottom: 10px;
   }
   @media (max-width: 400px) {
-    font-size: 35px;
+    font-size: 30px;
   }
 `;
