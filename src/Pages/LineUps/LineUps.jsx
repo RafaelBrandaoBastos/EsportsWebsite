@@ -47,6 +47,7 @@ import un from "../../assets/players/un.png";
 import uni1 from "../../assets/players/uni1.png";
 import uni2 from "../../assets/players/uni2.png";
 import uni3 from "../../assets/players/uni3.png";
+import uni4 from "../../assets/players/uni4.png";
 import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
 import battle from "../../assets/players/battle.png";
@@ -196,6 +197,14 @@ const LineUps = () => {
               size={37}
               top={68}
               right={22}
+            />
+            <PlayerCardComponent
+              player={uni4}
+              icon={un}
+              nick="ferovsky"
+              size={23}
+              top={75}
+              right={20}
             />
             <PlayerCardComponent
               player={uni1}
