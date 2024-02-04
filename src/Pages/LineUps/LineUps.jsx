@@ -61,6 +61,7 @@ import gbvs5 from "../../assets/players/gbvs5.png";
 import gbvs6 from "../../assets/players/gbvs6.png";
 import gbvs7 from "../../assets/players/gbvs7.png";
 import gbvs8 from "../../assets/players/gbvs8.png";
+import gbvs9 from "../../assets/players/gbvs9.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -189,7 +190,7 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={gbvs5}
+              player={gbvs9}
               icon={granblas}
               nick="Bydo"
               size={37}
