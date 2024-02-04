@@ -50,6 +50,8 @@ import uni3 from "../../assets/players/uni3.png";
 import uni4 from "../../assets/players/uni4.png";
 import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
+import tk2 from "../../assets/players/tk2.png";
+import tk3 from "../../assets/players/tk3.png";
 import battle from "../../assets/players/battle.png";
 import bb1 from "../../assets/players/battlebit.png";
 import granblas from "../../assets/players/gbvs.png";
@@ -251,6 +253,25 @@ const LineUps = () => {
               size={25}
               top={73}
               right={20}
+            />
+          </Card>
+          <Card>
+            <Title>Tekken</Title>
+            <PlayerCardComponent
+              player={tk3}
+              icon={tk}
+              nick="Sudano"
+              size={29}
+              top={72}
+              right={22}                   
+            />             
+            <PlayerCardComponent
+              player={tk2}
+              icon={tk}
+              nick="Bydo"
+              size={37}
+              top={68}
+              right={22}
             />
           </Card>
 
