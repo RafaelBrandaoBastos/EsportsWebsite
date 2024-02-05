@@ -113,7 +113,7 @@ const Home = () => {
                   : "Queremos expresar nuestro profundo agradecimiento a nuestros valiosos patrocinadores, LaCoffe y Ultra Arcade. El excepcional café de LaCoffe nos da energía para los entrenamientos y competiciones, mientras que los controles de alta calidad de Ultra Arcade perfeccionan nuestras habilidades y nos brindan momentos increíbles."}
               </Text>
               <IframeComponent src="https://www.instagram.com/ultraarcadebh/embed/"></IframeComponent>
-              <IframeComponent src="https://www.instagram.com/lacoffeecafeteria/embed/"></IframeComponent>
+              <IframeComponent src="https://www.instagram.com/mardbox/embed/"></IframeComponent>
             </TextCard>
           </Card>
           <TweetCard>
