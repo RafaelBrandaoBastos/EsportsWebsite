@@ -97,7 +97,7 @@ const Header = (props) => {
             <p className={props.staffStyle}>Staff</p>
           </HeaderOption>
 
-          <HeaderOption href={"/camisas" + selectedLanguage}>
+          {/* <HeaderOption href={"/camisas" + selectedLanguage}>
             <p className={props.camisasStyle}>
               {selectedLanguage == "/"
                 ? "Camisas"
@@ -105,7 +105,7 @@ const Header = (props) => {
                 ? "Jerseys"
                 : "Uniformes"}
             </p>
-          </HeaderOption>
+          </HeaderOption> */}
 
         </HeaderList>
         <Language>
@@ -216,7 +216,7 @@ const Header = (props) => {
             <p className={props.staffStyle}>Staff</p>
           </HeaderOptionMobile>
 
-          <HeaderOptionMobile href={"/camisas" + selectedLanguage}>
+          {/* <HeaderOptionMobile href={"/camisas" + selectedLanguage}>
             <p className={props.camisasStyle}>
               {selectedLanguage == "/"
                 ? "Uniformes"
@@ -224,7 +224,7 @@ const Header = (props) => {
                 ? "Jerseys"
                 : "Uniformes"}
             </p>
-          </HeaderOptionMobile>
+          </HeaderOptionMobile> */}
 
           <HeaderOptionMobile>
             <LanguageMobile>
