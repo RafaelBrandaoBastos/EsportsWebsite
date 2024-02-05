@@ -48,6 +48,7 @@ import uni1 from "../../assets/players/uni1.png";
 import uni2 from "../../assets/players/uni2.png";
 import uni3 from "../../assets/players/uni3.png";
 import uni4 from "../../assets/players/uni4.png";
+import uni5 from "../../assets/players/uni5.png";
 import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
 import tk2 from "../../assets/players/tk2.png";
@@ -64,6 +65,7 @@ import gbvs6 from "../../assets/players/gbvs6.png";
 import gbvs7 from "../../assets/players/gbvs7.png";
 import gbvs8 from "../../assets/players/gbvs8.png";
 import gbvs9 from "../../assets/players/gbvs9.png";
+
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -228,12 +230,12 @@ const LineUps = () => {
               right={20}
             />
             <PlayerCardComponent
-              player={uni1}
+              player={uni5}
               icon={un}
-              nick="nabuti"
-              size={30}
-              top={72}
-              right={22}
+              nick="rekom"
+              size={32}
+              top={70}
+              right={25}  
             />
           </Card>
           <Card>
