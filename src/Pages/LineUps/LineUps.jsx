@@ -47,8 +47,12 @@ import un from "../../assets/players/un.png";
 import uni1 from "../../assets/players/uni1.png";
 import uni2 from "../../assets/players/uni2.png";
 import uni3 from "../../assets/players/uni3.png";
+import uni4 from "../../assets/players/uni4.png";
+import uni5 from "../../assets/players/uni5.png";
 import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
+import tk2 from "../../assets/players/tk2.png";
+import tk3 from "../../assets/players/tk3.png";
 import battle from "../../assets/players/battle.png";
 import bb1 from "../../assets/players/battlebit.png";
 import granblas from "../../assets/players/gbvs.png";
@@ -58,6 +62,10 @@ import gbvs3 from "../../assets/players/gbvs3.png";
 import gbvs4 from "../../assets/players/gbvs4.png";
 import gbvs5 from "../../assets/players/gbvs5.png";
 import gbvs6 from "../../assets/players/gbvs6.png";
+import gbvs7 from "../../assets/players/gbvs7.png";
+import gbvs8 from "../../assets/players/gbvs8.png";
+import gbvs9 from "../../assets/players/gbvs9.png";
+
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -151,14 +159,7 @@ const LineUps = () => {
               size={21}
               top={75}
               right={22}
-            />
-            <PlayerCardComponent
-              player={gbvs3}
-              icon={granblas}
-              nick="Sudano"
-              size={29}
-              top={72}
-              right={22}
+            
             />
             <PlayerCardComponent
               player={gbvs4}
@@ -167,9 +168,25 @@ const LineUps = () => {
               size={21}
               top={75}
               right={23}
-            />  
+            />
             <PlayerCardComponent
-              player={gbvs6}
+              player={gbvs7}
+              icon={granblas}
+              nick="Elodius"
+              size={29}
+              top={72}
+              right={22}
+            />
+            <PlayerCardComponent
+              player={gbvs3}
+              icon={granblas}
+              nick="Gabfusca"
+              size={23}
+              top={75}
+              right={20}
+            />
+            <PlayerCardComponent
+              player={gbvs8}
               icon={granblas}
               nick="Nabuti"
               size={30}
@@ -177,7 +194,7 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={gbvs5}
+              player={gbvs9}
               icon={granblas}
               nick="Bydo"
               size={37}
@@ -205,12 +222,20 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={uni1}
+              player={uni4}
               icon={un}
-              nick="nabuti"
-              size={30}
-              top={72}
-              right={22}
+              nick="ferovsky"
+              size={23}
+              top={75}
+              right={20}
+            />
+            <PlayerCardComponent
+              player={uni5}
+              icon={un}
+              nick="rekom"
+              size={32}
+              top={70}
+              right={25}  
             />
           </Card>
           <Card>
@@ -230,6 +255,25 @@ const LineUps = () => {
               size={25}
               top={73}
               right={20}
+            />
+          </Card>
+          <Card>
+            <Title>Tekken</Title>
+            <PlayerCardComponent
+              player={tk3}
+              icon={tk}
+              nick="Sudano"
+              size={29}
+              top={72}
+              right={22}                   
+            />             
+            <PlayerCardComponent
+              player={tk2}
+              icon={tk}
+              nick="Bydo"
+              size={37}
+              top={68}
+              right={22}
             />
           </Card>
 
