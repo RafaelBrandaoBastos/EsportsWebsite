@@ -105,13 +105,13 @@ const Home = () => {
                   ? "Sponsors"
                   : "Patrocinadores"}
               </Title>
-              <Text>
+              {/* <Text>
                 {selectedLanguage == ""
                   ? "Queremos expressar nossa profunda gratidão aos nossos valiosos patrocinadores, LaCoffe e Ultra Arcade. O café excepcional da LaCoffe nos energiza para treinos e competições, enquanto os controles de alta qualidade da Ultra Arcade aprimoram nossas habilidades e nos proporcionam momentos incríveis."
                   : selectedLanguage == "/en"
                   ? "We want to express our deep gratitude to our valued sponsors, LaCoffe and Ultra Arcade. LaCoffe's exceptional coffee energizes us for training and competitions, while Ultra Arcade's high-quality controls hone our skills and give us incredible moments."
                   : "Queremos expresar nuestro profundo agradecimiento a nuestros valiosos patrocinadores, LaCoffe y Ultra Arcade. El excepcional café de LaCoffe nos da energía para los entrenamientos y competiciones, mientras que los controles de alta calidad de Ultra Arcade perfeccionan nuestras habilidades y nos brindan momentos increíbles."}
-              </Text>
+              </Text> */}
               <IframeComponent src="https://www.instagram.com/ultraarcadebh/embed/"></IframeComponent>
               <IframeComponent src="https://www.instagram.com/mardbox/embed/"></IframeComponent>
             </TextCard>
