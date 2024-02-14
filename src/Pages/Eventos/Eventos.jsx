@@ -40,6 +40,9 @@ import photo1BC from "../../assets/BC23/photo1.jpg";
 import photo2BC from "../../assets/BC23/photo2.jpg";
 import photo3BC from "../../assets/BC23/photo3.jpeg";
 
+import photo1NT from "../../assets/Noitada01/NoitadaMain.png";
+import photo2NT from "../../assets/Noitada01/top8.png";
+
 const Eventos = () => {
   const { x, y } = useWindowScroll();
   const [scrolled, setScrolled] = useState(0);
@@ -65,6 +68,28 @@ const Eventos = () => {
           staffStyle="none"
         />
         <SubContainer>
+        <EventCard
+            title={"Noitada do Grupo - 01"}
+            text={
+              selectedLanguage == ""
+                ? "O primeiro torneio online do grupo, tivemos 38 pessoas inscritas."
+                : selectedLanguage == "/en"
+                ? "The first Grupo online tournament, we had 38 players"
+                : "El primer torneo online del Grupo, tuvimos 38 personas inscritas."
+            }
+            position={
+              selectedLanguage == ""
+                ? "Top 8 \n 1st - HSPC Jaca \n 2nd - HSPC Klasfer \n 3rd - ADK Guizin \n 4th - HSPC Axuul \n 5th - GRP Fero & ADKSeth \n 7th - Miidas & GRP Fire"
+                : selectedLanguage == "/en"
+                ? "Top 8 \n 1st - HSPC Jaca \n 2nd - HSPC Klasfer \n 3rd - ADK Guizin \n 4th - HSPC Axuul \n 5th - GRP Fero & ADKSeth \n 7th - Miidas & GRP Fire"
+                : "Top 8 \n 1st - HSPC Jaca \n 2nd - HSPC Klasfer \n 3rd - ADK Guizin \n 4th - HSPC Axuul \n 5th - GRP Fero & ADKSeth \n 7th - Miidas & GRP Fire"
+            }
+            date={"11/02/2024"}
+            photocount={2}
+            foto1={photo1NT}
+            foto2={photo2NT}
+            
+          />
           <EventCard
             title={"Battle Coliseum 2023"}
             text={
