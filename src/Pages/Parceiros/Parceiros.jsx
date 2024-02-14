@@ -48,10 +48,10 @@ const Parceiros = () => {
               titlesize={30}
               linksize={23}
               img={prc1}
-              title={"La Coffe"}
-              link={"https://instagram.com/lacoffeecafeteria/"}
+              title={"Mardbox"}
+              link={"https://mardbox.mercadoshops.com.br"}
               text={
-                "☕ Para os que buscam o verdadeiro sabor do café! Rua Sergipe, 623, Savassi, Belo Horizonte. Segunda a Sexta de 7h00 às 17h30"
+                "Cases de aço para arcades customizados. Catálogo de modelos e preços: http://shorturl.at/vADZ1"
               }
             />
             <PartnerCard
