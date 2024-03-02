@@ -189,8 +189,8 @@ const LineUps = () => {
               player={gbvs6}
               icon={granblas}
               nick="momo"
-              size={30}
-              top={72}
+              size={35}
+              top={70}
               right={22}
             />          
             
