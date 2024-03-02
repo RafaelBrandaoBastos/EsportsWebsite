@@ -188,7 +188,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={gbvs6}
               icon={granblas}
-              nick="Renato"
+              nick="momo"
               size={30}
               top={72}
               right={22}
