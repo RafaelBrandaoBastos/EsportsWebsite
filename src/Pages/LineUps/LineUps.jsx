@@ -186,21 +186,13 @@ const LineUps = () => {
               right={20}
             />
             <PlayerCardComponent
-              player={gbvs8}
+              player={gbvs6}
               icon={granblas}
-              nick="Nabuti"
+              nick="Renato"
               size={30}
               top={72}
               right={22}
-            />
-            <PlayerCardComponent
-              player={gbvs9}
-              icon={granblas}
-              nick="Bydo"
-              size={37}
-              top={68}
-              right={22}
-            />
+            />          
             
           </Card>
           <Card>
