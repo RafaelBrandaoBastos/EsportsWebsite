@@ -30,6 +30,7 @@ import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 import banner from "../../assets/banner.png";
 import banner2 from "../../assets/BannerZate.png";
+import banner3 from "../../assets/BannerEquipe.png";
 import sushi from "../../assets/sushi.png";
 
 const Home = () => {
@@ -69,7 +70,7 @@ const Home = () => {
           camisasStyle="none"
         />
         <SubContainer>
-          <BannerComponent src={banner} alt="Banner" />
+          <BannerComponent src={banner3} alt="Banner" />
           <Card>
             <TextCard>
               <Title>
