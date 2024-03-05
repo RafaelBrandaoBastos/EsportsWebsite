@@ -70,7 +70,7 @@ const Home = () => {
           camisasStyle="none"
         />
         <SubContainer>
-          <BannerComponent src={banner3} alt="Banner" />
+          <BannerComponent src={banner} alt="Banner" />
           <Card>
             <TextCard>
               <Title>
