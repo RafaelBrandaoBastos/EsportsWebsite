@@ -65,6 +65,9 @@ import gbvs6 from "../../assets/players/gbvs6.png";
 import gbvs7 from "../../assets/players/gbvs7.png";
 import gbvs8 from "../../assets/players/gbvs8.png";
 import gbvs9 from "../../assets/players/gbvs9.png";
+import duelinho from "../../assets/players/duelinho.png";
+import duel1 from "../../assets/players/duel1.png";
+import duel2 from "../../assets/players/duel2.png";
 
 
 const LineUps = () => {
@@ -196,6 +199,25 @@ const LineUps = () => {
             
           </Card>
           <Card>
+            <Title>Duelists of Eden</Title>
+            <PlayerCardComponent
+              player={duel1}
+              icon={duelinho}
+              nick="scorn"
+              size={34}
+              top={70}
+              right={22}                   
+            />             
+            <PlayerCardComponent
+              player={duel2}
+              icon={duelinho}
+              nick="nabuti"
+              size={31}
+              top={71}
+              right={22}
+            />
+          </Card>
+          <Card>
             <Title>Under Night In-Birth</Title>
             <PlayerCardComponent
               player={uni2}
@@ -249,25 +271,7 @@ const LineUps = () => {
               right={20}
             />
           </Card>
-          <Card>
-            <Title>Tekken</Title>
-            <PlayerCardComponent
-              player={tk3}
-              icon={tk}
-              nick="Sudano"
-              size={29}
-              top={72}
-              right={22}                   
-            />             
-            <PlayerCardComponent
-              player={tk2}
-              icon={tk}
-              nick="Bydo"
-              size={37}
-              top={68}
-              right={22}
-            />
-          </Card>
+          
 
           {/* <Card>
             <Title>First Person Shooter</Title>
