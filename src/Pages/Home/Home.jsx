@@ -32,7 +32,7 @@ import banner from "../../assets/banner.png";
 import banner2 from "../../assets/BannerZate.png";
 import banner3 from "../../assets/BannerEquipe.png";
 import sushi from "../../assets/sushi.png";
-
+import grito from "../../assets/grito.jpg";
 const Home = () => {
   const { x, y } = useWindowScroll();
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
@@ -86,8 +86,9 @@ const Home = () => {
                   : selectedLanguage == "/en"
                   ? "Grupo Esports is an electronic gaming organization that stands out for its skill and passion for virtual competition. Currently with representatives in the Brazilian scene of GuiltyGear Strive, Granblue Fantasy Versus and various fighting games. United, the members of the Grupo eSports are tirelessly dedicated to improving their skills and achieving success in virtual competitions."
                   : "Grupo Esports es una organización de juegos electrónicos que se destaca por su habilidad y pasión por la competencia virtual, actualmente con representantes en la escena brasileña de GuiltyGear Strive, Granblue Fantasy Versus y diversos juegos de lucha. Unidos, los miembros del eSports Group se dedican incansablemente a mejorar sus habilidades y alcanzar el éxito en las competiciones virtuales."}
-                <br></br>
-                <br></br>
+              </Text>
+              <ImgComponent src={grito} />
+              <Text>
                 {selectedLanguage == ""
                   ? "Com uma mentalidade focada no trabalho em equipe, estratégias inovadoras e uma sede constante de aprendizado, a Grupo Esports está rapidamente conquistando seu espaço e conquistando fãs fervorosos. Com certeza, podemos esperar ver muito mais desse time no futuro dos esports."
                   : selectedLanguage == "/en"
@@ -95,7 +96,6 @@ const Home = () => {
                   : "Con una mentalidad centrada en el trabajo en equipo, estrategias innovadoras y una sed constante de aprendizaje, Grupo Esports está conquistando rápidamente su espacio y conquistando fervientes seguidores. Definitivamente podemos esperar ver mucho más de este equipo en el futuro de los deportes electrónicos."}
               </Text>
             </TextCard>
-            <Spacing spacing={20} />
             <ImgComponent src={sushi} />
             <Spacing spacing={50} />
             <TextCard>
@@ -119,10 +119,10 @@ const Home = () => {
                 ? "Updates"
                 : "Noticias"}
             </Title>
+            <Tweet id="1770101616475013614" />
             <Tweet id="1752722589758153147" />
             <Tweet id="1754175887350669718" />
             <Tweet id="1749912796853092816" />
-            <Tweet id="1752663732893708460" />
           </TweetCard>
         </SubContainer>
         <Footer />
