@@ -66,6 +66,7 @@ import gbvs6 from "../../assets/players/gbvs6.png";
 import gbvs7 from "../../assets/players/gbvs7.png";
 import gbvs8 from "../../assets/players/gbvs8.png";
 import gbvs9 from "../../assets/players/gbvs9.png";
+import gbvs10 from "../../assets/players/gbvs10.png";
 import duelinho from "../../assets/players/duelinho.png";
 import duel1 from "../../assets/players/duel1.png";
 import duel2 from "../../assets/players/duel2.png";
@@ -157,7 +158,7 @@ const LineUps = () => {
           <Card>
             <Title>Granblue Fantasy Versus</Title>            
             <PlayerCardComponent
-              player={gbvs1}
+              player={gbvs10}
               icon={granblas}
               nick="Jose Galas"
               size={21}
