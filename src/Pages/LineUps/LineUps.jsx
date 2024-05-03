@@ -50,6 +50,7 @@ import uni2 from "../../assets/players/uni2.png";
 import uni3 from "../../assets/players/uni3.png";
 import uni4 from "../../assets/players/uni4.png";
 import uni5 from "../../assets/players/uni5.png";
+import uni6 from "../../assets/players/uni6.png";
 import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
 import tk2 from "../../assets/players/tk2.png";
@@ -246,12 +247,12 @@ const LineUps = () => {
               right={20}
             />
             <PlayerCardComponent
-              player={uni5}
+              player={uni6}
               icon={un}
-              nick="rekom"
-              size={32}
+              nick="scorn"
+              size={34}
               top={70}
-              right={25}  
+              right={22}  
             />
           </Card>
           <Card>
