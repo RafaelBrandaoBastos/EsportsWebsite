@@ -68,6 +68,7 @@ import gbvs7 from "../../assets/players/gbvs7.png";
 import gbvs8 from "../../assets/players/gbvs8.png";
 import gbvs9 from "../../assets/players/gbvs9.png";
 import gbvs10 from "../../assets/players/gbvs10.png";
+import gbvs11 from "../../assets/players/gbvs11.png";
 import duelinho from "../../assets/players/duelinho.png";
 import duel1 from "../../assets/players/duel1.png";
 import duel2 from "../../assets/players/duel2.png";
@@ -165,15 +166,6 @@ const LineUps = () => {
               size={21}
               top={75}
               right={22}
-            
-            />
-            <PlayerCardComponent
-              player={gbvs4}
-              icon={granblas}
-              nick="Daniel INSS"
-              size={21}
-              top={75}
-              right={23}
             />
             <PlayerCardComponent
               player={gbvs7}
@@ -184,12 +176,12 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={gbvs3}
+              player={gbvs11}
               icon={granblas}
-              nick="Gabfusca"
-              size={23}
-              top={75}
-              right={20}
+              nick="Hazler"
+              size={29}
+              top={72}
+              right={22}
             />
             <PlayerCardComponent
               player={gbvs6}
