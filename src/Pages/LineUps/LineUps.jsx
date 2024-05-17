@@ -204,25 +204,6 @@ const LineUps = () => {
             
           </Card>
           <Card>
-            <Title>Duelists of Eden</Title>
-            <PlayerCardComponent
-              player={duel1}
-              icon={duelinho}
-              nick="scorn"
-              size={34}
-              top={70}
-              right={22}                   
-            />             
-            <PlayerCardComponent
-              player={duel2}
-              icon={duelinho}
-              nick="nabuti"
-              size={31}
-              top={71}
-              right={22}
-            />
-          </Card>
-          <Card>
             <Title>Under Night In-Birth</Title>
             <PlayerCardComponent
               player={uni1}
@@ -257,6 +238,26 @@ const LineUps = () => {
               right={22}  
             />
           </Card>
+          <Card>
+            <Title>Duelists of Eden</Title>
+            <PlayerCardComponent
+              player={duel1}
+              icon={duelinho}
+              nick="scorn"
+              size={34}
+              top={70}
+              right={22}                   
+            />             
+            <PlayerCardComponent
+              player={duel2}
+              icon={duelinho}
+              nick="nabuti"
+              size={31}
+              top={71}
+              right={22}
+            />
+          </Card>
+          
           <Card>
             <Title>Melty Blood</Title>
             <PlayerCardComponent
