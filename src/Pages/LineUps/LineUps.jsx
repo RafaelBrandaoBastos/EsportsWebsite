@@ -118,7 +118,7 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={ggst5}
+              player={ggst19}
               icon={guiltas}
               nick="Jun Aikawa"
               size={20}
