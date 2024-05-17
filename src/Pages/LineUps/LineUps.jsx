@@ -152,7 +152,7 @@ const LineUps = () => {
               player={ggst1}
               icon={guiltas}
               nick="Madso"
-              size={34}
+              size={32}
               top={70}
               right={22} 
             />          
