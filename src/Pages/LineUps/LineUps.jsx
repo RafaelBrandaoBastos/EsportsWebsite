@@ -225,9 +225,9 @@ const LineUps = () => {
           <Card>
             <Title>Under Night In-Birth</Title>
             <PlayerCardComponent
-              player={uni2}
+              player={uni1}
               icon={un}
-              nick="Gabfusca"
+              nick="zubreska"
               size={23}
               top={75}
               right={20}                    
