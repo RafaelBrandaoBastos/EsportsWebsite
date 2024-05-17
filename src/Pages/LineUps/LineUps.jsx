@@ -21,6 +21,7 @@ import ggst10 from "../../assets/players/ggst10.png";
 import ggst11 from "../../assets/players/ggst11.png";
 import ggst15 from "../../assets/players/ggst15.png";
 import ggst12 from "../../assets/players/ggst12.png";
+import ggst19 from "../../assets/players/ggst19.png";
 import ggst20 from "../../assets/players/ggst20.png";
 import mbt from "../../assets/players/mbt.png";
 import mbt1 from "../../assets/players/mbt1.png";
