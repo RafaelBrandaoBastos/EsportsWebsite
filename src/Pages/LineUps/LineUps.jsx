@@ -21,6 +21,7 @@ import ggst10 from "../../assets/players/ggst10.png";
 import ggst11 from "../../assets/players/ggst11.png";
 import ggst15 from "../../assets/players/ggst15.png";
 import ggst12 from "../../assets/players/ggst12.png";
+import ggst20 from "../../assets/players/ggst20.png";
 import mbt from "../../assets/players/mbt.png";
 import mbt1 from "../../assets/players/mbt1.png";
 import mbt2 from "../../assets/players/mbt2.png";
@@ -155,7 +156,15 @@ const LineUps = () => {
               size={32}
               top={70}
               right={22} 
-            />          
+            />      
+            <PlayerCardComponent
+              player={ggst20}
+              icon={guiltas}
+              nick="scorn"
+              size={34}
+              top={70}
+              right={22}                   
+            />      
           </Card>
           <Card>
             <Title>Granblue Fantasy Versus</Title>            
