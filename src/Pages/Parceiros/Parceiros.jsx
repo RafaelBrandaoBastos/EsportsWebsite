@@ -17,6 +17,7 @@ import prc6 from "../../assets/parceiros/prc6.png";
 import prc7 from "../../assets/parceiros/prc7.png";
 import prc8 from "../../assets/parceiros/prc8.png";
 import prc9 from "../../assets/parceiros/prc9.png";
+import prc10 from "../../assets/parceiros/prc10.png";
 import prc11 from "../../assets/parceiros/prc11.png";
 
 const Parceiros = () => {
@@ -122,6 +123,16 @@ const Parceiros = () => {
               link={"https://www.twitch.tv/yorezordd"}
               text={
                 "Todos os tipos de fighting games possíveis eu jogo aqui, alguns dias eu tiro pra dar aquela mamadinha em outros jogos tentando variar um pouco, suave. Chega junto meu padrinho, tem água, aquele cafézinho e pão com mortadela. Sinta-se em casa!"
+              }
+            />
+            <PartnerCard
+              titlesize={32}
+              linksize={23}
+              img={prc10}
+              title={"Brunex"}
+              link={"https://www.twitch.tv/eaebrunex"}
+              text={
+                "Certa vez um homem tava mt triste ai ele foi no medico e falo: dotor..."
               }
             />
             <PartnerCard
