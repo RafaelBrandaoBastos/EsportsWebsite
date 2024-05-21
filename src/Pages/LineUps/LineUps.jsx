@@ -71,9 +71,11 @@ import gbvs8 from "../../assets/players/gbvs8.png";
 import gbvs9 from "../../assets/players/gbvs9.png";
 import gbvs10 from "../../assets/players/gbvs10.png";
 import gbvs11 from "../../assets/players/gbvs11.png";
+import gbvs12 from "../../assets/players/gbvs12.png";
 import duelinho from "../../assets/players/duelinho.png";
 import duel1 from "../../assets/players/duel1.png";
 import duel2 from "../../assets/players/duel2.png";
+import persona1 from "../../assets/players/persona1.png";
 
 
 const LineUps = () => {
@@ -200,7 +202,15 @@ const LineUps = () => {
               size={30}
               top={72}
               right={22}
-            />          
+            />   
+            <PlayerCardComponent
+              player={gbvs12}
+              icon={granblas}
+              nick="Scorn"
+              size={34}
+              top={70}
+              right={22}
+            />         
             
           </Card>
           <Card>
@@ -208,10 +218,10 @@ const LineUps = () => {
             <PlayerCardComponent
               player={uni1}
               icon={un}
-              nick="zubreska"
-              size={23}
-              top={75}
-              right={20}                    
+              nick="zubreskinha"
+              size={20}
+              top={76}
+              right={16}                    
             />             
             <PlayerCardComponent
               player={uni3}
@@ -236,6 +246,14 @@ const LineUps = () => {
               size={34}
               top={70}
               right={22}  
+            />
+            <PlayerCardComponent
+              player={persona1}
+              icon={un}
+              nick="renato"
+              size={30}
+              top={72}
+              right={22} 
             />
           </Card>
           <Card>
