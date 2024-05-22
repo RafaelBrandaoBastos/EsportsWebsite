@@ -46,6 +46,13 @@ import lol6 from "../../assets/players/lol6.png";
 import defuse from "../../assets/players/defuse.png";
 import dnf from "../../assets/players/dnf.png";
 import dnf1 from "../../assets/players/dnf1.png";
+import dnf2 from "../../assets/players/dnf2.png";
+import dnf3 from "../../assets/players/dnf3.png";
+import dnf4 from "../../assets/players/dnf4.png";
+import dnf5 from "../../assets/players/dnf5.png";
+import dnf6 from "../../assets/players/dnf6.png";
+import dnf7 from "../../assets/players/dnf7.png";
+import dnf8 from "../../assets/players/dnf8.png";
 import un from "../../assets/players/un.png";
 import uni1 from "../../assets/players/uni1.png";
 import uni2 from "../../assets/players/uni2.png";
@@ -78,6 +85,7 @@ import duel2 from "../../assets/players/duel2.png";
 import persona1 from "../../assets/players/persona1.png";
 
 
+
 const LineUps = () => {
   const { x, y } = useWindowScroll();
   const [scrolled, setScrolled] = useState(0);
@@ -102,6 +110,74 @@ const LineUps = () => {
           staffStyle="none"
         />
         <SubContainer>
+        <Card>
+            <Title>DNF DUEL</Title>
+            <PlayerCardComponent
+              player={dnf5}
+              icon={dnf}
+              nick="scorn"
+              size={34}
+              top={70}
+              right={22}                   
+            />             
+            <PlayerCardComponent
+              player={dnf7}
+              icon={dnf}
+              nick="Daniel INSS"
+              size={21}
+              top={75}
+              right={23}
+            />
+            <PlayerCardComponent
+              player={dnf6}
+              icon={dnf}
+              nick="Jose Galas"
+              size={21}
+              top={75}
+              right={22}
+            />
+            <PlayerCardComponent
+              player={dnf3}
+              icon={dnf}
+              nick="fire"
+              size={37}
+              top={68}
+              right={22}
+            />
+            <PlayerCardComponent
+              player={dnf2}
+              icon={dnf}
+              nick="zubreskinha"
+              size={20}
+              top={76}
+              right={16} 
+            />
+            <PlayerCardComponent
+              player={dnf4}
+              icon={dnf}
+              nick="Bydo"
+              size={37}
+              top={68}
+              right={22}
+            />
+            <PlayerCardComponent
+              player={dnf8}
+              icon={dnf}
+              nick="Nabuti"
+              size={34}
+              top={70}
+              right={20} 
+            />
+            <PlayerCardComponent
+              player={dnf2}
+              icon={dnf}
+              nick="Rekom"
+              size={30}
+              top={72}
+              right={25}
+            />
+          </Card>
+          
           <Card>
             <Title>Guilty Gear</Title>
             <PlayerCardComponent
@@ -256,26 +332,7 @@ const LineUps = () => {
               right={22} 
             />
           </Card>
-          <Card>
-            <Title>Duelists of Eden</Title>
-            <PlayerCardComponent
-              player={duel1}
-              icon={duelinho}
-              nick="scorn"
-              size={34}
-              top={70}
-              right={22}                   
-            />             
-            <PlayerCardComponent
-              player={duel2}
-              icon={duelinho}
-              nick="nabuti"
-              size={31}
-              top={71}
-              right={22}
-            />
-          </Card>
-          
+                    
           <Card>
             <Title>Melty Blood</Title>
             <PlayerCardComponent
