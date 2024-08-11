@@ -20,6 +20,7 @@ import ggst9 from "../../assets/players/ggst9.png";
 import ggst10 from "../../assets/players/ggst10.png";
 import ggst11 from "../../assets/players/ggst11.png";
 import ggst15 from "../../assets/players/ggst15.png";
+import ggst16 from "../../assets/players/ggst16.png";
 import ggst12 from "../../assets/players/ggst12.png";
 import ggst19 from "../../assets/players/ggst19.png";
 import ggst20 from "../../assets/players/ggst20.png";
@@ -111,75 +112,7 @@ const LineUps = () => {
           parceirosStyle="none"
           staffStyle="none"
         />
-        <SubContainer>
-        <Card>
-            <Title>DNF DUEL</Title>
-            <PlayerCardComponent
-              player={dnf5}
-              icon={dnf}
-              nick="scorn"
-              size={34}
-              top={70}
-              right={22}                   
-            />             
-            <PlayerCardComponent
-              player={dnf7}
-              icon={dnf}
-              nick="Daniel INSS"
-              size={21}
-              top={75}
-              right={23}
-            />
-            <PlayerCardComponent
-              player={dnf6}
-              icon={dnf}
-              nick="Jose Galas"
-              size={21}
-              top={75}
-              right={22}
-            />
-            <PlayerCardComponent
-              player={dnf3}
-              icon={dnf}
-              nick="fire"
-              size={37}
-              top={68}
-              right={22}
-            />
-            <PlayerCardComponent
-              player={dnf1}
-              icon={dnf}
-              nick="zubreskinha"
-              size={20}
-              top={76}
-              right={16} 
-            />
-            <PlayerCardComponent
-              player={dnf4}
-              icon={dnf}
-              nick="Bydo"
-              size={37}
-              top={68}
-              right={22}
-            />
-            <PlayerCardComponent
-              player={dnf8}
-              icon={dnf}
-              nick="Nabuti"
-              size={34}
-              top={70}
-              right={20} 
-            />
-            <PlayerCardComponent
-              player={dnf2}
-              icon={dnf}
-              nick="Rekom"
-              size={30}
-              top={72}
-              right={25}
-            />
-          </Card>
-          
+        <SubContainer>          
           <Card>
             <Title>Guilty Gear</Title>
             <PlayerCardComponent
@@ -239,24 +172,17 @@ const LineUps = () => {
               right={22} 
             />      
             <PlayerCardComponent
-              player={ggst20}
+              player={ggst16}
               icon={guiltas}
-              nick="scorn"
-              size={34}
-              top={70}
-              right={22}                   
+              nick="pneuxeirado"
+              size={19}
+              top={77}
+              right={19}                   
             />      
           </Card>
           <Card>
-            <Title>Granblue Fantasy Versus</Title>            
-            <PlayerCardComponent
-              player={gbvs10}
-              icon={granblas}
-              nick="Jose Galas"
-              size={21}
-              top={75}
-              right={22}
-            />
+            <Title>Granblue Fantasy Versus</Title>    
+          
             <PlayerCardComponent
               player={gbvs7}
               icon={granblas}
@@ -297,6 +223,7 @@ const LineUps = () => {
               top={68}
               right={22}
             />     
+            
             
           </Card>
           <Card>
