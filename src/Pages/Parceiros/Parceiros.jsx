@@ -19,6 +19,7 @@ import prc8 from "../../assets/parceiros/prc8.png";
 import prc9 from "../../assets/parceiros/prc9.png";
 import prc10 from "../../assets/parceiros/prc10.png";
 import prc11 from "../../assets/parceiros/prc11.png";
+import prc12 from "../../assets/parceiros/prc12.png";
 
 const Parceiros = () => {
   const { x, y } = useWindowScroll();
@@ -113,6 +114,16 @@ const Parceiros = () => {
               link={"https://www.twitch.tv/astro7wave"}
               text={
                 "E aí! Sou o Astro, um Vtuber entusiasta de jogos de luta que joga um pouco de tudo! Meu foco é em ensinar a galera que tá começando agora e manter comunidades ativas em vários jogos. Faço lives, jogo com a galera e tiro dúvidas! Aparece lá!"
+              }
+            />            
+            <PartnerCard
+              titlesize={30}
+              linksize={23}
+              img={prc12}
+              title={"Noc"}
+              link={"https://www.twitch.tv/noqui_"}
+              text={
+                "E aí, eu sou o Noc. Faço lives no tempo livre com foco no entretenimento. Além disso, gosto de jogos de luta e busco melhorar neles cada vez mais."
               }
             />
             <PartnerCard
