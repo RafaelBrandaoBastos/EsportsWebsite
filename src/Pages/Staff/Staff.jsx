@@ -17,6 +17,7 @@ import brands from "../../assets/brands.png";
 import bydo from "../../assets/bydo.png";
 import nabuti from "../../assets/nabuti.png";
 import shi from "../../assets/MatShi.jpg";
+import sunny from "../../assets/brennocombos.png";
 import prc7 from "../../assets/parceiros/prc7.png";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
@@ -46,16 +47,16 @@ const LineUps = () => {
         />
         <SubContainer>
           <Card>
-            <StaffImg src={nabuti}></StaffImg>
+            <StaffImg src={sunny}></StaffImg>
             <Title>CEO</Title>
             <Subtitle>Chief Executive Officer</Subtitle>
-            <Subtitle>Gabriel "Nabuti" Terra</Subtitle>
+            <Subtitle>Sunny Miojo</Subtitle>
             <Link
               size={"23px"}
-              href="https://twitter.com/NabutiJinja"
+              href="https://twitter.com/SunnyMayojo"
               target="_blank"
             >
-              @NabutiJinja
+              @SunnyMayojo
             </Link>
           </Card>
 
