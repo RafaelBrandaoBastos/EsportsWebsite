@@ -61,6 +61,7 @@ import uni3 from "../../assets/players/uni3.png";
 import uni4 from "../../assets/players/uni4.png";
 import uni5 from "../../assets/players/uni5.png";
 import uni6 from "../../assets/players/uni6.png";
+import uni7 from "../../assets/players/uni7.png";
 import tk from "../../assets/players/tk.png";
 import tk1 from "../../assets/players/tk1.png";
 import tk2 from "../../assets/players/tk2.png";
@@ -222,7 +223,16 @@ const LineUps = () => {
               size={37}
               top={68}
               right={22}
-            />     
+            />   
+
+            <PlayerCardComponent
+              player={gbvs10}
+              icon={granblas}
+              nick="Jose Galas"
+              size={20}
+              top={77}
+              right={19}
+            />   
             
             
           </Card>
@@ -237,7 +247,7 @@ const LineUps = () => {
               right={16}                    
             />             
             <PlayerCardComponent
-              player={uni3}
+              player={uni7}
               icon={un}
               nick="fire"
               size={37}
