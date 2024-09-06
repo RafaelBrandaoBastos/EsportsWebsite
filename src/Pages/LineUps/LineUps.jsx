@@ -119,7 +119,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
-              nick="Devious Octopod"
+              nick="Devious Octopood"
               size={20}
               top={73}
               right={25}
