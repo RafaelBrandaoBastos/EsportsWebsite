@@ -25,6 +25,7 @@ import ggst12 from "../../assets/players/ggst12.png";
 import ggst19 from "../../assets/players/ggst19.png";
 import ggst20 from "../../assets/players/ggst20.png";
 import ggst21 from "../../assets/players/ggst21.png";
+import ggst22 from "../../assets/players/ggst22.png";
 import mbt from "../../assets/players/mbt.png";
 import mbt1 from "../../assets/players/mbt1.png";
 import mbt2 from "../../assets/players/mbt2.png";
@@ -135,7 +136,7 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={ggst19}
+              player={ggst22}
               icon={guiltas}
               nick="Jun Aikawa"
               size={20}
