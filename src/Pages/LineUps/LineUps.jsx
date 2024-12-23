@@ -204,20 +204,11 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={gbvs14}
+              player={gbvs6}
               icon={granblas}
               nick="renato"
               size={30}
               top={72}
-              right={22}
-            />   
-            
-            <PlayerCardComponent
-              player={gbvs13}
-              icon={granblas}
-              nick="fire"
-              size={37}
-              top={68}
               right={22}
             />   
 
@@ -292,6 +283,8 @@ const LineUps = () => {
               right={22}
             />
           </Card>
+
+         
           
 
           {/* <Card>
