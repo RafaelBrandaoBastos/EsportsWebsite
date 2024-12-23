@@ -156,14 +156,7 @@ const LineUps = () => {
               top={75}
               right={23}
             />   
-            <PlayerCardComponent
-              player={ggst8}
-              icon={guiltas}
-              nick="Raicon"
-              size={30}
-              top={72}
-              right={25}         
-            /> 
+            
             <PlayerCardComponent
               player={ggst1}
               icon={guiltas}
@@ -208,14 +201,7 @@ const LineUps = () => {
               top={72}
               right={22}
             />   
-            <PlayerCardComponent
-              player={gbvs12}
-              icon={granblas}
-              nick="Scorn"
-              size={34}
-              top={70}
-              right={22}
-            />
+            
             <PlayerCardComponent
               player={gbvs13}
               icon={granblas}
@@ -262,14 +248,7 @@ const LineUps = () => {
               top={75}
               right={20}
             />
-            <PlayerCardComponent
-              player={uni6}
-              icon={un}
-              nick="scorn"
-              size={34}
-              top={70}
-              right={22}  
-            />
+            
             <PlayerCardComponent
               player={persona1}
               icon={un}
@@ -282,14 +261,7 @@ const LineUps = () => {
                     
           <Card>
             <Title>Melty Blood</Title>
-            <PlayerCardComponent
-              player={mbt2}
-              icon={mbt}
-              nick="Rekom"
-              size={30}
-              top={72}
-              right={25}                    
-            />             
+                    
             <PlayerCardComponent
               player={mbt3}
               icon={mbt}

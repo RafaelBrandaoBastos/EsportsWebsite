@@ -16,8 +16,9 @@ import "./style.js";
 import brands from "../../assets/brands.png";
 import bydo from "../../assets/bydo.png";
 import nabuti from "../../assets/nabuti.png";
-import shi from "../../assets/MatShi.jpg";
-import prc7 from "../../assets/parceiros/prc7.png";
+import rekom from "../../assets/rekm.png";
+import scorn from "../../assets/scrn.jpg";
+import raicon from "../../assets/raicon.jpg";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
 import Arrow from "../../components/Arrow/Arrow";
@@ -86,6 +87,50 @@ const LineUps = () => {
               @rafaelbrandsb
             </Link>
           </Card>
+
+          <Card>
+            <StaffImg src={rekom}></StaffImg>
+            <Title>ROM</Title>
+            <Subtitle>Regional Operations Manager</Subtitle>
+            <Subtitle>Gustavo "Rekom" Mariz </Subtitle>
+            <Link
+              size={"23px"}
+              href="https://x.com/_Rekom"
+              target="_blank"
+            >
+              @_Rekom
+            </Link>
+          </Card>
+          
+          <Card>
+            <StaffImg src={scorn}></StaffImg>
+            <Title>NOM</Title>
+            <Subtitle>National Operations Manager</Subtitle>
+            <Subtitle>Daniel "Scorn" Bitencourt </Subtitle>
+            <Link
+              size={"23px"}
+              href="https://x.com/Scorn4444"
+              target="_blank"
+            >
+              @Scorn4444
+            </Link>
+          </Card>          
+
+          <Card>
+            <StaffImg src={raicon}></StaffImg>
+            <Title>ROM</Title>
+            <Subtitle>Regional Operations Manager</Subtitle>
+            <Subtitle>Juno Orin "Raicon" Silva da Conceição</Subtitle>
+            <Link
+              size={"23px"}
+              href="https://x.com/Raicon_1"
+              target="_blank"
+            >
+              @Raicon_1
+            </Link>
+          </Card>
+
+
         </SubContainer>
         <Footer />
         <Arrow scroll={y} height={height} />

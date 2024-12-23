@@ -72,7 +72,7 @@ export const Card = styled.div`
   outline-color: rgba(255, 255, 255, 0.1);
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 20px;
-  padding: 20px;
+  padding: 40px;
   align-items: center;
   margin-top: 40px;
   @media (max-width: 1120px) {
