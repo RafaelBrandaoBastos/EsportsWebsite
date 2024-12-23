@@ -24,6 +24,7 @@ import ggst16 from "../../assets/players/ggst16.png";
 import ggst12 from "../../assets/players/ggst12.png";
 import ggst19 from "../../assets/players/ggst19.png";
 import ggst20 from "../../assets/players/ggst20.png";
+import ggst21 from "../../assets/players/ggst21.png";
 import mbt from "../../assets/players/mbt.png";
 import mbt1 from "../../assets/players/mbt1.png";
 import mbt2 from "../../assets/players/mbt2.png";
@@ -149,7 +150,7 @@ const LineUps = () => {
               right={20}
             />            
             <PlayerCardComponent
-              player={ggst11}
+              player={ggst15}
               icon={guiltas}
               nick="Daniel INSS"
               size={21}
@@ -164,6 +165,14 @@ const LineUps = () => {
               size={32}
               top={70}
               right={22} 
+            />  
+            <PlayerCardComponent
+              player={ggst21}
+              icon={guiltas}
+              nick="gato sorvete"
+              size={20}
+              top={73}
+              right={25}                 
             />      
             <PlayerCardComponent
               player={ggst16}
@@ -214,10 +223,10 @@ const LineUps = () => {
             <PlayerCardComponent
               player={gbvs10}
               icon={granblas}
-              nick="Jose Galas"
-              size={20}
-              top={77}
-              right={19}
+              nick="José"
+              size={37}
+              top={68}
+              right={22}
             />   
             
             
