@@ -29,6 +29,7 @@ import mbt from "../../assets/players/mbt.png";
 import mbt1 from "../../assets/players/mbt1.png";
 import mbt2 from "../../assets/players/mbt2.png";
 import mbt3 from "../../assets/players/mbt3.png";
+import mbt4 from "../../assets/players/mbt4.png";
 import guiltas from "../../assets/players/guiltas.png";
 import cs1 from "../../assets/players/cs1.png";
 import cs2 from "../../assets/players/cs2.png";
@@ -258,19 +259,21 @@ const LineUps = () => {
               right={20}
             />
             
-            <PlayerCardComponent
-              player={persona1}
-              icon={un}
-              nick="renato"
-              size={30}
-              top={72}
-              right={22} 
-            />
+            
           </Card>
                     
           <Card>
             <Title>Melty Blood</Title>
-                    
+
+            <PlayerCardComponent
+              player={mbt2}
+              icon={mbt}
+              nick="rekom"
+              size={30}
+              top={71}
+              right={22}
+            />
+
             <PlayerCardComponent
               player={mbt3}
               icon={mbt}
@@ -278,6 +281,15 @@ const LineUps = () => {
               size={25}
               top={73}
               right={20}
+            />
+
+            <PlayerCardComponent
+              player={mbt4}
+              icon={mbt}
+              nick="nabuti"
+              size={30}
+              top={71}
+              right={22}
             />
           </Card>
           
