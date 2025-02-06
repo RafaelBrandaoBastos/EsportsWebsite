@@ -46,7 +46,7 @@ const LineUps = () => {
           staffStyle="selected"
         />
         <SubContainer>
-          <Card>
+          {/* <Card>
             <StaffImg src={nabuti}></StaffImg>
             <Title>CEO</Title>
             <Subtitle>Chief Executive Officer</Subtitle>
@@ -58,7 +58,7 @@ const LineUps = () => {
             >
               @NabutiJinja
             </Link>
-          </Card>
+          </Card> */ }
 
           <Card>
             <StaffImg src={bydo}></StaffImg>
