@@ -89,6 +89,9 @@ import gbvs14 from "../../assets/players/gbvs14.png";
 import duelinho from "../../assets/players/duelinho.png";
 import duel1 from "../../assets/players/duel1.png";
 import duel2 from "../../assets/players/duel2.png";
+import bleis from "../../assets/players/bleis.png";
+import bleis1 from "../../assets/players/bleis1.png";
+import bleis2 from "../../assets/players/bleis2.png";
 import persona1 from "../../assets/players/persona1.png";
 
 
@@ -275,6 +278,28 @@ const LineUps = () => {
               size={30}
               top={71}
               right={22}
+            />
+          </Card>
+
+          <Card>
+            <Title>Blazblue Centralfiction</Title>
+
+            <PlayerCardComponent
+              player={bleis1}
+              icon={bleis}
+              nick="zubreska"
+              size={24}
+              top={74}
+              right={20}
+            />
+
+            <PlayerCardComponent
+              player={bleis2}
+              icon={bleis}
+              nick="gato sorvete"
+              size={20}
+              top={73}
+              right={25}
             />
           </Card>
 
