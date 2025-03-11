@@ -92,7 +92,9 @@ import duel2 from "../../assets/players/duel2.png";
 import bleis from "../../assets/players/bleis.png";
 import bleis1 from "../../assets/players/bleis1.png";
 import bleis2 from "../../assets/players/bleis2.png";
-import persona1 from "../../assets/players/persona1.png";
+import persona1 from "../../assets/players/persona1.png"; 
+import jin from "../../assets/players/jin.png";
+import es from "../../assets/players/es.png";
 
 
 
@@ -286,7 +288,7 @@ const LineUps = () => {
 
             <PlayerCardComponent
               player={bleis1}
-              icon={bleis}
+              icon={es}
               nick="zubreska"
               size={24}
               top={74}
@@ -295,7 +297,7 @@ const LineUps = () => {
 
             <PlayerCardComponent
               player={bleis2}
-              icon={bleis}
+              icon={jin}
               nick="gato sorvete"
               size={20}
               top={73}
