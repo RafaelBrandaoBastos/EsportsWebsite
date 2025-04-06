@@ -95,6 +95,7 @@ import bleis2 from "../../assets/players/bleis2.png";
 import persona1 from "../../assets/players/persona1.png"; 
 import jin from "../../assets/players/jin.png";
 import es from "../../assets/players/es.png";
+import gbvsr2B from "../../assets/players/gbvsr2B.png";
 
 
 
@@ -226,6 +227,16 @@ const LineUps = () => {
               top={68}
               right={22}
             />   
+
+            <PlayerCardComponent
+              player={gbvsr2B}
+              icon={granblas}
+              nick="Julianne"
+              size={29}
+              top={71}
+              right={16}
+            />
+            
             
             
           </Card>
