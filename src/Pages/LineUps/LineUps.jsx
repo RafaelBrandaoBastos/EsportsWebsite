@@ -211,12 +211,12 @@ const LineUps = () => {
               right={22}
             />
             <PlayerCardComponent
-              player={gbvs6}
+              player={gbvsr2B}
               icon={granblas}
-              nick="renato"
-              size={30}
-              top={72}
-              right={22}
+              nick="Julianne"
+              size={29}
+              top={71}
+              right={16}
             />   
 
             <PlayerCardComponent
@@ -228,14 +228,7 @@ const LineUps = () => {
               right={22}
             />   
 
-            <PlayerCardComponent
-              player={gbvsr2B}
-              icon={granblas}
-              nick="Julianne"
-              size={29}
-              top={71}
-              right={16}
-            />
+            
             
             
             
@@ -245,10 +238,10 @@ const LineUps = () => {
             <PlayerCardComponent
               player={uni1}
               icon={un}
-              nick="zubreskinha"
-              size={20}
-              top={76}
-              right={16}                    
+              nick="zubreska"
+              size={24}
+              top={74}
+              right={20}                   
             />             
             
             <PlayerCardComponent
