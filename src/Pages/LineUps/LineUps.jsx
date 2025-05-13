@@ -96,6 +96,9 @@ import persona1 from "../../assets/players/persona1.png";
 import jin from "../../assets/players/jin.png";
 import es from "../../assets/players/es.png";
 import gbvsr2B from "../../assets/players/gbvsr2B.png";
+import gbvsrEU from "../../assets/players/gbvsrEU.png";
+import uniME from "../../assets/players/uniME.png";
+
 
 
 
@@ -204,7 +207,7 @@ const LineUps = () => {
             />   
 
             <PlayerCardComponent
-              player={gbvs10}
+              player={gbvsrEU}
               icon={granblas}
               nick="José"
               size={37}
@@ -226,7 +229,25 @@ const LineUps = () => {
               size={24}
               top={74}
               right={20}                   
-            />             
+            /> 
+
+            <PlayerCardComponent
+              player={uni6}
+              icon={un}
+              nick="scorn"
+              size={30}
+              top={71}
+              right={22}                 
+            />
+
+            <PlayerCardComponent
+              player={uniME}
+              icon={un}
+              nick="José"
+              size={37}
+              top={68}
+              right={22}                
+            />                   
               
           </Card>
                     
