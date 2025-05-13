@@ -132,15 +132,7 @@ const LineUps = () => {
               size={20}
               top={73}
               right={25}
-            />
-            <PlayerCardComponent
-              player={ggst10}
-              icon={guiltas}
-              nick="Sudano"
-              size={29}
-              top={72}
-              right={22}
-            />
+            />            
             <PlayerCardComponent
               player={ggst22}
               icon={guiltas}
@@ -194,14 +186,6 @@ const LineUps = () => {
           <Card>
             <Title>Granblue Fantasy Versus</Title>    
           
-            <PlayerCardComponent
-              player={gbvs7}
-              icon={granblas}
-              nick="Elodius"
-              size={29}
-              top={72}
-              right={22}
-            />
             <PlayerCardComponent
               player={gbvs11}
               icon={granblas}
