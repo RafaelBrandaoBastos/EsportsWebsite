@@ -97,7 +97,8 @@ import jin from "../../assets/players/jin.png";
 import es from "../../assets/players/es.png";
 import gbvsr2B from "../../assets/players/gbvsr2B.png";
 import gbvsrEU from "../../assets/players/gbvsrEU.png";
-import uniME from "../../assets/players/uniME.png";
+import uniME from "../../assets/players/uniME.png"; 
+import uniUZ from "../../assets/players/uniUZ.png";
 
 
 
@@ -232,22 +233,22 @@ const LineUps = () => {
             /> 
 
             <PlayerCardComponent
-              player={uni6}
-              icon={un}
-              nick="scorn"
-              size={30}
-              top={71}
-              right={22}                 
-            />
-
-            <PlayerCardComponent
               player={uniME}
               icon={un}
               nick="José"
               size={37}
               top={68}
               right={22}                
-            />                   
+            /> 
+
+            <PlayerCardComponent
+              player={uniUZ}
+              icon={un}
+              nick="Jupiter"
+              size={30}
+              top={72}
+              right={18}              
+            />                      
               
           </Card>
                     
