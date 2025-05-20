@@ -105,6 +105,8 @@ import uniUZ from "../../assets/players/uniUZ.png";
 import sf from "../../assets/players/sf.png";
 import sfED from "../../assets/players/sfED.png";
 import sfCA from "../../assets/players/sfCA.png";
+import glitch from "../../assets/players/GLITCH.gif";
+
 
 
 
@@ -195,6 +197,14 @@ const LineUps = () => {
               right={19}                   
             />      
 
+            <PlayerCardComponent
+              player={glitch}
+              icon={guiltas}
+              nick=""
+              size={29}
+              top={72}
+              right={22}                 
+            /> 
             {/*<PlayerCardComponent
               player={ggstGI}
               icon={guiltas}
@@ -223,7 +233,14 @@ const LineUps = () => {
               top={72}
               right={18}
             />   
-
+            <PlayerCardComponent
+              player={glitch}
+              icon={granblas}
+              nick=""
+              size={29}
+              top={72}
+              right={22}                 
+            /> 
             {/*<PlayerCardComponent
               player={gbvsrCA}
               icon={granblas}
@@ -264,7 +281,14 @@ const LineUps = () => {
               top={73}
               right={20}
             />
-
+            <PlayerCardComponent
+              player={glitch}
+              icon={mbt}
+              nick=""
+              size={29}
+              top={72}
+              right={22}                 
+            /> 
             {/*<PlayerCardComponent
               player={mbt5}
               icon={mbt}
@@ -326,7 +350,14 @@ const LineUps = () => {
               top={74}
               right={18}
             /> */}
-
+            <PlayerCardComponent
+              player={glitch}
+              icon={sf}
+              nick=""
+              size={29}
+              top={72}
+              right={22}                 
+            /> 
             <PlayerCardComponent
               player={sfED}
               icon={sf}
