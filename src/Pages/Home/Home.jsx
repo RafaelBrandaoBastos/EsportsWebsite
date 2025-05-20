@@ -29,7 +29,7 @@ import Footer from "../../components/Footer/Footer.jsx";
 import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 import banner from "../../assets/banner.png";
-import banner2 from "../../assets/BannerZate.png";
+import banner2 from "../../assets/banner2.png";
 import banner3 from "../../assets/BannerEquipe.png";
 import sushi from "../../assets/sushi.png";
 import grito from "../../assets/grito.jpg";
@@ -71,7 +71,7 @@ const Home = () => {
           organizerStyle="none"
         />
         <SubContainer>
-          <BannerComponent src={banner} alt="Banner" />
+          <BannerComponent src={banner2} alt="Banner" />
           <Card>
             <TextCard>
               <Title>
@@ -120,7 +120,7 @@ const Home = () => {
                 ? "Updates"
                 : "Noticias"}
             </Title>
-            <Tweet id="1828484786031059175" />
+            <Tweet id="1924536453985419638" />
             <Tweet id="1752722589758153147" />
             <Tweet id="1754175887350669718" />
             <Tweet id="1749912796853092816" />
