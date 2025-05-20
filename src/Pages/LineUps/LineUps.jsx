@@ -105,7 +105,7 @@ import uniUZ from "../../assets/players/uniUZ.png";
 import sf from "../../assets/players/sf.png";
 import sfED from "../../assets/players/sfED.png";
 import sfCA from "../../assets/players/sfCA.png";
-
+import teste1 from "../../assets/players/teste.gif";
 
 
 
@@ -275,7 +275,7 @@ const LineUps = () => {
             /> */}
 
             <PlayerCardComponent
-              player={mbt4}
+              player={teste1}
               icon={mbt}
               nick="nabuti"
               size={30}
