@@ -26,11 +26,13 @@ import ggst19 from "../../assets/players/ggst19.png";
 import ggst20 from "../../assets/players/ggst20.png";
 import ggst21 from "../../assets/players/ggst21.png";
 import ggst22 from "../../assets/players/ggst22.png";
+import ggstGI from "../../assets/players/ggstGI.png";
 import mbt from "../../assets/players/mbt.png";
 import mbt1 from "../../assets/players/mbt1.png";
 import mbt2 from "../../assets/players/mbt2.png";
 import mbt3 from "../../assets/players/mbt3.png";
 import mbt4 from "../../assets/players/mbt4.png";
+import mbt5 from "../../assets/players/mbt5.png";
 import guiltas from "../../assets/players/guiltas.png";
 import cs1 from "../../assets/players/cs1.png";
 import cs2 from "../../assets/players/cs2.png";
@@ -86,6 +88,7 @@ import gbvs11 from "../../assets/players/gbvs11.png";
 import gbvs12 from "../../assets/players/gbvs12.png";
 import gbvs13 from "../../assets/players/gbvs13.png";
 import gbvs14 from "../../assets/players/gbvs14.png";
+import gbvsrCA from "../../assets/players/gbvsCA.png";
 import duelinho from "../../assets/players/duelinho.png";
 import duel1 from "../../assets/players/duel1.png";
 import duel2 from "../../assets/players/duel2.png";
@@ -99,6 +102,10 @@ import gbvsr2B from "../../assets/players/gbvsr2B.png";
 import gbvsrEU from "../../assets/players/gbvsrEU.png";
 import uniME from "../../assets/players/uniME.png"; 
 import uniUZ from "../../assets/players/uniUZ.png";
+import sf from "../../assets/players/sf.png";
+import sfED from "../../assets/players/sfED.png";
+import sfCA from "../../assets/players/sfCA.png";
+
 
 
 
@@ -187,6 +194,15 @@ const LineUps = () => {
               top={77}
               right={19}                   
             />      
+
+            {/*<PlayerCardComponent
+              player={ggstGI}
+              icon={guiltas}
+              nick="arqué"
+              size={29}
+              top={72}
+              right={22}                 
+            />    */}
           </Card>
           <Card>
             <Title>Granblue Fantasy Versus</Title>    
@@ -208,20 +224,66 @@ const LineUps = () => {
               right={18}
             />   
 
-            <PlayerCardComponent
-              player={gbvsrEU}
+            {/*<PlayerCardComponent
+              player={gbvsrCA}
               icon={granblas}
-              nick="José"
+              nick="pl4y"
               size={37}
               top={68}
               right={22}
-            />   
+            />   */}
 
-            
-            
-            
-            
+            {/*<PlayerCardComponent
+              player={gbvsr2B}
+              icon={granblas}
+              nick="Poiu"
+              size={37}
+              top={68}
+              right={22}
+            />   */}
+              
           </Card>
+
+          <Card>
+            <Title>Melty Blood</Title>
+
+            <PlayerCardComponent
+              player={mbt1}
+              icon={mbt}
+              nick="rekom"
+              size={30}
+              top={71}
+              right={22}
+            />
+
+            <PlayerCardComponent
+              player={mbt3}
+              icon={mbt}
+              nick="Tatubola"
+              size={25}
+              top={73}
+              right={20}
+            />
+
+            {/*<PlayerCardComponent
+              player={mbt5}
+              icon={mbt}
+              nick="yuki"
+              size={37}
+              top={68}
+              right={22}   
+            /> */}
+
+            <PlayerCardComponent
+              player={mbt4}
+              icon={mbt}
+              nick="nabuti"
+              size={30}
+              top={71}
+              right={22}
+            />
+          </Card>
+
           <Card>
             <Title>Under Night In-Birth</Title>
             <PlayerCardComponent
@@ -254,33 +316,24 @@ const LineUps = () => {
           </Card>
                     
           <Card>
-            <Title>Melty Blood</Title>
+            <Title>Street Fighter 6</Title>
+
+            {/*<PlayerCardComponent
+              player={sfCA}
+              icon={sf}
+              nick="mascooot"
+              size={22}
+              top={74}
+              right={18}
+            /> */}
 
             <PlayerCardComponent
-              player={mbt2}
-              icon={mbt}
-              nick="rekom"
+              player={sfED}
+              icon={sf}
+              nick="jupiter"
               size={30}
-              top={71}
-              right={22}
-            />
-
-            <PlayerCardComponent
-              player={mbt3}
-              icon={mbt}
-              nick="Tatubola"
-              size={25}
-              top={73}
-              right={20}
-            />
-
-            <PlayerCardComponent
-              player={mbt4}
-              icon={mbt}
-              nick="nabuti"
-              size={30}
-              top={71}
-              right={22}
+              top={72}
+              right={18}  
             />
           </Card>
 
