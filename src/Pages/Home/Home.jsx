@@ -30,7 +30,7 @@ import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 import banner from "../../assets/banner.png";
 import banner2 from "../../assets/banner2.png";
-import banner3 from "../../assets/BannerEquipe.png";
+import banner3 from "../../assets/banner3.gif";
 import sushi from "../../assets/sushi.png";
 import grito from "../../assets/grito.jpg";
 const Home = () => {
@@ -71,7 +71,7 @@ const Home = () => {
           organizerStyle="none"
         />
         <SubContainer>
-          <BannerComponent src={banner2} alt="Banner" />
+          <BannerComponent src={banner3} alt="Banner" />
           <Card>
             <TextCard>
               <Title>
