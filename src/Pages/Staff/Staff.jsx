@@ -44,6 +44,7 @@ const LineUps = () => {
           lineupsStyle="none"
           parceirosStyle="none"
           staffStyle="selected"
+          organizerStyle="none"
         />
         <SubContainer>
           {/* <Card>

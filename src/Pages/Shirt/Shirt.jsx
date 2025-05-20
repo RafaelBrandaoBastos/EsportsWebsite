@@ -29,6 +29,7 @@ const Shirt = () => {
           parceirosStyle="none"
           staffStyle="none"
           camisasStyle="selected"
+          organizerStyle="none"
         />
         <SubContainer>
           <Card>

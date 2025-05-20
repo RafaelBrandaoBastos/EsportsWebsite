@@ -73,6 +73,16 @@ const Header = (props) => {
             <p className={props.lineupsStyle}>LineUps</p>
           </HeaderOption>
 
+           <HeaderOption href={"/organizers" + selectedLanguage}>
+            <p className={props.organizerStyle}>
+              {selectedLanguage == "/"
+                ? "Organizadores"
+                : selectedLanguage == "/en"
+                ? "Organizers"
+                : "Organizadores"}
+            </p>
+          </HeaderOption>
+
           <HeaderOption href={"/eventos" + selectedLanguage}>
             <p className={props.eventosStyle}>
               {selectedLanguage == "/"

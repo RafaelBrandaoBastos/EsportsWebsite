@@ -66,6 +66,7 @@ const Eventos = () => {
           lineupsStyle="none"
           parceirosStyle="none"
           staffStyle="none"
+          organizerStyle="none"
         />
         <SubContainer>
         <EventCard

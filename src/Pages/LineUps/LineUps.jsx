@@ -125,6 +125,7 @@ const LineUps = () => {
           lineupsStyle="selected"
           parceirosStyle="none"
           staffStyle="none"
+          organizerStyle="none"
         />
         <SubContainer>          
           <Card>

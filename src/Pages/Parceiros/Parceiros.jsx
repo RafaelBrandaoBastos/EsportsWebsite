@@ -43,6 +43,7 @@ const Parceiros = () => {
           lineupsStyle="none"
           parceirosStyle="selected"
           staffStyle="none"
+          organizerStyle="none"
         />
         <SubContainer>
           <Card>

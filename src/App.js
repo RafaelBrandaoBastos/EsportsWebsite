@@ -5,6 +5,7 @@ import LineUps from "./Pages/LineUps/LineUps.jsx";
 import Eventos from "./Pages/Eventos/Eventos.jsx";
 import Parceiros from "./Pages/Parceiros/Parceiros.jsx";
 import Staff from "./Pages/Staff/Staff.jsx";
+import Organizers from "./Pages/Organizadores/Organizers.jsx";
 import Shirt from "./Pages/Shirt/Shirt.jsx";
 import { LanguageProvider } from "./contexts/LanguageProvider.jsx";
 
@@ -32,6 +33,9 @@ function App() {
             <Route path="/staff" element={<Staff />} />
             <Route path="/staff/en" element={<Staff />} />
             <Route path="/staff/es" element={<Staff />} />
+            <Route path="/organizers" element={<Organizers />} />
+            <Route path="/organizers/es" element={<Organizers />} />
+            <Route path="/organizers/en" element={<Organizers />} />
           </Routes>
         </Router>
       </Container>
