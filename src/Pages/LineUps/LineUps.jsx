@@ -95,22 +95,17 @@ import duel2 from "../../assets/players/duel2.png";
 import bleis from "../../assets/players/bleis.png";
 import bleis1 from "../../assets/players/bleis1.png";
 import bleis2 from "../../assets/players/bleis2.png";
-import persona1 from "../../assets/players/persona1.png"; 
+import persona1 from "../../assets/players/persona1.png";
 import jin from "../../assets/players/jin.png";
 import es from "../../assets/players/es.png";
 import gbvsr2B from "../../assets/players/gbvsr2B.png";
 import gbvsrEU from "../../assets/players/gbvsrEU.png";
-import uniME from "../../assets/players/uniME.png"; 
+import uniME from "../../assets/players/uniME.png";
 import uniUZ from "../../assets/players/uniUZ.png";
 import sf from "../../assets/players/sf.png";
 import sfED from "../../assets/players/sfED.png";
 import sfCA from "../../assets/players/sfCA.png";
 import glitch from "../../assets/players/GLITCH.gif";
-
-
-
-
-
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -136,9 +131,17 @@ const LineUps = () => {
           staffStyle="none"
           organizerStyle="none"
         />
-        <SubContainer>          
+        <SubContainer>
           <Card>
             <Title>Guilty Gear</Title>
+            <PlayerCardComponent
+              player={glitch}
+              icon={guiltas}
+              nick=""
+              size={29}
+              top={72}
+              right={22}
+            />
             <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
@@ -146,7 +149,7 @@ const LineUps = () => {
               size={20}
               top={73}
               right={25}
-            />            
+            />
             <PlayerCardComponent
               player={ggst22}
               icon={guiltas}
@@ -162,7 +165,7 @@ const LineUps = () => {
               size={23}
               top={75}
               right={20}
-            />            
+            />
             <PlayerCardComponent
               player={ggst15}
               icon={guiltas}
@@ -170,41 +173,32 @@ const LineUps = () => {
               size={21}
               top={75}
               right={23}
-            />   
-            
+            />
+
             <PlayerCardComponent
               player={ggst1}
               icon={guiltas}
               nick="Madso"
               size={32}
               top={70}
-              right={22} 
-            />  
+              right={22}
+            />
             <PlayerCardComponent
               player={ggst21}
               icon={guiltas}
               nick="gato sorvete"
               size={20}
               top={73}
-              right={25}                 
-            />      
+              right={25}
+            />
             <PlayerCardComponent
               player={ggst16}
               icon={guiltas}
               nick="pneuxeirado"
               size={19}
               top={77}
-              right={19}                   
-            />      
-
-            <PlayerCardComponent
-              player={glitch}
-              icon={guiltas}
-              nick=""
-              size={29}
-              top={72}
-              right={22}                 
-            /> 
+              right={19}
+            />
             {/*<PlayerCardComponent
               player={ggstGI}
               icon={guiltas}
@@ -215,8 +209,15 @@ const LineUps = () => {
             />    */}
           </Card>
           <Card>
-            <Title>Granblue Fantasy Versus</Title>    
-          
+            <Title>Granblue Fantasy Versus</Title>
+            <PlayerCardComponent
+              player={glitch}
+              icon={granblas}
+              nick=""
+              size={29}
+              top={72}
+              right={22}
+            />
             <PlayerCardComponent
               player={gbvs11}
               icon={granblas}
@@ -232,15 +233,7 @@ const LineUps = () => {
               size={30}
               top={72}
               right={18}
-            />   
-            <PlayerCardComponent
-              player={glitch}
-              icon={granblas}
-              nick=""
-              size={29}
-              top={72}
-              right={22}                 
-            /> 
+            />
             {/*<PlayerCardComponent
               player={gbvsrCA}
               icon={granblas}
@@ -258,12 +251,18 @@ const LineUps = () => {
               top={68}
               right={22}
             />   */}
-              
           </Card>
 
           <Card>
             <Title>Melty Blood</Title>
-
+            <PlayerCardComponent
+              player={glitch}
+              icon={mbt}
+              nick=""
+              size={29}
+              top={72}
+              right={22}
+            />
             <PlayerCardComponent
               player={mbt1}
               icon={mbt}
@@ -281,14 +280,6 @@ const LineUps = () => {
               top={73}
               right={20}
             />
-            <PlayerCardComponent
-              player={glitch}
-              icon={mbt}
-              nick=""
-              size={29}
-              top={72}
-              right={22}                 
-            /> 
             {/*<PlayerCardComponent
               player={mbt5}
               icon={mbt}
@@ -316,8 +307,8 @@ const LineUps = () => {
               nick="zubreska"
               size={24}
               top={74}
-              right={20}                   
-            /> 
+              right={20}
+            />
 
             <PlayerCardComponent
               player={uniME}
@@ -325,8 +316,8 @@ const LineUps = () => {
               nick="José"
               size={37}
               top={68}
-              right={22}                
-            /> 
+              right={22}
+            />
 
             <PlayerCardComponent
               player={uniUZ}
@@ -334,11 +325,10 @@ const LineUps = () => {
               nick="Jupiter"
               size={30}
               top={72}
-              right={18}              
-            />                      
-              
+              right={18}
+            />
           </Card>
-                    
+
           <Card>
             <Title>Street Fighter 6</Title>
 
@@ -356,15 +346,15 @@ const LineUps = () => {
               nick=""
               size={29}
               top={72}
-              right={22}                 
-            /> 
+              right={22}
+            />
             <PlayerCardComponent
               player={sfED}
               icon={sf}
               nick="jupiter"
               size={30}
               top={72}
-              right={18}  
+              right={18}
             />
           </Card>
 
@@ -389,9 +379,6 @@ const LineUps = () => {
               right={25}
             />
           </Card>
-
-         
-          
 
           {/* <Card>
             <Title>First Person Shooter</Title>

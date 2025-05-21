@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const GlitchLineupsComponent = styled.div`
+  width: 150px;
+  height: 40px;
+  background-image: url(${({ background }) => background});
+  background-size: 150px 40px;
+  background-color: transparent;
+  border: none;
+`;
 export const HeaderComponent = styled.div`
   background-color: rgba(0, 0, 0, 0.95);
   width: 100%;

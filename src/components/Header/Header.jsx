@@ -14,6 +14,7 @@ import {
   LanguageMobile,
   Arrow,
   LanguageOption,
+  GlitchLineupsComponent,
 } from "./style";
 import React, { useEffect, useState, useRef, useContext } from "react";
 import "./style.js";
@@ -26,7 +27,7 @@ import esplogo from "../../assets/esplogo.png";
 import arrowl from "../../assets/arrowl.png";
 import arrowr from "../../assets/arrowr.png";
 import { LanguageContext } from "../../contexts/LanguageProvider.jsx";
-
+import GlitchLineups from "../../assets/GlitchLineups.gif";
 const Header = (props) => {
   const [hide, setHide] = useState(true);
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
@@ -70,10 +71,11 @@ const Header = (props) => {
           </HeaderOption>
 
           <HeaderOption href={"/lineups" + selectedLanguage}>
-            <p className={props.lineupsStyle}>LineUps</p>
+            {/* <p className={props.lineupsStyle}>LineUps</p> */}
+            <GlitchLineupsComponent background={GlitchLineups} />
           </HeaderOption>
 
-           <HeaderOption href={"/organizers" + selectedLanguage}>
+          <HeaderOption href={"/organizers" + selectedLanguage}>
             <p className={props.organizerStyle}>
               {selectedLanguage == "/"
                 ? "Organizadores"
@@ -116,7 +118,6 @@ const Header = (props) => {
                 : "Uniformes"}
             </p>
           </HeaderOption> */}
-
         </HeaderList>
         <Language>
           <LanguageCarousel>
@@ -189,17 +190,20 @@ const Header = (props) => {
         />
         <LogoMobileComponent src={logo} alt="LogoMobile" />
         <HeaderListMobile className={hide ? "hide" : ""}>
-          <HeaderOptionMobile href={
+          <HeaderOptionMobile
+            href={
               selectedLanguage != ""
                 ? "" + selectedLanguage
                 : "/" + selectedLanguage
-            }>
+            }
+          >
             {" "}
             <p className={props.homeStyle}>Home</p>{" "}
           </HeaderOptionMobile>
 
           <HeaderOptionMobile href={"/lineups" + selectedLanguage}>
-            <p className={props.lineupsStyle}>LineUps</p>
+            {/* <p className={props.lineupsStyle}>LineUps</p> */}
+            <GlitchLineupsComponent background={GlitchLineups} />
           </HeaderOptionMobile>
 
           <HeaderOptionMobile href={"/eventos" + selectedLanguage}>
