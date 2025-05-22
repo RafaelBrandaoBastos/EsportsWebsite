@@ -246,6 +246,7 @@ const Header = (props) => {
           </HeaderOptionMobile>
 
           <HeaderOptionMobile href={"/soon" + selectedLanguage}>
+          <GlitchLineupsComponent background={question} />
             {/* <p className={props.parceirosStyle}>
               {selectedLanguage == "/"
                 ? "?????"
