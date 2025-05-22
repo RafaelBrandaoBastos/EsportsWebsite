@@ -45,6 +45,7 @@ const LineUps = () => {
           parceirosStyle="none"
           staffStyle="selected"
           organizerStyle="none"
+          inimigosStyle="none"
         />
         <SubContainer>
           {/* <Card>

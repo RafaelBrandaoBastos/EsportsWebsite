@@ -130,6 +130,7 @@ const LineUps = () => {
           parceirosStyle="none"
           staffStyle="none"
           organizerStyle="none"
+          inimigosStyle="none"
         />
         <SubContainer>
           <Card>

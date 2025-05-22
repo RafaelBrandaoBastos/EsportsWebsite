@@ -36,6 +36,7 @@ const Organizadores = () => {
           parceirosStyle="none"
           staffStyle="none" 
           organizerStyle="selected"
+          inimigosStyle="none"
         />
         <SubContainer>
           

@@ -68,7 +68,8 @@ const Home = () => {
           parceirosStyle="none"
           staffStyle="none"
           camisasStyle="none"
-          organizerStyle="none"
+          organizerStyle="none" 
+          inimigosStyle="none"
         />
         <SubContainer>
           <BannerComponent src={banner3} alt="Banner" />

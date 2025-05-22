@@ -151,7 +151,7 @@ export const HeaderOptionMobile = styled.a`
 
 export const Language = styled.div`
   display: flex;
-  width: 145px;
+  width: 40%
   flex-wrap: wrap;
   height: 60px;
   outline-color: green;
@@ -177,7 +177,7 @@ export const LanguageMobile = styled.div`
   }
 `;
 export const LanguageCarousel = styled.div`
-  width: 100%;
+  width: 65%;
   height: 50px;
   display: flex;
   margin: 0px;

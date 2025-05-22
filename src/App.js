@@ -6,6 +6,7 @@ import Eventos from "./Pages/Eventos/Eventos.jsx";
 import Parceiros from "./Pages/Parceiros/Parceiros.jsx";
 import Staff from "./Pages/Staff/Staff.jsx";
 import Organizers from "./Pages/Organizadores/Organizers.jsx";
+import Inimigos from "./Pages/Inimigos/Inimigos.jsx";
 import Shirt from "./Pages/Shirt/Shirt.jsx";
 import { LanguageProvider } from "./contexts/LanguageProvider.jsx";
 
@@ -36,6 +37,12 @@ function App() {
             <Route path="/organizers" element={<Organizers />} />
             <Route path="/organizers/es" element={<Organizers />} />
             <Route path="/organizers/en" element={<Organizers />} />
+            <Route path="/organizers" element={<Organizers />} />
+            <Route path="/organizers/es" element={<Organizers />} />
+            <Route path="/organizers/en" element={<Organizers />} />
+            <Route path="/soon" element={<Inimigos />} />
+            <Route path="/soon/en" element={<Inimigos />} />
+            <Route path="/soon/es" element={<Inimigos />} />
           </Routes>
         </Router>
       </Container>

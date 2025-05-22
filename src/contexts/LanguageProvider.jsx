@@ -16,7 +16,8 @@ export const LanguageProvider = ({ children }) => {
         path === "/lineups" ||
         path === "/camisas" ||
         path === "/staff" ||
-        path === "/organizers"
+        path === "/organizers" ||
+        path === "/soon" 
         ? ""
         : path === "/en" ||
           path === "/home/en" ||
@@ -25,7 +26,8 @@ export const LanguageProvider = ({ children }) => {
           path === "/lineups/en" ||
           path === "/camisas/en" ||
           path === "/staff/en" ||
-          path === "/organizers/en"
+          path === "/organizers/en" ||
+          path === "/soon/en"
         ? "/en"
         : "/es"
     );
