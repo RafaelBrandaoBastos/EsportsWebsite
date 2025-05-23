@@ -135,14 +135,7 @@ const LineUps = () => {
         <SubContainer>
           <Card>
             <Title>Guilty Gear</Title>
-            <PlayerCardComponent
-              player={glitch}
-              icon={guiltas}
-              nick=""
-              size={29}
-              top={72}
-              right={22}
-            />
+            
             <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
@@ -200,25 +193,18 @@ const LineUps = () => {
               top={77}
               right={19}
             />
-            {/*<PlayerCardComponent
+            <PlayerCardComponent
               player={ggstGI}
               icon={guiltas}
               nick="arqué"
               size={29}
               top={72}
               right={22}                 
-            />    */}
+            /> 
           </Card>
           <Card>
             <Title>Granblue Fantasy Versus</Title>
-            <PlayerCardComponent
-              player={glitch}
-              icon={granblas}
-              nick=""
-              size={29}
-              top={72}
-              right={22}
-            />
+            
             <PlayerCardComponent
               player={gbvs11}
               icon={granblas}
@@ -235,35 +221,28 @@ const LineUps = () => {
               top={72}
               right={18}
             />
-            {/*<PlayerCardComponent
+            <PlayerCardComponent
               player={gbvsrCA}
               icon={granblas}
               nick="pl4y"
               size={37}
               top={68}
               right={22}
-            />   */}
+            />   
 
-            {/*<PlayerCardComponent
+            <PlayerCardComponent
               player={gbvsr2B}
               icon={granblas}
               nick="Poiu"
               size={37}
               top={68}
               right={22}
-            />   */}
+            />  
           </Card>
 
           <Card>
             <Title>Melty Blood</Title>
-            <PlayerCardComponent
-              player={glitch}
-              icon={mbt}
-              nick=""
-              size={29}
-              top={72}
-              right={22}
-            />
+            
             <PlayerCardComponent
               player={mbt1}
               icon={mbt}
@@ -281,14 +260,14 @@ const LineUps = () => {
               top={73}
               right={20}
             />
-            {/*<PlayerCardComponent
+            <PlayerCardComponent
               player={mbt5}
               icon={mbt}
               nick="yuki"
               size={37}
               top={68}
               right={22}   
-            /> */}
+            /> 
 
             <PlayerCardComponent
               player={mbt4}
@@ -333,22 +312,15 @@ const LineUps = () => {
           <Card>
             <Title>Street Fighter 6</Title>
 
-            {/*<PlayerCardComponent
+            <PlayerCardComponent
               player={sfCA}
               icon={sf}
               nick="mascooot"
               size={22}
               top={74}
               right={18}
-            /> */}
-            <PlayerCardComponent
-              player={glitch}
-              icon={sf}
-              nick=""
-              size={29}
-              top={72}
-              right={22}
             />
+            
             <PlayerCardComponent
               player={sfED}
               icon={sf}
