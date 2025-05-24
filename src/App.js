@@ -40,9 +40,9 @@ function App() {
             <Route path="/organizers" element={<Organizers />} />
             <Route path="/organizers/es" element={<Organizers />} />
             <Route path="/organizers/en" element={<Organizers />} />
-            <Route path="/soon" element={<Inimigos />} />
-            <Route path="/soon/en" element={<Inimigos />} />
-            <Route path="/soon/es" element={<Inimigos />} />
+            <Route path="/inimigos" element={<Inimigos />} />
+            <Route path="/inimigos/en" element={<Inimigos />} />
+            <Route path="/inimigos/es" element={<Inimigos />} />
           </Routes>
         </Router>
       </Container>

@@ -82,7 +82,7 @@ export const Card = styled.div`
   }
 `;
 export const Subtitle = styled.p`
-  font-size: 23px;
+  font-size: 25px;
   font-family: "Barlow Condensed", sans-serif;
   color: white;
   margin: 0px;
@@ -91,7 +91,7 @@ export const Subtitle = styled.p`
   margin-bottom: 0px;
   width: 100%;
   text-align: center;
-  word-break: break-all;
+  // word-break: break-all;
   @media (max-width: 1070px) {
     margin-bottom: 10px;
   }

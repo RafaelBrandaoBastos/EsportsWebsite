@@ -15,6 +15,7 @@ import {
 import "./style.js";
 import glitch from "../../assets/players/GLITCH.gif";
 import preso from "../../assets/inimigos/preso.png";
+import eon from "../../assets/inimigos/eon.png";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
 import Arrow from "../../components/Arrow/Arrow";
@@ -59,6 +60,21 @@ const LineUps = () => {
             </Link>
           </Card>  */}
 
+
+            <Card>
+            <StaffImg src={eon}></StaffImg>
+            <Title>Eon</Title>
+            <Subtitle>"Saudades da época que ser player do Grupo implicava em ir 0/2 toda bracket"</Subtitle>
+            <Link
+              size={"23px"}
+              href="https://www.twitch.tv/eon_was_taken/clip/PlayfulBrightOwlStoneLightning-VI1SD_diTNkKpPKF"
+              target="_blank"
+            >
+              Adoro Dark Souls 2!
+            </Link>
+          </Card>
+
+
           <Card>
             <StaffImg src={glitch}></StaffImg>
             <Title>N✦⇌✠u☠t▓</Title>
@@ -99,7 +115,7 @@ const LineUps = () => {
               href="https://x.com/Enieeconz/status/1871347896899269047"
               target="_blank"
             >
-              スキビディ ザテ
+             Skibidi スキビディ ザテ
             </Link>
           </Card>
 
