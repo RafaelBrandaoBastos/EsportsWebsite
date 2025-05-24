@@ -240,7 +240,7 @@ const LineUps = () => {
             />  
 
             <PlayerCardComponent
-              player={gbvsr14}
+              player={gbvs14}
               icon={granblas}
               nick="Renato"
               size={30}
