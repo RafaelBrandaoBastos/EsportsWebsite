@@ -122,7 +122,7 @@ const LineUps = () => {
             <StaffImg src={raicon}></StaffImg>
             <Title>ROM</Title>
             <Subtitle>Regional Operations Manager</Subtitle>
-            <Subtitle>Juno Orin "Raicon" Silva da Conceição</Subtitle>
+            <Subtitle>Juno "Raicon" Orin</Subtitle>
             <Link
               size={"23px"}
               href="https://x.com/Raicon_1"
