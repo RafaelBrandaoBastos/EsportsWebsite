@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Container } from "./style";
+import CamisasRedirect from "./Pages/CamisaRedirect/camisaRedirect.jsx";
 import Home from "./Pages/Home/Home.jsx";
 import LineUps from "./Pages/LineUps/LineUps.jsx";
 import Eventos from "./Pages/Eventos/Eventos.jsx";
@@ -43,6 +44,9 @@ function App() {
             <Route path="/inimigos" element={<Inimigos />} />
             <Route path="/inimigos/en" element={<Inimigos />} />
             <Route path="/inimigos/es" element={<Inimigos />} />
+            <Route path="/camisas" element={<CamisasRedirect />} />
+            <Route path="/camisas/en" element={<CamisasRedirect />} />
+            <Route path="/camisas/es" element={<CamisasRedirect />} />
           </Routes>
         </Router>
       </Container>

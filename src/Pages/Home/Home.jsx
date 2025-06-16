@@ -33,6 +33,8 @@ import banner2 from "../../assets/banner2.png";
 import banner3 from "../../assets/banner3.gif";
 import sushi from "../../assets/sushi.png";
 import grito from "../../assets/grito.jpg";
+import camisa from "../../assets/camisas/camisa.png";
+import { useNavigate } from "react-router";
 const Home = () => {
   const { x, y } = useWindowScroll();
   const [selectedLanguage, setSelectedLanguage] = useContext(LanguageContext);
@@ -58,6 +60,11 @@ const Home = () => {
       document.documentElement.clientHeight;
     setScrolled((y / height) * 100);
   }, [y]);
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/camisas");
+  }
+
   return (
     <>
       <Container className="scroll-container">
@@ -72,7 +79,9 @@ const Home = () => {
           inimigosStyle="none"
         />
         <SubContainer>
-          <BannerComponent src={banner3} alt="Banner" />
+        <div onClick={handleClick} style={{ cursor: 'pointer' }}>
+          <BannerComponent src={camisa} alt="Banner" />
+        </div>
           <Card>
             <TextCard>
               <Title>

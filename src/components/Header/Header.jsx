@@ -221,8 +221,7 @@ const Header = (props) => {
           </HeaderOptionMobile>
 
           <HeaderOptionMobile href={"/lineups" + selectedLanguage}>
-            {/* <p className={props.lineupsStyle}>LineUps</p> */}
-            <GlitchLineupsComponent background={GlitchLineups} />
+            <p className={props.lineupsStyle}>LineUps</p>
           </HeaderOptionMobile>
 
           {/* <HeaderOptionMobile href={"/eventos" + selectedLanguage}>
@@ -245,15 +244,14 @@ const Header = (props) => {
             </p>
           </HeaderOptionMobile>
 
-          <HeaderOptionMobile href={"/soon" + selectedLanguage}>
-          <GlitchLineupsComponent background={question} />
-            {/* <p className={props.parceirosStyle}>
+          <HeaderOptionMobile href={"/inimigos" + selectedLanguage}>
+            <p className={props.inimigosStyle}>
               {selectedLanguage == "/"
-                ? "?????"
+                ? "Inimigos"
                 : selectedLanguage == "/en"
-                ? "?????"
-                : "????"}
-            </p> */}
+                ? "Enemies"
+                : "Inimigos"}
+            </p>
           </HeaderOptionMobile>
 
           <HeaderOptionMobile href={"/staff" + selectedLanguage}>

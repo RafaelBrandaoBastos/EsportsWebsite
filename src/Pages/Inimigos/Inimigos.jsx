@@ -76,16 +76,16 @@ const LineUps = () => {
 
 
           <Card>
-            <StaffImg src={glitch}></StaffImg>
-            <Title>N✦⇌✠u☠t▓</Title>
-            <Subtitle>trGEo duspl -oi P oorfme</Subtitle>
-            <Subtitle>r@euc!4p 2d%m §aopsî</Subtitle>
+            <StaffImg src={preso}></StaffImg>
+            <Title>Nabuti</Title>
+            <Subtitle>Ex-CEO</Subtitle>
+            <Subtitle>Preso por enrolar as camisas.</Subtitle>
             <Link
               size={"23px"}
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              href="https://x.com/NabutiJinja/status/1917716807890112562"
               target="_blank"
             >
-              Mais informações
+              Jogo Street Fighter!
             </Link>
           </Card>
 
