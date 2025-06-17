@@ -130,10 +130,11 @@ const Home = () => {
                 ? "Updates"
                 : "Noticias"}
             </Title>
+            <Tweet id="1935080096580219206" />
             <Tweet id="1924536453985419638" />
             <Tweet id="1752722589758153147" />
             <Tweet id="1754175887350669718" />
-            <Tweet id="1749912796853092816" />
+
           </TweetCard>
         </SubContainer>
         <Footer />
