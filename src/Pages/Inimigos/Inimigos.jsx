@@ -16,6 +16,7 @@ import "./style.js";
 import glitch from "../../assets/players/GLITCH.gif";
 import preso from "../../assets/inimigos/preso.png";
 import eon from "../../assets/inimigos/eon.png";
+import doente from "../../assets/inimigos/doente.png";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
 import Arrow from "../../components/Arrow/Arrow";
@@ -91,17 +92,16 @@ const LineUps = () => {
 
 
             <Card>
-            <StaffImg src={glitch}></StaffImg>
-            <Title>%eA~q^r</Title>
-            <Subtitle>~pnoçae@r d!anlrt%ifo</Subtitle>
-            <Subtitle>01101001 01101110 01110110 01100001 01100100 01101001 01110101 00100000 01101111 00100000 01001000 01010001
-</Subtitle>
+            <StaffImg src={doente}></StaffImg>
+            <Title>Arqué</Title>
+            <Subtitle>Se infiltrou na operação </Subtitle>
+            <Subtitle>Mas conseguiu quase morrer malhando wtf</Subtitle>
             <Link
               size={"23px"}
-              href="https://www.youtube.com/watch?v=9ELuywjE9ck"
+              href="https://x.com/Arque33/status/1927188702083641851"
               target="_blank"
             >
-              aAaAA
+              Não é possível um trem desses
             </Link>
           </Card>
 
