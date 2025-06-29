@@ -18,7 +18,7 @@ import {
 } from "./style";
 import React, { useEffect, useState, useRef, useContext } from "react";
 import "./style.js";
-import logo from "../../assets/grupo.png";
+import logo from "../../assets/g-novo.png";
 import iconWhite from "../../assets/iconWhite.png";
 import iconPink from "../../assets/iconPink.png";
 import brlogo from "../../assets/brlogo.png";
@@ -107,10 +107,10 @@ const Header = (props) => {
             </p>
           </HeaderOption>
 
-           <HeaderOption href={"/inimigos" + selectedLanguage}>
+          <HeaderOption href={"/inimigos" + selectedLanguage}>
             {/* <GlitchLineupsComponent background={question} /> */}
             <p className={props.inimigosStyle}>Inimigos</p>
-          </HeaderOption>         
+          </HeaderOption>
 
           {/* <HeaderOption href={"/inimigos" + selectedLanguage}>
             <p className={props.inimigosStyle}>
@@ -121,8 +121,6 @@ const Header = (props) => {
                 : "Inimigos"}
             </p>
           </HeaderOption> */}
-
-          
 
           <HeaderOption href={"/staff" + selectedLanguage}>
             <p className={props.staffStyle}>Staff</p>

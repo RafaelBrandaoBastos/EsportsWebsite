@@ -36,9 +36,9 @@ export const HeaderComponent = styled.div`
   }
 `;
 export const LogoComponent = styled.img`
-  height: 50px;
+  height: 55px;
   width: auto;
-  margin-left: 50px;
+  margin-left: 55px;
   position: relative;
   @media (max-width: 1120px) {
     left: 2%;
