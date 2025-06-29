@@ -63,7 +63,7 @@ const Home = () => {
   }, [y]);
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/camisas");
+    window.location.href = "https://forms.gle/SW519T9dS9t3zF6T6";
   };
 
   return (
