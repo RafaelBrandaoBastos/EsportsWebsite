@@ -33,6 +33,7 @@ import banner2 from "../../assets/banner2.png";
 import banner3 from "../../assets/banner3.gif";
 import sushi from "../../assets/sushi.png";
 import grito from "../../assets/grito.jpg";
+import todos from "../../assets/todos.jpg";
 import camisa from "../../assets/camisas/camisa.png";
 import { useNavigate } from "react-router";
 const Home = () => {
@@ -63,7 +64,7 @@ const Home = () => {
   const navigate = useNavigate();
   const handleClick = () => {
     navigate("/camisas");
-  }
+  };
 
   return (
     <>
@@ -75,13 +76,13 @@ const Home = () => {
           parceirosStyle="none"
           staffStyle="none"
           camisasStyle="none"
-          organizerStyle="none" 
+          organizerStyle="none"
           inimigosStyle="none"
         />
         <SubContainer>
-        <div onClick={handleClick} style={{ cursor: 'pointer' }}>
-          <BannerComponent src={camisa} alt="Banner" />
-        </div>
+          <div onClick={handleClick} style={{ cursor: "pointer" }}>
+            <BannerComponent src={camisa} alt="Banner" />
+          </div>
           <Card>
             <TextCard>
               <Title>
@@ -98,7 +99,7 @@ const Home = () => {
                   ? "Grupo Esports is an electronic gaming organization that stands out for its skill and passion for virtual competition. Currently with representatives in the Brazilian scene of GuiltyGear Strive, Granblue Fantasy Versus and various fighting games. United, the members of the Grupo eSports are tirelessly dedicated to improving their skills and achieving success in virtual competitions."
                   : "Grupo Esports es una organización de juegos electrónicos que se destaca por su habilidad y pasión por la competencia virtual, actualmente con representantes en la escena brasileña de GuiltyGear Strive, Granblue Fantasy Versus y diversos juegos de lucha. Unidos, los miembros del eSports Group se dedican incansablemente a mejorar sus habilidades y alcanzar el éxito en las competiciones virtuales."}
               </Text>
-              <ImgComponent src={grito} />
+              <ImgComponent src={todos} />
               <Text>
                 {selectedLanguage == ""
                   ? "Com uma mentalidade focada no trabalho em equipe, estratégias inovadoras e uma sede constante de aprendizado, a Grupo Esports está rapidamente conquistando seu espaço e conquistando fãs fervorosos. Com certeza, podemos esperar ver muito mais desse time no futuro dos esports."
@@ -107,7 +108,7 @@ const Home = () => {
                   : "Con una mentalidad centrada en el trabajo en equipo, estrategias innovadoras y una sed constante de aprendizaje, Grupo Esports está conquistando rápidamente su espacio y conquistando fervientes seguidores. Definitivamente podemos esperar ver mucho más de este equipo en el futuro de los deportes electrónicos."}
               </Text>
             </TextCard>
-            <ImgComponent src={sushi} />
+            <ImgComponent src={grito} />
             <Spacing spacing={50} />
             <TextCard>
               <Title>
@@ -134,7 +135,6 @@ const Home = () => {
             <Tweet id="1924536453985419638" />
             <Tweet id="1752722589758153147" />
             <Tweet id="1754175887350669718" />
-
           </TweetCard>
         </SubContainer>
         <Footer />
