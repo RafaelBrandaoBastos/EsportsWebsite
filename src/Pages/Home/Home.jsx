@@ -131,10 +131,13 @@ const Home = () => {
                 ? "Updates"
                 : "Noticias"}
             </Title>
+            {/* MESMO QUE SEJA ANTIGO, É INTERESSANTE DEIXAR COISAS DE COMUNIDADE AQUI, INVÉS DE TUDO QUE FOR NOVO
+            TIPO UMA FOTO DE GALERA, OU UMA ARTE, OU UM CAMPEONATO, MOMENTO MANEIRO */}
             <Tweet id="1935080096580219206" />
             <Tweet id="1924536453985419638" />
-            <Tweet id="1752722589758153147" />
-            <Tweet id="1754175887350669718" />
+            <Tweet id="1919532440315400462" />
+            <Tweet id="1789329887074963496" />
+            <Tweet id="1744734814539018625" />
           </TweetCard>
         </SubContainer>
         <Footer />
