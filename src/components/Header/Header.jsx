@@ -109,7 +109,13 @@ const Header = (props) => {
 
           <HeaderOption href={"/inimigos" + selectedLanguage}>
             {/* <GlitchLineupsComponent background={question} /> */}
-            <p className={props.inimigosStyle}>Inimigos</p>
+            <p className={props.inimigosStyle}>
+              {selectedLanguage == "/"
+                ? "Inimigos"
+                : selectedLanguage == "/en"
+                ? "nemesis"
+                : "nemesis"}
+            </p>
           </HeaderOption>
 
           {/* <HeaderOption href={"/inimigos" + selectedLanguage}>
