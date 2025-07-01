@@ -47,7 +47,7 @@ const LineUps = () => {
           inimigosStyle="selected"
         />
         <SubContainer>
-        {/* <Card>
+          {/* <Card>
             <StaffImg src={preso}></StaffImg>
             <Title>Nabuti</Title>
             <Subtitle>Criminoso de guerra</Subtitle>
@@ -61,11 +61,13 @@ const LineUps = () => {
             </Link>
           </Card>  */}
 
-
-            <Card>
+          <Card>
             <StaffImg src={eon}></StaffImg>
             <Title>Eon</Title>
-            <Subtitle>"Saudades da época que ser player do Grupo implicava em ir 0/2 toda bracket"</Subtitle>
+            <Subtitle>
+              "Saudades da época que ser player do Grupo implicava em ir 0/2
+              toda bracket"
+            </Subtitle>
             <Link
               size={"23px"}
               href="https://www.twitch.tv/eon_was_taken/clip/PlayfulBrightOwlStoneLightning-VI1SD_diTNkKpPKF"
@@ -74,7 +76,6 @@ const LineUps = () => {
               Adoro Dark Souls 2!
             </Link>
           </Card>
-
 
           <Card>
             <StaffImg src={preso}></StaffImg>
@@ -90,8 +91,7 @@ const LineUps = () => {
             </Link>
           </Card>
 
-
-            <Card>
+          <Card>
             <StaffImg src={doente}></StaffImg>
             <Title>Arqué</Title>
             <Subtitle>Se infiltrou na operação </Subtitle>
@@ -105,7 +105,7 @@ const LineUps = () => {
             </Link>
           </Card>
 
-            <Card>
+          {/* <Card>
             <StaffImg src={glitch}></StaffImg>
             <Title>Zt#G$aF%C</Title>
             <Subtitle>по завершении группы киберспорта</Subtitle>
@@ -117,10 +117,7 @@ const LineUps = () => {
             >
              Skibidi スキビディ ザテ
             </Link>
-          </Card>
-
-        
-
+          </Card> */}
         </SubContainer>
         <Footer />
         <Arrow scroll={y} height={height} />

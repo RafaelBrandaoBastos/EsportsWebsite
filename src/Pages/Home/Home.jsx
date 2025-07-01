@@ -119,8 +119,9 @@ const Home = () => {
                   : "Patrocinadores"}
               </Title>
               {/* <Text></Text> */}
-              <IframeComponent src="https://www.instagram.com/ultraarcadebh/embed/"></IframeComponent>
               <IframeComponent src="https://www.instagram.com/mardbox/embed/"></IframeComponent>
+              {/* PATROCINA NOIS MISERÁVEL */}
+              {/* <IframeComponent src="https://www.instagram.com/ultraarcadebh/embed/"></IframeComponent> */}
             </TextCard>
           </Card>
           <TweetCard>
