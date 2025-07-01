@@ -12,7 +12,6 @@ import dia from "../../assets/orgs/dia.png";
 import bubbles from "../../assets/orgs/bubbles.png";
 import bubbles2 from "../../assets/orgs/bubbles2.png";
 
-
 const Organizadores = () => {
   const { x, y } = useWindowScroll();
   const [scrolled, setScrolled] = useState(0);
@@ -34,12 +33,11 @@ const Organizadores = () => {
           eventosStyle="none"
           lineupsStyle="none"
           parceirosStyle="none"
-          staffStyle="none" 
+          staffStyle="none"
           organizerStyle="selected"
           inimigosStyle="none"
         />
         <SubContainer>
-          
           <Card>
             <OrganizerCard
               titlesize={35}
@@ -71,7 +69,6 @@ const Organizadores = () => {
           </Card>
         </SubContainer>
         <Footer />
-        <Arrow scroll={y} height={height} />
       </Container>
       <ContainerLoad>
         <Spinner />

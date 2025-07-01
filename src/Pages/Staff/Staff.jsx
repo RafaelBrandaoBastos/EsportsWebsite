@@ -60,7 +60,7 @@ const LineUps = () => {
             >
               @NabutiJinja
             </Link>
-          </Card> */ }
+          </Card> */}
 
           <Card>
             <StaffImg src={bydo}></StaffImg>
@@ -95,47 +95,32 @@ const LineUps = () => {
             <Title>ROM</Title>
             <Subtitle>Regional Operations Manager</Subtitle>
             <Subtitle>Gustavo "Rekom" Mariz </Subtitle>
-            <Link
-              size={"23px"}
-              href="https://x.com/_Rekom"
-              target="_blank"
-            >
+            <Link size={"23px"} href="https://x.com/_Rekom" target="_blank">
               @_Rekom
             </Link>
           </Card>
-          
+
           <Card>
             <StaffImg src={scorn}></StaffImg>
             <Title>NOM</Title>
             <Subtitle>National Operations Manager</Subtitle>
             <Subtitle>Daniel "Scorn" Bitencourt </Subtitle>
-            <Link
-              size={"23px"}
-              href="https://x.com/Scorn4444"
-              target="_blank"
-            >
+            <Link size={"23px"} href="https://x.com/Scorn4444" target="_blank">
               @Scorn4444
             </Link>
-          </Card>          
+          </Card>
 
           <Card>
             <StaffImg src={raicon}></StaffImg>
             <Title>ROM</Title>
             <Subtitle>Regional Operations Manager</Subtitle>
             <Subtitle>Juno "Raicon" Orin</Subtitle>
-            <Link
-              size={"23px"}
-              href="https://x.com/Raicon_1"
-              target="_blank"
-            >
+            <Link size={"23px"} href="https://x.com/Raicon_1" target="_blank">
               @Raicon_1
             </Link>
           </Card>
-
-
         </SubContainer>
         <Footer />
-        <Arrow scroll={y} height={height} />
       </Container>
       <ContainerLoad>
         <Spinner />

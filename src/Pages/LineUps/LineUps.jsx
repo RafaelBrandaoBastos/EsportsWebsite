@@ -135,7 +135,7 @@ const LineUps = () => {
         <SubContainer>
           <Card>
             <Title>Guilty Gear</Title>
-            
+
             <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
@@ -199,12 +199,12 @@ const LineUps = () => {
               nick="arqué"
               size={29}
               top={72}
-              right={22}                 
-            /> 
+              right={22}
+            />
           </Card>
           <Card>
             <Title>Granblue Fantasy Versus</Title>
-            
+
             <PlayerCardComponent
               player={gbvs11}
               icon={granblas}
@@ -228,7 +228,7 @@ const LineUps = () => {
               size={37}
               top={68}
               right={22}
-            />   
+            />
 
             <PlayerCardComponent
               player={gbvsr2B}
@@ -237,7 +237,7 @@ const LineUps = () => {
               size={37}
               top={68}
               right={22}
-            />  
+            />
 
             <PlayerCardComponent
               player={gbvs14}
@@ -246,12 +246,12 @@ const LineUps = () => {
               size={30}
               top={72}
               right={18}
-            />  
+            />
           </Card>
 
           <Card>
             <Title>Melty Blood</Title>
-            
+
             <PlayerCardComponent
               player={mbt1}
               icon={mbt}
@@ -275,8 +275,8 @@ const LineUps = () => {
               nick="yuki"
               size={37}
               top={68}
-              right={22}   
-            /> 
+              right={22}
+            />
 
             <PlayerCardComponent
               player={mbt4}
@@ -329,7 +329,7 @@ const LineUps = () => {
               top={74}
               right={18}
             />
-            
+
             <PlayerCardComponent
               player={sfED}
               icon={sf}
@@ -431,7 +431,6 @@ const LineUps = () => {
           </Card> */}
         </SubContainer>
         <Footer />
-        <Arrow scroll={y} height={height} />
       </Container>
       <ContainerLoad>
         <Spinner />

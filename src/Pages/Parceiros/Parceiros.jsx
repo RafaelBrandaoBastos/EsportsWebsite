@@ -117,7 +117,7 @@ const Parceiros = () => {
               text={
                 "E aí! Sou o Astro, um Vtuber entusiasta de jogos de luta que joga um pouco de tudo! Meu foco é em ensinar a galera que tá começando agora e manter comunidades ativas em vários jogos. Faço lives, jogo com a galera e tiro dúvidas! Aparece lá!"
               }
-            />            
+            />
             <PartnerCard
               titlesize={30}
               linksize={23}
@@ -171,7 +171,6 @@ const Parceiros = () => {
           </Card>
         </SubContainer>
         <Footer />
-        <Arrow scroll={y} height={height} />
       </Container>
       <ContainerLoad>
         <Spinner />

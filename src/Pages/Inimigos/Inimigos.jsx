@@ -120,7 +120,6 @@ const LineUps = () => {
           </Card> */}
         </SubContainer>
         <Footer />
-        <Arrow scroll={y} height={height} />
       </Container>
       <ContainerLoad>
         <Spinner />

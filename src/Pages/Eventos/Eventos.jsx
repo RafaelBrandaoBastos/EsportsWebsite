@@ -69,7 +69,7 @@ const Eventos = () => {
           organizerStyle="none"
         />
         <SubContainer>
-        <EventCard
+          <EventCard
             title={"Noitada do Grupo - 01"}
             text={
               selectedLanguage == ""
@@ -89,7 +89,6 @@ const Eventos = () => {
             photocount={2}
             foto1={photo1NT}
             foto2={photo2NT}
-            
           />
           <EventCard
             title={"Battle Coliseum 2023"}
@@ -254,7 +253,6 @@ const Eventos = () => {
           />
           <Footer />
         </SubContainer>
-        <Arrow scroll={y} height={height} />
       </Container>
       <ContainerLoad>
         <Spinner />

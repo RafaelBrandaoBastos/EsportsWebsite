@@ -16,7 +16,7 @@ export const OrganizerCardComponent = styled.div`
   margin: 10px;
   display: flex;
   max-width: 700px;
-  height: 250px;
+  height: auto;
   align-items: center;
   justify-content: center;
   padding: 30px;
@@ -86,6 +86,6 @@ export const SrcLink = styled.a`
   font-family: "Barlow Condensed", sans-serif;
   color: #ff255f;
   margin: 0;
-  padding: 5px ;
+  padding: 5px;
   word-break: break-word;
 `;

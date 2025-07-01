@@ -142,7 +142,6 @@ const Home = () => {
           </TweetCard>
         </SubContainer>
         <Footer />
-        <Arrow scroll={y} height={height} />
       </Container>
       <ContainerLoad>
         <Spinner />

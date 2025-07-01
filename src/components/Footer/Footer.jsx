@@ -9,11 +9,6 @@ const Footer = () => {
       <FooterText>
         <FooterLink
           target="_blank"
-          href={"https://www.instagram.com/o_grupo_do_grupo/"}
-          logo={inglogo}
-        ></FooterLink>
-        <FooterLink
-          target="_blank"
           href={"https://twitter.com/GrupoEsports"}
           logo={twitterlogo}
         ></FooterLink>
