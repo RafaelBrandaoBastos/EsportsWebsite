@@ -1,5 +1,5 @@
 # Website for Esports Team
-A fully responsive web application made in ReactJs, to an Esports Orghanization. https://grupoesports.com/
+A fully responsive web application made in ReactJs, to an Esports Orghanization.
 
 # Getting Started with Create React App
 
