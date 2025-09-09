@@ -134,7 +134,7 @@ const Home = () => {
             </Title>
             {/* MESMO QUE SEJA ANTIGO, É INTERESSANTE DEIXAR COISAS DE COMUNIDADE AQUI, INVÉS DE TUDO QUE FOR NOVO
             TIPO UMA FOTO DE GALERA, OU UMA ARTE, OU UM CAMPEONATO, MOMENTO MANEIRO */}
-            <Tweet id="1935080096580219206" />
+            <Tweet id="1940087769323512012" />
             <Tweet id="1924536453985419638" />
             <Tweet id="1919532440315400462" />
             {/* <Tweet id="1789329887074963496" /> */}
