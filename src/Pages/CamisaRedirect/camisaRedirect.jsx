@@ -5,7 +5,7 @@ function CamisasRedirect() {
   useEffect(() => {
     const timer = setTimeout(() => {
       window.location.href = 'https://forms.gle/SW519T9dS9t3zF6T6';
-    }, 2000);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
