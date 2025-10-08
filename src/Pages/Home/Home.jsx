@@ -119,7 +119,9 @@ const Home = () => {
                   : "Patrocinadores"}
               </Title>
               {/* <Text></Text> */}
+              <IframeComponent src="https://www.instagram.com/brecholudico/embed/"></IframeComponent>
               <IframeComponent src="https://www.instagram.com/mardbox/embed/"></IframeComponent>
+              
               {/* PATROCINA NOIS MISERÁVEL */}
               {/* <IframeComponent src="https://www.instagram.com/ultraarcadebh/embed/"></IframeComponent> */}
             </TextCard>
@@ -134,8 +136,8 @@ const Home = () => {
             </Title>
             {/* MESMO QUE SEJA ANTIGO, É INTERESSANTE DEIXAR COISAS DE COMUNIDADE AQUI, INVÉS DE TUDO QUE FOR NOVO
             TIPO UMA FOTO DE GALERA, OU UMA ARTE, OU UM CAMPEONATO, MOMENTO MANEIRO */}
+            <Tweet id="1974207422106357948" />
             <Tweet id="1940087769323512012" />
-            <Tweet id="1924536453985419638" />
             <Tweet id="1919532440315400462" />
             {/* <Tweet id="1789329887074963496" /> */}
             <Tweet id="1744734814539018625" />
