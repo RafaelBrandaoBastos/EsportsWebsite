@@ -92,10 +92,10 @@ const Parceiros = () => {
               titlesize={30}
               linksize={23}
               img={prc8}
-              title={"Samantha Miha"}
-              link={"https://www.twitch.tv/samanthamiha"}
+              title={"SaYuuVT"}
+              link={"https://www.twitch.tv/sayuuvt"}
               text={
-                "Opa! Meu nome é Samantha, sou Vtuber em tempo honorário e faço live de jogos de luta, foco, e em jogos variados, vem e se diverte!"
+                "Hey, tudo bem? Nós somos a dupla Samantha Miha e Mayu Riei! Jogamos de tudo, focando em jogos CO-OP, e adoramos bater papo sobre qualquer assunto. Fica à vontade para participar no chat, esperamos você!"
               }
             />
             <PartnerCard
