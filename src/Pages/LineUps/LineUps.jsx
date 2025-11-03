@@ -164,6 +164,15 @@ const LineUps = () => {
               right={22}
             />
 
+            <PlayerCardComponentCHI
+              player={ggst9}
+              icon={guiltas}
+              nick="Pulpo"
+              size={32}
+              top={70}
+              right={22}
+            />
+
             <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
@@ -275,6 +284,20 @@ const LineUps = () => {
               top={72}
               right={18}
             />
+          </Card>
+
+<Card>
+            <Title>Fatal Fury</Title>
+
+            <PlayerCardComponent
+              player={bb1}
+              icon={battle}
+              nick="Pulpo"
+              size={30}
+              top={71}
+              right={22}
+            />
+            
           </Card>
 
           <Card>
