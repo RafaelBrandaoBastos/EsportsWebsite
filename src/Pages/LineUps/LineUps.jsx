@@ -289,7 +289,7 @@ const LineUps = () => {
 <Card>
             <Title>Fatal Fury</Title>
 
-            <PlayerCardComponent
+            <PlayerCardComponentCHI
               player={bb1}
               icon={battle}
               nick="Pulpo"
