@@ -102,8 +102,8 @@ const LineUps = () => {
 
           <Card>
             <StaffImg src={scorn}></StaffImg>
-            <Title>NOM</Title>
-            <Subtitle>National Operations Manager</Subtitle>
+            <Title>MOD</Title>
+            <Subtitle>Team Moderator</Subtitle>
             <Subtitle>Daniel "Scorn" Bitencourt </Subtitle>
             <Link size={"23px"} href="https://x.com/Scorn4444" target="_blank">
               @Scorn4444

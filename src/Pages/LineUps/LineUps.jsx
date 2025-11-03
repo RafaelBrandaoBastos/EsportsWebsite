@@ -137,6 +137,33 @@ const LineUps = () => {
             <Title>Guilty Gear</Title>
 
             <PlayerCardComponent
+              player={ggst16}
+              icon={guiltas}
+              nick="Hamsterdie"
+              size={20}
+              top={75}
+              right={25}
+            />
+
+            <PlayerCardComponent
+              player={ggst10}
+              icon={guiltas}
+              nick="Suri"
+              size={32}
+              top={70}
+              right={22}
+            />
+
+            <PlayerCardComponent
+              player={ggst5}
+              icon={guiltas}
+              nick="Donfo"
+              size={32}
+              top={70}
+              right={22}
+            />
+
+            <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
               nick="Devious Octopod"
