@@ -106,6 +106,7 @@ import uniUZ from "../../assets/players/uniUZ.png";
 import sf from "../../assets/players/sf.png";
 import sfED from "../../assets/players/sfED.png";
 import sfCA from "../../assets/players/sfCA.png";
+import sfMA from "../../assets/players/sfMA.png";
 import glitch from "../../assets/players/GLITCH.gif";
 
 const LineUps = () => {
@@ -286,8 +287,39 @@ const LineUps = () => {
             />
           </Card>
 
-<Card>
-            <Title>Fatal Fury</Title>
+          <Card>
+            <Title>Street Fighter 6</Title>
+
+            <PlayerCardComponent
+              player={sfCA}
+              icon={sf}
+              nick="mascooot"
+              size={22}
+              top={74}
+              right={18}
+            />
+
+            <PlayerCardComponent
+              player={sfMA}
+              icon={sf}
+              nick="nowa"
+              size={37}
+              top={68}
+              right={22}
+            />
+
+            <PlayerCardComponent
+              player={sfED}
+              icon={sf}
+              nick="jupiter"
+              size={30}
+              top={72}
+              right={18}
+            />
+          </Card>
+
+          <Card>
+            <Title>Fighting Games</Title>
 
             <PlayerCardComponentCHI
               player={bb1}
@@ -297,11 +329,6 @@ const LineUps = () => {
               top={71}
               right={22}
             />
-            
-          </Card>
-
-          <Card>
-            <Title>Melty Blood</Title>
 
             <PlayerCardComponent
               player={mbt1}
@@ -330,27 +357,6 @@ const LineUps = () => {
             />
 
             <PlayerCardComponent
-              player={mbt4}
-              icon={mbt}
-              nick="nabuti"
-              size={30}
-              top={71}
-              right={22}
-            />
-          </Card>
-
-          <Card>
-            <Title>Under Night In-Birth</Title>
-            <PlayerCardComponent
-              player={uni1}
-              icon={un}
-              nick="zubreska"
-              size={24}
-              top={74}
-              right={20}
-            />
-
-            <PlayerCardComponent
               player={uniUZ}
               icon={un}
               nick="Jupiter"
@@ -358,33 +364,7 @@ const LineUps = () => {
               top={72}
               right={18}
             />
-          </Card>
-
-          <Card>
-            <Title>Street Fighter 6</Title>
-
-            <PlayerCardComponent
-              player={sfCA}
-              icon={sf}
-              nick="mascooot"
-              size={22}
-              top={74}
-              right={18}
-            />
-
-            <PlayerCardComponent
-              player={sfED}
-              icon={sf}
-              nick="jupiter"
-              size={30}
-              top={72}
-              right={18}
-            />
-          </Card>
-
-          <Card>
-            <Title>Blazblue Centralfiction</Title>
-
+    
             <PlayerCardComponent
               player={bleis1}
               icon={es}
@@ -394,6 +374,8 @@ const LineUps = () => {
               right={20}
             />
 
+
+
             <PlayerCardComponent
               player={bleis2}
               icon={jin}
@@ -402,8 +384,17 @@ const LineUps = () => {
               top={73}
               right={25}
             />
-          </Card>
 
+            <PlayerCardComponent
+              player={uni7}
+              icon={guiltas}
+              nick="Jun Aikawa"
+              size={20}
+              top={75}
+              right={25}
+            />
+            
+          </Card>
           {/* <Card>
             <Title>First Person Shooter</Title>
             <PlayerCardComponent
