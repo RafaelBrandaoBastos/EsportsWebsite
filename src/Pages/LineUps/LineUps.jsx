@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { Transition } from "react-transition-group";
 import { useWindowScroll } from "react-use";
 import PlayerCardComponent from "../../components/PlayerCard/PlatyerCard";
+import PlayerCardComponentCHI from "../../components/PlayerCard/PlatyerCardCHI";
 import { Container, ContainerLoad, Card, SubContainer, Title } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
@@ -136,7 +137,7 @@ const LineUps = () => {
           <Card>
             <Title>Guilty Gear</Title>
 
-            <PlayerCardComponent
+            <PlayerCardComponentCHI
               player={ggst16}
               icon={guiltas}
               nick="Hamsterdie"
@@ -145,7 +146,7 @@ const LineUps = () => {
               right={25}
             />
 
-            <PlayerCardComponent
+            <PlayerCardComponentCHI
               player={ggst10}
               icon={guiltas}
               nick="Suri"
@@ -154,7 +155,7 @@ const LineUps = () => {
               right={22}
             />
 
-            <PlayerCardComponent
+            <PlayerCardComponentCHI
               player={ggst5}
               icon={guiltas}
               nick="Donfo"

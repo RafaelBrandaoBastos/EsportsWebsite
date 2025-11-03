@@ -1,8 +1,8 @@
 import {Container, PlayerCardComponent, Text, Icon} from"./style.js"
 import React, { useEffect, useState, useRef } from "react";
-import cover from "../../assets/players/coverBRZ.png"
+import cover from "../../assets/players/coverCHI.png"
 
-const PlayerCard = (props) => {
+const PlayerCardCHI = (props) => {
   
         return (
             <Container>
@@ -14,4 +14,4 @@ const PlayerCard = (props) => {
     
 };
 
-export default PlayerCard;
+export default PlayerCardCHI;
