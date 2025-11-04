@@ -108,6 +108,10 @@ import sfED from "../../assets/players/sfED.png";
 import sfCA from "../../assets/players/sfCA.png";
 import sfMA from "../../assets/players/sfMA.png";
 import glitch from "../../assets/players/GLITCH.gif";
+import uma from "../../assets/players/uma.png";
+import uma1 from "../../assets/players/uma1.png";
+import uma2 from "../../assets/players/uma2.png";
+import uma3 from "../../assets/players/uma3.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -395,6 +399,39 @@ const LineUps = () => {
             />
             
           </Card>
+
+          <Card>
+            <Title>Uma Musume</Title>
+
+            <PlayerCardComponent
+              player={uma1}
+              icon={uma}
+              nick="Picci"
+              size={37}
+              top={68}
+              right={22}
+            />
+
+            <PlayerCardComponentCHI
+              player={uma3}
+              icon={uma}
+              nick="Pulpo"
+              size={30}
+              top={72}
+              right={18}
+            />
+
+            <PlayerCardComponent
+              player={uma2}
+              icon={uma}
+              nick="Nabuti"
+              size={30}
+              top={72}
+              right={18}
+            />
+
+          </Card>
+
           {/* <Card>
             <Title>First Person Shooter</Title>
             <PlayerCardComponent
