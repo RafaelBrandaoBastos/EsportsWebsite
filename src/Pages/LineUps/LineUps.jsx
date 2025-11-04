@@ -112,6 +112,7 @@ import uma from "../../assets/players/uma.png";
 import uma1 from "../../assets/players/uma1.png";
 import uma2 from "../../assets/players/uma2.png";
 import uma3 from "../../assets/players/uma3.png";
+import uma4 from "../../assets/players/uma4.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -429,7 +430,15 @@ const LineUps = () => {
               top={72}
               right={18}
             />
-
+            
+            <PlayerCardComponent
+              player={uma4}
+              icon={uma}
+              nick="Pl4y"
+              size={37}
+              top={68}
+              right={22}
+            />
           </Card>
 
           {/* <Card>
