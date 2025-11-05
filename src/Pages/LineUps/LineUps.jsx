@@ -262,6 +262,14 @@ const LineUps = () => {
             <PlayerCardComponent
               player={xkoEK}
               icon={xko}
+              nick="pneuxeirado"
+              size={19}
+              top={77}
+              right={19}
+            />
+            <PlayerCardComponent
+              player={xkoEK}
+              icon={xko}
               nick="arque"
               size={30}
               top={72}
