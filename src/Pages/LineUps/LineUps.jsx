@@ -113,6 +113,9 @@ import uma1 from "../../assets/players/uma1.png";
 import uma2 from "../../assets/players/uma2.png";
 import uma3 from "../../assets/players/uma3.png";
 import uma4 from "../../assets/players/uma4.png";
+import xko from "../../assets/players/2xko.png";
+import xkoYA from "../../assets/players/xkoYA.png";
+import xkoEK from "../../assets/players/xkoEK.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -244,6 +247,27 @@ const LineUps = () => {
               top={72}
               right={22}
             />
+          </Card>
+          <Card>
+            <Title>2XKO</Title>
+
+            <PlayerCardComponent
+              player={xkoYA}
+              icon={xko}
+              nick="mascooot"
+              size={22}
+              top={74}
+              right={18}
+            />
+            <PlayerCardComponent
+              player={xkoEK}
+              icon={xko}
+              nick="arque"
+              size={30}
+              top={72}
+              right={18}
+            />
+                      
           </Card>
           <Card>
             <Title>Granblue Fantasy Versus</Title>
