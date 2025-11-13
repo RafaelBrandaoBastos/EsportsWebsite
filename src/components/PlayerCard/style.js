@@ -84,5 +84,13 @@ export const Text = styled.p`
 export const Icon = styled.img`
   width: 50px;
   position: absolute;
-  padding: 10px;
+  padding: 10px;  `
+;
+export const Flag = styled.img`
+  width: 20px;
+  position: absolute;
+  top: 4.5px;
+  right: 6px;
+  transform: rotate(33deg);
 `;
+

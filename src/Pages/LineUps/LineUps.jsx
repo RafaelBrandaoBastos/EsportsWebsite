@@ -116,6 +116,9 @@ import uma4 from "../../assets/players/uma4.png";
 import xko from "../../assets/players/2xko.png";
 import xkoYA from "../../assets/players/xkoYA.png";
 import xkoEK from "../../assets/players/xkoEK.png";
+import usalogo from "../../assets/usalogo.png"
+import brflag from "../../assets/bandeiras/brflag.png";
+import chflag from "../../assets/bandeiras/chflag.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -146,36 +149,40 @@ const LineUps = () => {
           <Card>
             <Title>Guilty Gear</Title>
 
-            <PlayerCardComponentCHI
+            <PlayerCardComponent
               player={ggst16}
               icon={guiltas}
+              flag={chflag}
               nick="Hamsterdie"
               size={20}
               top={75}
               right={25}
             />
 
-            <PlayerCardComponentCHI
+            <PlayerCardComponent
               player={ggst10}
               icon={guiltas}
+              flag={chflag}
               nick="Suri"
               size={32}
               top={70}
               right={22}
             />
 
-            <PlayerCardComponentCHI
+            <PlayerCardComponent
               player={ggst5}
               icon={guiltas}
+              flag={chflag}
               nick="Donfo"
               size={32}
               top={70}
               right={22}
             />
 
-            <PlayerCardComponentCHI
+            <PlayerCardComponent
               player={ggst9}
               icon={guiltas}
+              flag={chflag}
               nick="Pulpo"
               size={32}
               top={70}
@@ -185,22 +192,24 @@ const LineUps = () => {
             <PlayerCardComponent
               player={ggst6}
               icon={guiltas}
+              flag={brflag}
               nick="Devious Octopod"
               size={20}
               top={73}
               right={25}
             />
-            <PlayerCardComponent
+            {/* <PlayerCardComponent
               player={ggst22}
               icon={guiltas}
               nick="Jun Aikawa"
               size={20}
               top={75}
               right={25}
-            />
+            /> */}
             <PlayerCardComponent
               player={ggst7}
               icon={guiltas}
+              flag={brflag}
               nick="Gabfusca"
               size={23}
               top={75}
@@ -209,6 +218,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={ggst15}
               icon={guiltas}
+              flag={brflag}
               nick="Daniel INSS"
               size={21}
               top={75}
@@ -218,6 +228,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={ggst1}
               icon={guiltas}
+              flag={brflag}
               nick="Madso"
               size={32}
               top={70}
@@ -226,6 +237,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={ggst21}
               icon={guiltas}
+              flag={brflag}
               nick="gato sorvete"
               size={20}
               top={73}
@@ -234,6 +246,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={ggst16}
               icon={guiltas}
+              flag={brflag}
               nick="pneuxeirado"
               size={19}
               top={77}
@@ -242,6 +255,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={ggstGI}
               icon={guiltas}
+              flag={brflag}
               nick="arqué"
               size={29}
               top={72}
@@ -254,6 +268,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={xkoYA}
               icon={xko}
+              flag={brflag}
               nick="mascooot"
               size={22}
               top={74}
@@ -262,6 +277,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={xkoEK}
               icon={xko}
+              flag={brflag}
               nick="pneuxeirado"
               size={19}
               top={77}
@@ -270,6 +286,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={xkoEK}
               icon={xko}
+              flag={brflag}
               nick="arque"
               size={30}
               top={72}
@@ -283,6 +300,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={gbvs11}
               icon={granblas}
+              flag={brflag}
               nick="Hazler"
               size={29}
               top={72}
@@ -291,6 +309,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={gbvsr2B}
               icon={granblas}
+              flag={brflag}
               nick="Jupiter"
               size={30}
               top={72}
@@ -299,6 +318,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={gbvsrCA}
               icon={granblas}
+              flag={brflag}
               nick="pl4y"
               size={37}
               top={68}
@@ -308,6 +328,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={gbvsr2B}
               icon={granblas}
+              flag={brflag}
               nick="Poiu"
               size={37}
               top={68}
@@ -317,6 +338,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={gbvs14}
               icon={granblas}
+              flag={brflag}
               nick="Renato"
               size={30}
               top={72}
@@ -330,6 +352,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={sfCA}
               icon={sf}
+              flag={brflag}
               nick="mascooot"
               size={22}
               top={74}
@@ -339,6 +362,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={sfMA}
               icon={sf}
+              flag={brflag}
               nick="nowa"
               size={37}
               top={68}
@@ -348,6 +372,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={sfED}
               icon={sf}
+              flag={brflag}
               nick="jupiter"
               size={30}
               top={72}
@@ -358,9 +383,10 @@ const LineUps = () => {
           <Card>
             <Title>Fighting Games</Title>
 
-            <PlayerCardComponentCHI
+            <PlayerCardComponent
               player={bb1}
               icon={battle}
+              flag={chflag}
               nick="Pulpo"
               size={30}
               top={71}
@@ -370,6 +396,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={mbt1}
               icon={mbt}
+              flag={brflag}
               nick="rekom"
               size={30}
               top={71}
@@ -379,6 +406,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={mbt3}
               icon={mbt}
+              flag={brflag}
               nick="Tatubola"
               size={25}
               top={73}
@@ -387,6 +415,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={mbt5}
               icon={mbt}
+              flag={brflag}
               nick="yuki"
               size={37}
               top={68}
@@ -396,6 +425,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={uniUZ}
               icon={un}
+              flag={brflag}
               nick="Jupiter"
               size={30}
               top={72}
@@ -405,6 +435,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={bleis1}
               icon={es}
+              flag={brflag}
               nick="zubreska"
               size={24}
               top={74}
@@ -416,13 +447,14 @@ const LineUps = () => {
             <PlayerCardComponent
               player={bleis2}
               icon={jin}
+              flag={brflag}
               nick="gato sorvete"
               size={20}
               top={73}
               right={25}
             />
 
-            <PlayerCardComponent
+            {/* <PlayerCardComponent
               player={uni7}
               icon={guiltas}
               nick="Jun Aikawa"
@@ -430,7 +462,7 @@ const LineUps = () => {
               top={75}
               right={25}
             />
-            
+             */}
           </Card>
 
           <Card>
@@ -439,15 +471,17 @@ const LineUps = () => {
             <PlayerCardComponent
               player={uma1}
               icon={uma}
+              flag={brflag}
               nick="Picci"
               size={37}
               top={68}
               right={22}
             />
 
-            <PlayerCardComponentCHI
+            <PlayerCardComponent
               player={uma3}
               icon={uma}
+              flag={chflag}
               nick="Pulpo"
               size={30}
               top={72}
@@ -457,6 +491,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={uma2}
               icon={uma}
+              flag={brflag}
               nick="Nabuti"
               size={30}
               top={72}
@@ -466,6 +501,7 @@ const LineUps = () => {
             <PlayerCardComponent
               player={uma4}
               icon={uma}
+              flag={brflag}
               nick="Pl4y"
               size={37}
               top={68}
