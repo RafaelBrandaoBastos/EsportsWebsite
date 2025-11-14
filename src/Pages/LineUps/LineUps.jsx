@@ -197,14 +197,14 @@ const LineUps = () => {
               top={73}
               right={25}
             />
-            {/* <PlayerCardComponent
+             <PlayerCardComponent
               player={ggst22}
               icon={guiltas}
               nick="Jun Aikawa"
               size={20}
               top={75}
               right={25}
-            /> */}
+            /> 
             <PlayerCardComponent
               player={ggst7}
               icon={guiltas}
