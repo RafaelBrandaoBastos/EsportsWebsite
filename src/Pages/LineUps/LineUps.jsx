@@ -278,7 +278,7 @@ const LineUps = () => {
               icon={xko}
               flag={brflag}
               nick="Poiu"
-              size={22}
+              size={37}
               top={74}
               right={18}
             />
