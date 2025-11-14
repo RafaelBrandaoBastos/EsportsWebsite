@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef } from "react";
 import { Transition } from "react-transition-group";
 import { useWindowScroll } from "react-use";
 import PlayerCardComponent from "../../components/PlayerCard/PlatyerCard";
-import PlayerCardComponentCHI from "../../components/PlayerCard/PlatyerCardCHI";
 import { Container, ContainerLoad, Card, SubContainer, Title } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
