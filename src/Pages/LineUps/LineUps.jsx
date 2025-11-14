@@ -339,8 +339,8 @@ const LineUps = () => {
               flag={brflag}
               nick="Poiu"
               size={37}
-              top={68}
-              right={22}
+              top={74}
+              right={18}
             />
 
             <PlayerCardComponent
