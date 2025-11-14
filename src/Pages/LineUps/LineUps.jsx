@@ -273,14 +273,14 @@ const LineUps = () => {
               top={74}
               right={18}
             />
-            <PlayerCardComponent
+              <PlayerCardComponent
               player={xkoYA}
               icon={xko}
               flag={brflag}
               nick="Poiu"
               size={37}
-              top={74}
-              right={18}
+              top={68}
+              right={22}
             />
             <PlayerCardComponent
               player={xkoEK}
@@ -339,8 +339,8 @@ const LineUps = () => {
               flag={brflag}
               nick="Poiu"
               size={37}
-              top={74}
-              right={18}
+              top={68}
+              right={22}
             />
 
             <PlayerCardComponent
