@@ -339,7 +339,7 @@ const LineUps = () => {
               icon={granblas}
               flag={brflag}
               nick="Renatinho"
-              size={30}
+              size={24}
               top={72}
               right={18}
             />
