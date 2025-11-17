@@ -200,6 +200,7 @@ const LineUps = () => {
              <PlayerCardComponent
               player={ggst22}
               icon={guiltas}
+              flag={brflag}
               nick="Jun Aikawa"
               size={20}
               top={75}
@@ -462,15 +463,16 @@ const LineUps = () => {
               right={25}
             />
 
-            {/* <PlayerCardComponent
+            <PlayerCardComponent
               player={uni7}
-              icon={guiltas}
+              icon={un}
+              flag={brflag}
               nick="Jun Aikawa"
               size={20}
               top={75}
               right={25}
             />
-             */}
+            
           </Card>
 
           <Card>
