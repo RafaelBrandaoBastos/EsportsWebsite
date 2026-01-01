@@ -118,6 +118,7 @@ import xkoEK from "../../assets/players/xkoEK.png";
 import usalogo from "../../assets/usalogo.png"
 import brflag from "../../assets/bandeiras/brflag.png";
 import chflag from "../../assets/bandeiras/chflag.png";
+import sfmari from "../../assets/players/sfmari.png";
 
 const LineUps = () => {
   const { x, y } = useWindowScroll();
@@ -349,7 +350,7 @@ const LineUps = () => {
               icon={granblas}
               flag={brflag}
               nick="Renatinho"
-              size={30}
+              size={25}
               top={72}
               right={18}
             />
@@ -368,6 +369,15 @@ const LineUps = () => {
               right={18}
             />
 
+            <PlayerCardComponent
+              player={sfmari}
+              icon={sf}
+              flag={brflag}
+              nick="nero"
+              size={37}
+              top={68}
+              right={22}
+            />
             <PlayerCardComponent
               player={sfMA}
               icon={sf}
