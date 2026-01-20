@@ -5,7 +5,6 @@ import React, {
   useContext,
   useLocation,
 } from "react";
-import { Transition } from "react-transition-group";
 import { Tweet } from "react-tweet";
 import { useWindowScroll } from "react-use";
 import { LanguageContext } from "../../contexts/LanguageProvider";
@@ -27,7 +26,7 @@ import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
 import Header from "../../components/Header/Header";
-import banner from "../../assets/banner.png";
+import banner from "../../assets/banner.png"; // talvez esteja na hora de tirar o banner das camisas 
 import banner2 from "../../assets/banner2.png";
 import banner3 from "../../assets/banner3.gif";
 import sushi from "../../assets/sushi.png";
