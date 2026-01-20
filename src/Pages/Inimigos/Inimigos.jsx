@@ -1,7 +1,5 @@
-import React, { useEffect, useState, useRef } from "react";
-import { Transition } from "react-transition-group";
+import React, { useEffect, useState } from "react";
 import { useWindowScroll } from "react-use";
-import PlayerCardComponent from "../../components/PlayerCard/PlatyerCard";
 import {
   Container,
   ContainerLoad,
@@ -13,13 +11,12 @@ import {
   Link,
 } from "./style";
 import "./style.js";
-import glitch from "../../assets/players/GLITCH.gif";
+import glitch from "../../assets/players/GLITCH.gif"; // Vai ficar aqui pelo mesmo motivo do 
 import preso from "../../assets/inimigos/preso.png";
 import eon from "../../assets/inimigos/eon.png";
 import doente from "../../assets/inimigos/doente.png";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
-import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 
 const LineUps = () => {

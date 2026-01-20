@@ -1,13 +1,4 @@
-import React, {
-  useEffect,
-  useState,
-  useRef,
-  useContext,
-  useLocation,
-} from "react";
 import { Tweet } from "react-tweet";
-import { useWindowScroll } from "react-use";
-import { LanguageContext } from "../../contexts/LanguageProvider";
 import { Container, ContainerLoad, Card, SubContainer } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner.jsx";

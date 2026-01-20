@@ -1,15 +1,12 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Transition } from "react-transition-group";
 import { useWindowScroll } from "react-use";
 import { Container, ContainerLoad, Card, SubContainer } from "./style.js";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import Arrow from "../../components/Arrow/Arrow.jsx";
 import Header from "../../components/Header/Header.jsx";
 import OrganizerCard from "../../components/Organizers/OrganizerCard.jsx";
 import dia from "../../assets/orgs/dia.png";
-import bubbles from "../../assets/orgs/bubbles.png";
 import bubbles2 from "../../assets/orgs/bubbles2.png";
 
 const Organizadores = () => {

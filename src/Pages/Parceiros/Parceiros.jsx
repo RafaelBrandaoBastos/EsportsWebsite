@@ -1,11 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Transition } from "react-transition-group";
 import { useWindowScroll } from "react-use";
 import { Container, ContainerLoad, Card, SubContainer } from "./style";
 import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer";
-import Arrow from "../../components/Arrow/Arrow";
 import Header from "../../components/Header/Header";
 import PartnerCard from "../../components/PartnerCard/PartnerCard";
 import prc1 from "../../assets/parceiros/prc1.png";
