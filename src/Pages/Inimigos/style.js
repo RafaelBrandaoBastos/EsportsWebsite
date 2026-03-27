@@ -118,7 +118,7 @@ export const Title = styled.p`
     font-size: 30px;
   }
 `;
-export const StaffImg = styled.img`
+export const InimigoImg = styled.img`
   width: 80%;
   max-width: 250px;
   height: auto;

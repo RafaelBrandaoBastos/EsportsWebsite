@@ -9,6 +9,7 @@ import {
   Subtitle,
   StaffImg,
   Link,
+  InimigoImg,
 } from "./style";
 import "./style.js";
 import glitch from "../../assets/players/GLITCH.gif"; // Vai ficar aqui pelo mesmo motivo do 
@@ -59,7 +60,7 @@ const LineUps = () => {
           </Card>  */}
 
           <Card>
-            <StaffImg src={eon}></StaffImg>
+            <InimigoImg src={eon}></InimigoImg>
             <Title>Eon</Title>
             <Subtitle>
               "Saudades da época que ser player do Grupo implicava em ir 0/2
@@ -75,7 +76,7 @@ const LineUps = () => {
           </Card>
 
           <Card>
-            <StaffImg src={preso}></StaffImg>
+            <InimigoImg src={preso}></InimigoImg>
             <Title>Nabuti</Title>
             <Subtitle>Ex-CEO</Subtitle>
             <Subtitle>Preso por enrolar as camisas.</Subtitle>
@@ -89,7 +90,7 @@ const LineUps = () => {
           </Card>
 
           <Card>
-            <StaffImg src={doente}></StaffImg>
+            <InimigoImg src={doente}></InimigoImg>
             <Title>Arqué</Title>
             <Subtitle>Se infiltrou na operação </Subtitle>
             <Subtitle>Mas conseguiu quase morrer malhando wtf</Subtitle>
