@@ -67,7 +67,7 @@ const LineUps = () => {
             </Subtitle>
             <Link
               size={"23px"}
-              href="https://www.twitch.tv/eon_was_taken/clip/PlayfulBrightOwlStoneLightning-VI1SD_diTNkKpPKF"
+              href="https://www.twitch.tv/EonUNI/clip/PlayfulBrightOwlStoneLightning-VI1SD_diTNkKpPKF"
               target="_blank"
             >
               Adoro Dark Souls 2!
