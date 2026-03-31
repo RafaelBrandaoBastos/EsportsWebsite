@@ -14,6 +14,7 @@ import {
 import "./style.js";
 import glitch from "../../assets/players/GLITCH.gif"; // Vai ficar aqui pelo mesmo motivo do 
 import preso from "../../assets/inimigos/preso.png";
+import ligma from "../../assets/inimigos/ligma.png";
 import eon from "../../assets/inimigos/eon.png";
 import doente from "../../assets/inimigos/doente.png";
 import Spinner from "../../components/Spinner/Spinner";
@@ -59,6 +60,20 @@ const LineUps = () => {
             </Link>
           </Card>  */}
 
+          <Card>
+            <InimigoImg src={ligma}></InimigoImg>
+            <Title>Jornaligma</Title>
+            <Subtitle>
+              "Aii nobro apelaum"
+            </Subtitle>
+            <Link
+              size={"23px"}
+              href="https://www.youtube.com/shorts/XESq4J2r0v4"
+              target="_blank"
+            >
+             Sou fã do rato ovudo.
+            </Link>
+          </Card>
           <Card>
             <InimigoImg src={eon}></InimigoImg>
             <Title>Eon</Title>
