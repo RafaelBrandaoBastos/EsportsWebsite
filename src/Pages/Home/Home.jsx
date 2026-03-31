@@ -78,9 +78,9 @@ const Home = () => {
           inimigosStyle="none"
         />
         <SubContainer>
-          <div onClick={handleClick} style={{ cursor: "pointer" }}>
-            <BannerComponent src={camisa} alt="Banner" />
-          </div>
+          {/* <div onClick={handleClick} style={{ cursor: "pointer" }}> */}
+            <BannerComponent src={banner2} alt="Banner" />
+          {/* </div> */}
           <Card>
             <TextCard>
               <Title>
