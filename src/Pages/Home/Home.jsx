@@ -26,7 +26,7 @@ import "./style.js";
 import Spinner from "../../components/Spinner/Spinner";
 import Footer from "../../components/Footer/Footer.jsx";
 import Header from "../../components/Header/Header";
-import banner from "../../assets/banner.png"; // talvez esteja na hora de tirar o banner das camisas 
+import banner from "../../assets/banner.png";
 import banner2 from "../../assets/banner2.png";
 import banner3 from "../../assets/banner3.gif";
 import sushi from "../../assets/sushi.png";
@@ -124,7 +124,7 @@ const Home = () => {
               {/* <IframeComponent src="https://www.instagram.com/ultraarcadebh/embed/"></IframeComponent> */}
             </TextCard>
           </Card>
-          <TweetCard>
+          {/* <TweetCard>
             <Title>
               {selectedLanguage == ""
                 ? "Notícias"
@@ -132,14 +132,12 @@ const Home = () => {
                 ? "Updates"
                 : "Noticias"}
             </Title>
-            {/* MESMO QUE SEJA ANTIGO, É INTERESSANTE DEIXAR COISAS DE COMUNIDADE AQUI, INVÉS DE TUDO QUE FOR NOVO
-            TIPO UMA FOTO DE GALERA, OU UMA ARTE, OU UM CAMPEONATO, MOMENTO MANEIRO */}
             <Tweet id="1974207422106357948" />
             <Tweet id="1940087769323512012" />
             <Tweet id="1919532440315400462" />
             <Tweet id="1744734814539018625" />
             <Tweet id="1749910542238511516" />
-          </TweetCard>
+          </TweetCard> */}
         </SubContainer>
         <Footer />
       </Container>
